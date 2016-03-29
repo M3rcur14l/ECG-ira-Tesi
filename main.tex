@@ -1,0 +1,211 @@
+%-----------------------------------------------------------------------------
+% DOCUMENT CLASS
+%-----------------------------------------------------------------------------
+%\documentclass[12pt,a4paper,twoside,pdftex]{book}
+
+% Put a comment on next line to output single-sided version
+\def\twopage{1}
+
+\ifx\twopage\undefined
+  % Single-sided document
+  \documentclass[12pt,a4paper,oneside,pdftex]{book}
+\else
+  % Double-sided document
+ \documentclass[12pt,a4paper,twoside,pdftex]{book}
+\fi
+
+\pdfcompresslevel=9
+%-----------------------------------------------------------------------------
+% PACKAGES
+%-----------------------------------------------------------------------------
+
+\usepackage[italian, english]{babel}    % Last language is default one
+\usepackage{graphicx} 
+\usepackage[utf8]{inputenc}
+
+\usepackage{url} 
+\usepackage{amssymb} 
+\usepackage{eurosym} 
+\usepackage{subfig}
+\usepackage{enumerate}
+\usepackage{xtab}
+\usepackage{fancyvrb}
+\usepackage{sverb}
+\usepackage{comment}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{longtable}
+\usepackage{color}
+\usepackage{microtype}
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
+\usepackage[square, numbers, comma, sort&compress]{natbib} % Use the natbib reference package - read up on this to edit the reference style; if you want text (e.g. Smith et al., 2012) for the in-text references (instead of numbers), remove 'numbers' 
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+
+% Enhance verbatim style
+\RecustomVerbatimEnvironment
+  {verbatim} {Verbatim}
+  {gobble=2, frame=lines}
+\CustomVerbatimEnvironment
+  {verbatim2} {Verbatim}
+  {gobble=2}
+
+
+%-----------------------------------------------------------------------------
+% HEADERS AND FOOTERS
+%-----------------------------------------------------------------------------
+
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+% Remove footer text
+\fancyhf{}
+
+% Setup header and footer
+\ifx\twopage\undefined
+  % Single-sided document
+  \fancyhead[R]{\bfseries\thepage}
+  \fancyhead[L]{\bfseries\leftmark}
+\else
+  % Double-sided document
+  \fancyhead[LE,RO]{\bfseries\thepage}
+  \fancyhead[RE]{\bfseries\leftmark}
+  \fancyhead[LO]{\bfseries\rightmark}
+\fi
+
+% Setup header and footer rules
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0pt}
+\addtolength{\headheight}{0.5pt}
+\fancypagestyle{plain}{
+  \fancyhead{}
+  \renewcommand{\headrulewidth}{0pt}
+}
+\setlength{\headheight}{14.5pt}
+
+
+%-----------------------------------------------------------------------------
+% PAGE MARGINS
+%-----------------------------------------------------------------------------
+
+\ifx\twopage\undefined
+  % Single-sided document
+  \addtolength{\oddsidemargin}{0cm} 
+  \addtolength{\textwidth}{1.5cm}
+  \addtolength{\headwidth}{1.5cm}
+  \addtolength{\textheight}{1cm}
+\else
+  % Double-sided document
+  \addtolength{\evensidemargin}{-2.0cm}
+  \addtolength{\oddsidemargin}{.5cm}
+  \addtolength{\textwidth}{1.5cm}
+  \addtolength{\headwidth}{1.5cm}
+  \addtolength{\textheight}{1cm}
+\fi
+
+
+%-----------------------------------------------------------------------------
+% LEADING
+%-----------------------------------------------------------------------------
+
+\usepackage{setspace}
+\onehalfspacing
+
+%-----------------------------------------------------------------------------
+% EQUATIONS
+%-----------------------------------------------------------------------------
+
+
+
+%-----------------------------------------------------------------------------
+% DOCUMENT
+%-----------------------------------------------------------------------------
+
+\begin{document}
+\newcommand{\rood}[1]{\textcolor{red}{[#1]}} 
+\newcommand{\pending}[1]{\textcolor{cyan}{[#1]}}
+%\newcommand{\ok}[1]{\textcolor{green}{[#1]}} 
+
+% Choose Phys. Rev. style for bibliography
+\bibliographystyle{unsrt}
+% \nocite{*}   % to show non cited biblio
+
+%------------------------------------------------ Cover page
+\frontmatter
+\include{Include/cover}
+
+% For double-sided document, leave a blank page
+\ifx\twopage\undefined
+\else
+  \newpage \thispagestyle{empty} \null \newpage
+\fi
+
+%------------------------------------------------ Inscription
+
+% Page without header
+\thispagestyle{empty} \null
+\vspace{4cm}
+\begin{flushright}
+\emph{Essentially, \\ all models are wrong, \\but some are useful.\\}
+\emph{\textit{\\(George E. P. Box)}}
+\end{flushright}
+
+%------------------------------------------------ Abstract
+
+% Page without header
+\newpage \thispagestyle{empty} \newpage 
+\include{Include/abstract_ITA}
+
+%\newpage \thispagestyle{empty} \newpage 
+%\include{Include/abstract_ENG}
+
+%------------------------------------------------ Acknowledgements
+
+% Page without header
+\newpage \thispagestyle{empty} \newpage 
+\include{Include/acknowledgements}
+
+%------------------------------------------------ Lists
+
+% Pages without header
+\newpage \thispagestyle{empty} \newpage 
+\tableofcontents
+
+\newpage \thispagestyle{empty} \newpage 
+\listoffigures
+
+\newpage \thispagestyle{empty} \newpage 
+\listofalgorithms
+%\listofmyequations
+
+\newpage \thispagestyle{empty} \newpage 
+\listoftables
+\newpage \thispagestyle{empty} \newpage 
+
+%------------------------------------------------ Main matters
+
+\mainmatter
+
+\input{Chapters/Chapter1}
+%\input{Chapters/Chapter2}
+%\input{Chapters/Chapter3}
+%\input{Chapters/Chapter4}
+%\input{Chapters/Chapter5}
+
+\bibliography{Include/Bibliography}
+
+%\include{Appendix}
+
+\end{document}
