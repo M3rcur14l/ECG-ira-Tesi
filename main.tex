@@ -155,27 +155,22 @@
 %------------------------------------------------ Inscription
 
 % Page without header
-\thispagestyle{empty} \null
-\vspace{4cm}
-\begin{flushright}
-\emph{Essentially, \\ all models are wrong, \\but some are useful.\\}
-\emph{\textit{\\(George E. P. Box)}}
-\end{flushright}
+%\thispagestyle{empty} \null
+%\vspace{4cm}
+%\begin{flushright}
+%\emph{Essentially, \\ all models are wrong, \\but some are useful.\\}
+%\emph{\textit{\\(George E. P. Box)}}
+%\end{flushright}
 
 %------------------------------------------------ Abstract
 
 % Page without header
 \newpage \thispagestyle{empty} \newpage 
+\include{Include/abstract_ENG}
 \include{Include/abstract_ITA}
 
 %\newpage \thispagestyle{empty} \newpage 
 %\include{Include/abstract_ENG}
-
-%------------------------------------------------ Acknowledgements
-
-% Page without header
-\newpage \thispagestyle{empty} \newpage 
-\include{Include/acknowledgements}
 
 %------------------------------------------------ Lists
 
@@ -186,12 +181,12 @@
 \newpage \thispagestyle{empty} \newpage 
 \listoffigures
 
-\newpage \thispagestyle{empty} \newpage 
-\listofalgorithms
+%\newpage \thispagestyle{empty} \newpage 
+%\listofalgorithms
 %\listofmyequations
 
-\newpage \thispagestyle{empty} \newpage 
-\listoftables
+%\newpage \thispagestyle{empty} \newpage 
+%\listoftables
 \newpage \thispagestyle{empty} \newpage 
 
 %------------------------------------------------ Main matters
@@ -199,10 +194,19 @@
 \mainmatter
 
 \input{Chapters/Chapter1}
-%\input{Chapters/Chapter2}
+\input{Chapters/Chapter2}
 %\input{Chapters/Chapter3}
 %\input{Chapters/Chapter4}
 %\input{Chapters/Chapter5}
+
+\backmatter
+\newpage \thispagestyle{empty} \newpage 
+
+%------------------------------------------------ Acknowledgements
+
+% Page without header
+\newpage \thispagestyle{empty} \newpage 
+\include{Include/acknowledgements}
 
 \bibliography{Include/Bibliography}
 
