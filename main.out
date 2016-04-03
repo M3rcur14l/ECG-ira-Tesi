@@ -45,9 +45,20 @@
 \BOOKMARK [2][-]{subsection.5.2.2}{Minimum performance rate and scalability on performance}{section.5.2}% 45
 \BOOKMARK [2][-]{subsection.5.2.3}{ Wide platform compatibility and accessibility}{section.5.2}% 46
 \BOOKMARK [2][-]{subsection.5.2.4}{Documentation}{section.5.2}% 47
-\BOOKMARK [0][-]{chapter.6}{System architecture}{}% 48
-\BOOKMARK [1][-]{section.6.1}{Acquisition device}{chapter.6}% 49
-\BOOKMARK [2][-]{subsection.6.1.1}{Mobile app}{section.6.1}% 50
-\BOOKMARK [0][-]{chapter.7}{Final result}{}% 51
-\BOOKMARK [1][-]{section.7.1}{App Screens}{chapter.7}% 52
-\BOOKMARK [0][-]{chapter*.33}{Acknowledgement}{}% 53
+\BOOKMARK [0][-]{chapter.6}{Problems}{}% 48
+\BOOKMARK [1][-]{section.6.1}{Mobile platform fragmentation}{chapter.6}% 49
+\BOOKMARK [1][-]{section.6.2}{Native vs Cross-Platform}{chapter.6}% 50
+\BOOKMARK [2][-]{subsection.6.2.1}{Native}{section.6.2}% 51
+\BOOKMARK [2][-]{subsection.6.2.2}{Cross-Platform}{section.6.2}% 52
+\BOOKMARK [1][-]{section.6.3}{Mobile hardware limitations}{chapter.6}% 53
+\BOOKMARK [2][-]{subsection.6.3.1}{Memory limitations}{section.6.3}% 54
+\BOOKMARK [2][-]{subsection.6.3.2}{Performance limitations}{section.6.3}% 55
+\BOOKMARK [1][-]{section.6.4}{ECG baseline wander}{chapter.6}% 56
+\BOOKMARK [2][-]{subsection.6.4.1}{State of Art}{section.6.4}% 57
+\BOOKMARK [1][-]{section.6.5}{Signal visualization}{chapter.6}% 58
+\BOOKMARK [0][-]{chapter.7}{System architecture}{}% 59
+\BOOKMARK [1][-]{section.7.1}{Acquisition device}{chapter.7}% 60
+\BOOKMARK [2][-]{subsection.7.1.1}{Mobile app}{section.7.1}% 61
+\BOOKMARK [0][-]{chapter.8}{Final result}{}% 62
+\BOOKMARK [1][-]{section.8.1}{App Screens}{chapter.8}% 63
+\BOOKMARK [0][-]{chapter*.42}{Acknowledgement}{}% 64

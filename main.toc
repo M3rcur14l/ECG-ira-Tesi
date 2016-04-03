@@ -46,12 +46,26 @@
 \contentsline {subsection}{\numberline {5.2.2}Minimum performance rate and scalability on performance}{31}{subsection.5.2.2}
 \contentsline {subsection}{\numberline {5.2.3} Wide platform compatibility and accessibility}{31}{subsection.5.2.3}
 \contentsline {subsection}{\numberline {5.2.4}Documentation}{31}{subsection.5.2.4}
-\contentsline {chapter}{\numberline {6}System architecture}{33}{chapter.6}
-\contentsline {section}{\numberline {6.1}Acquisition device}{33}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Mobile app}{34}{subsection.6.1.1}
-\contentsline {subsubsection}{Code reuse and maintainability}{38}{section*.28}
-\contentsline {subsubsection}{Maximize performance depending on the device constraints}{38}{section*.29}
-\contentsline {subsubsection}{ Usability in term of interface and interaction}{39}{section*.30}
-\contentsline {chapter}{\numberline {7}Final result}{41}{chapter.7}
-\contentsline {section}{\numberline {7.1}App Screens}{41}{section.7.1}
-\contentsline {chapter}{Acknowledgement}{45}{chapter*.33}
+\contentsline {chapter}{\numberline {6}Problems}{33}{chapter.6}
+\contentsline {section}{\numberline {6.1}Mobile platform fragmentation}{33}{section.6.1}
+\contentsline {section}{\numberline {6.2}Native vs Cross-Platform}{34}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Native}{35}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Cross-Platform}{36}{subsection.6.2.2}
+\contentsline {section}{\numberline {6.3}Mobile hardware limitations}{37}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Memory limitations}{37}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Performance limitations}{37}{subsection.6.3.2}
+\contentsline {section}{\numberline {6.4}ECG baseline wander}{38}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}State of Art}{38}{subsection.6.4.1}
+\contentsline {subsubsection}{Simple Moving Average Filter}{39}{section*.29}
+\contentsline {subsubsection}{Distortion using Simple Moving Average Filtering}{40}{section*.30}
+\contentsline {subsubsection}{CPU intensive operation}{40}{section*.31}
+\contentsline {section}{\numberline {6.5}Signal visualization}{40}{section.6.5}
+\contentsline {chapter}{\numberline {7}System architecture}{43}{chapter.7}
+\contentsline {section}{\numberline {7.1}Acquisition device}{43}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Mobile app}{44}{subsection.7.1.1}
+\contentsline {subsubsection}{Code reuse and maintainability}{48}{section*.37}
+\contentsline {subsubsection}{Maximize performance depending on the device constraints}{48}{section*.38}
+\contentsline {subsubsection}{ Usability in term of interface and interaction}{49}{section*.39}
+\contentsline {chapter}{\numberline {8}Final result}{51}{chapter.8}
+\contentsline {section}{\numberline {8.1}App Screens}{51}{section.8.1}
+\contentsline {chapter}{Acknowledgement}{55}{chapter*.42}

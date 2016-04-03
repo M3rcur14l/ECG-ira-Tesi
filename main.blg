@@ -5,12 +5,12 @@ A level-1 auxiliary file: Include/abstract_ENG.aux
 A level-1 auxiliary file: Include/abstract_ITA.aux
 A level-1 auxiliary file: Include/acknowledgements.aux
 Database file #1: Include/Bibliography.bib
-You're missing a field name---line 26 of file Include/Bibliography.bib
+You're missing a field name---line 12 of file Include/Bibliography.bib
  :  
  :  %type     = {Master Thesis},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 43 of file Include/Bibliography.bib
+You're missing a field name---line 127 of file Include/Bibliography.bib
  :  
  :  %type     = {Master Thesis},
 (Error may have been on previous line)
