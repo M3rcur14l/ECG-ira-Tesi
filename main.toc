@@ -29,4 +29,15 @@
 \contentsline {section}{\numberline {3.2}Mobile application}{22}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Visualization only application}{23}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}Visualization and Analysis}{23}{subsection.3.2.2}
-\contentsline {chapter}{Acknowledgement}{25}{chapter*.21}
+\contentsline {chapter}{\numberline {4}Objective}{25}{chapter.4}
+\contentsline {section}{\numberline {4.1}Preface}{25}{section.4.1}
+\contentsline {section}{\numberline {4.2}Fully functional medical mobile app as replacement to desktop app}{25}{section.4.2}
+\contentsline {chapter}{\numberline {5}Requirement}{27}{chapter.5}
+\contentsline {section}{\numberline {5.1}Functional}{27}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Connection management with the acquisition device}{27}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Acquisition, storing and management of ECG records}{27}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Different ECG formats support}{28}{subsection.5.1.3}
+\contentsline {subsection}{\numberline {5.1.4}Dynamic display scaling}{28}{subsection.5.1.4}
+\contentsline {subsection}{\numberline {5.1.5}ECG record analysis integration on mobile platform}{28}{subsection.5.1.5}
+\contentsline {subsection}{\numberline {5.1.6}Analysis results displaying}{29}{subsection.5.1.6}
+\contentsline {chapter}{Acknowledgement}{31}{chapter*.22}
