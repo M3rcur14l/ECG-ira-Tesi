@@ -33,11 +33,16 @@
 \contentsline {figure}{\numberline {6.5}{\ignorespaces The baseline wander artifact in the ECG signal.\relax }}{39}{figure.caption.28}
 \contentsline {figure}{\numberline {6.6}{\ignorespaces Relation between distortion and moving window length for wavelet package translation (WPT), traditionally used MA, and our proposed high-pass filter based on a statistical weighted moving average (SMA). (a) Maximum error (ME) vs. moving window length; (b) Normalized root mean square error (NRMSE) vs. moving window length. M is the number of sub-bounds. SMA is the same as MA when M=1.\relax }}{41}{figure.caption.32}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces ZEcg device block diagram including all the modules components.\relax }}{44}{figure.caption.33}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces ADS1198 functional diagram showing the 8 channels representing the 8 leads used during the ECG record acquisition.\relax }}{45}{figure.caption.34}
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Android Build system process. How and which component are involved during an android application build and compilation.\relax }}{46}{figure.caption.35}
-\contentsline {figure}{\numberline {7.4}{\ignorespaces ECG-ira project structure and packages inside Android Studio IDE.\relax }}{47}{figure.caption.36}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Top Mobile Operating Systems Per Country, Jan 2016. Statcounter.com\relax }}{44}{figure.caption.33}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Overview of the message-passing mechanism between multiple producer threads and one consumer thread.\relax }}{48}{figure.caption.35}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces The execution lifecycle of AsyncTask.\relax }}{56}{figure.caption.39}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces The dynamic displaying result after a patient movement, causing the baseline wander artifact.\relax }}{58}{figure.caption.40}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces The home screen of the application ECG-ira.\relax }}{52}{figure.caption.40}
-\contentsline {figure}{\numberline {8.2}{\ignorespaces The form to be compiled before a record can start. It is necessary to bind any record to a patient data in order to avoid confusion between ecg records. This data is also useful for a fully understanding of the record itself.\relax }}{53}{figure.caption.41}
+\contentsline {figure}{\numberline {8.1}{\ignorespaces ZEcg device block diagram including all the modules components.\relax }}{64}{figure.caption.41}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces ADS1198 functional diagram showing the 8 channels representing the 8 leads used during the ECG record acquisition.\relax }}{65}{figure.caption.42}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Android Build system process. How and which component are involved during an android application build and compilation.\relax }}{66}{figure.caption.43}
+\contentsline {figure}{\numberline {8.4}{\ignorespaces ECG-ira project structure and packages inside Android Studio IDE.\relax }}{67}{figure.caption.44}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {9.1}{\ignorespaces The home screen of the application ECG-ira.\relax }}{72}{figure.caption.48}
+\contentsline {figure}{\numberline {9.2}{\ignorespaces The form to be compiled before a record can start. It is necessary to bind any record to a patient data in order to avoid confusion between ecg records. This data is also useful for a fully understanding of the record itself.\relax }}{73}{figure.caption.49}
 \addvspace {10\p@ }
