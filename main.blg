@@ -7,44 +7,44 @@ A level-1 auxiliary file: Include/abstract_ENG.aux
 A level-1 auxiliary file: Include/abstract_ITA.aux
 A level-1 auxiliary file: Include/acknowledgements.aux
 Database file #1: Include/Bibliography.bib
-You've used 1 entry,
+You've used 4 entries,
             1791 wiz_defined-function locations,
-            451 strings with 3670 characters,
-and the built_in function-call counts, 109 in all, are:
-= -- 5
-> -- 1
+            466 strings with 3852 characters,
+and the built_in function-call counts, 492 in all, are:
+= -- 31
+> -- 16
 < -- 0
-+ -- 1
-- -- 0
-* -- 2
-:= -- 15
-add.period$ -- 1
-call.type$ -- 1
-change.case$ -- 1
++ -- 8
+- -- 4
+* -- 9
+:= -- 76
+add.period$ -- 8
+call.type$ -- 4
+change.case$ -- 4
 chr.to.int$ -- 0
-cite$ -- 1
-duplicate$ -- 5
-empty$ -- 19
-format.name$ -- 0
-if$ -- 25
+cite$ -- 4
+duplicate$ -- 20
+empty$ -- 73
+format.name$ -- 4
+if$ -- 112
 int.to.chr$ -- 0
-int.to.str$ -- 1
+int.to.str$ -- 4
 missing$ -- 0
-newline$ -- 6
-num.names$ -- 0
-pop$ -- 6
+newline$ -- 19
+num.names$ -- 4
+pop$ -- 26
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 8
+skip$ -- 19
 stack$ -- 0
 substring$ -- 0
-swap$ -- 1
+swap$ -- 4
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 0
-width$ -- 2
-write$ -- 7
+while$ -- 4
+width$ -- 5
+write$ -- 33

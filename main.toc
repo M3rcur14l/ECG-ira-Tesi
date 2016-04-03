@@ -29,4 +29,7 @@
 \contentsline {section}{\numberline {3.2}Mobile application}{22}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Visualization only application}{23}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}Visualization and Analysis}{23}{subsection.3.2.2}
-\contentsline {chapter}{Acknowledgement}{25}{chapter*.21}
+\contentsline {chapter}{\numberline {4}Problems}{25}{chapter.4}
+\contentsline {section}{\numberline {4.1}Mobile platform fragmentation}{25}{section.4.1}
+\contentsline {section}{\numberline {4.2}Native vs Cross-Platform}{26}{section.4.2}
+\contentsline {chapter}{Acknowledgement}{27}{chapter*.22}

@@ -1,6 +1,19 @@
 \begin{thebibliography}{1}
 
 \bibitem{ref1}
-Illustrations by blausen medical communications.
+Blausen~Medical Communications.
+\newblock Heart illustrations.
+
+\bibitem{ref5}
+GSMA Intelligence.
+\newblock Mobile platform wars, Feb. 2014.
+
+\bibitem{ref6}
+Gartner.
+\newblock Global market share held by smartphone operating systems, Dec. 2015.
+
+\bibitem{ref7}
+Lionbridge.
+\newblock Mobile web apps vs. mobile native apps, 2012.
 
 \end{thebibliography}
