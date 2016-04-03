@@ -9,6 +9,25 @@ AllianceTek.
 \newblock Comparison chart for mobile app development methods.
 \newblock Norwegian University of Science and Technology, 2011.
 
+\bibitem{ref2}
+Mediatek helio x20 - the world’s first mobile processor with tri-cluster cpu
+  architecture and ten processing cores (deca-core) and 30% less power
+  consumption: http://mediatek-helio.com/x20/.
+
+\bibitem{ref3}
+Simone~Battaglia Diego Ulisse~Pizzagalli.
+\newblock Algoritmi per il riconoscimento automatico di eventi aritmici ed
+  ischemici in segnali ecg.
+\newblock Master's thesis, Politecnico di Milano.
+
+\bibitem{ref4}
+Nicos et~al Maglaveras.
+\newblock An adaptive backpropagation neural network for real-time ischemia
+  episodes detection: development and performance analysis using the european
+  st-t database.
+\newblock {\em Biomedical Engineering, IEEE Transactions}, 45(7):805--813,
+  1998.
+
 \bibitem{ref5}
 GSMA Intelligence.
 \newblock Mobile platform wars, Feb. 2014.

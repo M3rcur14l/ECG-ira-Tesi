@@ -29,18 +29,35 @@
 \contentsline {section}{\numberline {3.2}Mobile application}{22}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Visualization only application}{23}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}Visualization and Analysis}{23}{subsection.3.2.2}
-\contentsline {chapter}{\numberline {4}Problems}{25}{chapter.4}
-\contentsline {section}{\numberline {4.1}Mobile platform fragmentation}{25}{section.4.1}
-\contentsline {section}{\numberline {4.2}Native vs Cross-Platform}{26}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Native}{27}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Cross-Platform}{28}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}Mobile hardware limitations}{29}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Memory limitations}{29}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Performance limitations}{29}{subsection.4.3.2}
-\contentsline {section}{\numberline {4.4}ECG baseline wander}{30}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}State of Art}{30}{subsection.4.4.1}
-\contentsline {subsubsection}{Simple Moving Average Filter}{31}{section*.26}
-\contentsline {subsubsection}{Distortion using Simple Moving Average Filtering}{32}{section*.27}
-\contentsline {subsubsection}{CPU intensive operation}{32}{section*.28}
-\contentsline {section}{\numberline {4.5}Signal visualization}{32}{section.4.5}
-\contentsline {chapter}{Acknowledgement}{35}{chapter*.30}
+\contentsline {chapter}{\numberline {4}Objective}{25}{chapter.4}
+\contentsline {section}{\numberline {4.1}Preface}{25}{section.4.1}
+\contentsline {section}{\numberline {4.2}Fully functional medical mobile app as replacement to desktop app}{25}{section.4.2}
+\contentsline {chapter}{\numberline {5}Requirement}{27}{chapter.5}
+\contentsline {section}{\numberline {5.1}Functional}{27}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Connection management with the acquisition device}{27}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Acquisition, storing and management of ECG records}{27}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Different ECG formats support}{28}{subsection.5.1.3}
+\contentsline {subsection}{\numberline {5.1.4}Dynamic display scaling}{28}{subsection.5.1.4}
+\contentsline {subsection}{\numberline {5.1.5}ECG record analysis integration on mobile platform}{28}{subsection.5.1.5}
+\contentsline {subsection}{\numberline {5.1.6}Analysis results displaying}{29}{subsection.5.1.6}
+\contentsline {subsection}{\numberline {5.1.7}Highly parameterizable}{30}{subsection.5.1.7}
+\contentsline {section}{\numberline {5.2}Nonfunctional}{30}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Reduced memory usage}{30}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Minimum performance rate and scalability on performance}{31}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3} Wide platform compatibility and accessibility}{31}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Documentation}{31}{subsection.5.2.4}
+\contentsline {chapter}{\numberline {6}Problems}{33}{chapter.6}
+\contentsline {section}{\numberline {6.1}Mobile platform fragmentation}{33}{section.6.1}
+\contentsline {section}{\numberline {6.2}Native vs Cross-Platform}{34}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Native}{35}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Cross-Platform}{36}{subsection.6.2.2}
+\contentsline {section}{\numberline {6.3}Mobile hardware limitations}{37}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Memory limitations}{37}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Performance limitations}{37}{subsection.6.3.2}
+\contentsline {section}{\numberline {6.4}ECG baseline wander}{38}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}State of Art}{38}{subsection.6.4.1}
+\contentsline {subsubsection}{Simple Moving Average Filter}{39}{section*.29}
+\contentsline {subsubsection}{Distortion using Simple Moving Average Filtering}{40}{section*.30}
+\contentsline {subsubsection}{CPU intensive operation}{40}{section*.31}
+\contentsline {section}{\numberline {6.5}Signal visualization}{40}{section.6.5}
+\contentsline {chapter}{Acknowledgement}{43}{chapter*.33}

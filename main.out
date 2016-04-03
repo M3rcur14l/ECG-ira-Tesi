@@ -28,15 +28,32 @@
 \BOOKMARK [1][-]{section.3.2}{Mobile application}{chapter.3}% 28
 \BOOKMARK [2][-]{subsection.3.2.1}{Visualization only application}{section.3.2}% 29
 \BOOKMARK [2][-]{subsection.3.2.2}{Visualization and Analysis}{section.3.2}% 30
-\BOOKMARK [0][-]{chapter.4}{Problems}{}% 31
-\BOOKMARK [1][-]{section.4.1}{Mobile platform fragmentation}{chapter.4}% 32
-\BOOKMARK [1][-]{section.4.2}{Native vs Cross-Platform}{chapter.4}% 33
-\BOOKMARK [2][-]{subsection.4.2.1}{Native}{section.4.2}% 34
-\BOOKMARK [2][-]{subsection.4.2.2}{Cross-Platform}{section.4.2}% 35
-\BOOKMARK [1][-]{section.4.3}{Mobile hardware limitations}{chapter.4}% 36
-\BOOKMARK [2][-]{subsection.4.3.1}{Memory limitations}{section.4.3}% 37
-\BOOKMARK [2][-]{subsection.4.3.2}{Performance limitations}{section.4.3}% 38
-\BOOKMARK [1][-]{section.4.4}{ECG baseline wander}{chapter.4}% 39
-\BOOKMARK [2][-]{subsection.4.4.1}{State of Art}{section.4.4}% 40
-\BOOKMARK [1][-]{section.4.5}{Signal visualization}{chapter.4}% 41
-\BOOKMARK [0][-]{chapter*.30}{Acknowledgement}{}% 42
+\BOOKMARK [0][-]{chapter.4}{Objective}{}% 31
+\BOOKMARK [1][-]{section.4.1}{Preface}{chapter.4}% 32
+\BOOKMARK [1][-]{section.4.2}{Fully functional medical mobile app as replacement to desktop app}{chapter.4}% 33
+\BOOKMARK [0][-]{chapter.5}{Requirement}{}% 34
+\BOOKMARK [1][-]{section.5.1}{Functional}{chapter.5}% 35
+\BOOKMARK [2][-]{subsection.5.1.1}{Connection management with the acquisition device}{section.5.1}% 36
+\BOOKMARK [2][-]{subsection.5.1.2}{Acquisition, storing and management of ECG records}{section.5.1}% 37
+\BOOKMARK [2][-]{subsection.5.1.3}{Different ECG formats support}{section.5.1}% 38
+\BOOKMARK [2][-]{subsection.5.1.4}{Dynamic display scaling}{section.5.1}% 39
+\BOOKMARK [2][-]{subsection.5.1.5}{ECG record analysis integration on mobile platform}{section.5.1}% 40
+\BOOKMARK [2][-]{subsection.5.1.6}{Analysis results displaying}{section.5.1}% 41
+\BOOKMARK [2][-]{subsection.5.1.7}{Highly parameterizable}{section.5.1}% 42
+\BOOKMARK [1][-]{section.5.2}{Nonfunctional}{chapter.5}% 43
+\BOOKMARK [2][-]{subsection.5.2.1}{Reduced memory usage}{section.5.2}% 44
+\BOOKMARK [2][-]{subsection.5.2.2}{Minimum performance rate and scalability on performance}{section.5.2}% 45
+\BOOKMARK [2][-]{subsection.5.2.3}{ Wide platform compatibility and accessibility}{section.5.2}% 46
+\BOOKMARK [2][-]{subsection.5.2.4}{Documentation}{section.5.2}% 47
+\BOOKMARK [0][-]{chapter.6}{Problems}{}% 48
+\BOOKMARK [1][-]{section.6.1}{Mobile platform fragmentation}{chapter.6}% 49
+\BOOKMARK [1][-]{section.6.2}{Native vs Cross-Platform}{chapter.6}% 50
+\BOOKMARK [2][-]{subsection.6.2.1}{Native}{section.6.2}% 51
+\BOOKMARK [2][-]{subsection.6.2.2}{Cross-Platform}{section.6.2}% 52
+\BOOKMARK [1][-]{section.6.3}{Mobile hardware limitations}{chapter.6}% 53
+\BOOKMARK [2][-]{subsection.6.3.1}{Memory limitations}{section.6.3}% 54
+\BOOKMARK [2][-]{subsection.6.3.2}{Performance limitations}{section.6.3}% 55
+\BOOKMARK [1][-]{section.6.4}{ECG baseline wander}{chapter.6}% 56
+\BOOKMARK [2][-]{subsection.6.4.1}{State of Art}{section.6.4}% 57
+\BOOKMARK [1][-]{section.6.5}{Signal visualization}{chapter.6}% 58
+\BOOKMARK [0][-]{chapter*.33}{Acknowledgement}{}% 59
