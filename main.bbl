@@ -1,8 +1,13 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{ref1}
 Blausen~Medical Communications.
 \newblock Heart illustrations.
+
+\bibitem{ref9}
+AllianceTek.
+\newblock Comparison chart for mobile app development methods.
+\newblock Norwegian University of Science and Technology, 2011.
 
 \bibitem{ref5}
 GSMA Intelligence.
@@ -15,5 +20,57 @@ Gartner.
 \bibitem{ref7}
 Lionbridge.
 \newblock Mobile web apps vs. mobile native apps, 2012.
+
+\bibitem{ref8}
+Redda~Yonathan Aklilu.
+\newblock Cross platform mobile applications development.
+\newblock Norwegian University of Science and Technology, 2012.
+
+\bibitem{ref10}
+Palmieri Manuel, Inderjeet Singh, and Antonio Cicchetti.
+\newblock Comparison of cross-platform mobile development tools.
+\newblock In Intelligence in~Next Generation Networks~(ICIN), editor, {\em 16th
+  International Conference}, pages 179--186, Oct. 2012.
+
+\bibitem{ref11}
+Emily Blem, Jaikrishnan Menon, and Karthikeyan Sankaralingam.
+\newblock A detailed analysis of contemporary arm and x86 architectures.
+\newblock {\em UW-Madison Technical Report}, 2013.
+
+\bibitem{ref12}
+Blanco-Velasco, Binwei~Weng Manuel, and Kenneth~E Barner.
+\newblock Ecg signal denoising and baseline wander correction based on the
+  empirical mode decomposition.
+\newblock {\em Computers in biology and medicine}, 38(1):1–13, Jan. 2008.
+
+\bibitem{ref13}
+Burattini L, W~Zareba, and R~Burattini.
+\newblock The effect of baseline wandering in automatic t-wave alternans
+  detection from holter recordings.
+\newblock {\em Computers in Cardiology}, pages 257--260, Sep. 2006.
+
+\bibitem{ref14}
+Leski, Jacek M, and Norbert Henzel.
+\newblock Ecg baseline wander and powerline interference reduction using
+  nonlinear filter bank.
+\newblock {\em Signal processing}, 85(4):781--793, 2005.
+
+\bibitem{ref15}
+Xu and Lisheng et~al.
+\newblock Baseline wander correction in pulse waveforms using wavelet-based
+  cascaded adaptive filter.
+\newblock {\em Computers in Biology and Medicine}, 37(5):716--731, 2007.
+
+\bibitem{ref16}
+Hu, Xiao, Ying Gao, and Wai-Xi Liu.
+\newblock Pattern recognition of surface electromyography signal based on
+  wavelet coefficient entropy.
+\newblock {\em Health}, 1(02):121, 2009.
+
+\bibitem{ref17}
+Hu, Xiao, Zhong Xiao, and Ni~Zhang.
+\newblock Removal of baseline wander from ecg signal based on a statistical
+  weighted moving average filter.
+\newblock {\em Journal of Zhejiang University SCIENCE C}, 12(5):397--403, 2011.
 
 \end{thebibliography}

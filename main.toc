@@ -32,4 +32,15 @@
 \contentsline {chapter}{\numberline {4}Problems}{25}{chapter.4}
 \contentsline {section}{\numberline {4.1}Mobile platform fragmentation}{25}{section.4.1}
 \contentsline {section}{\numberline {4.2}Native vs Cross-Platform}{26}{section.4.2}
-\contentsline {chapter}{Acknowledgement}{27}{chapter*.22}
+\contentsline {subsection}{\numberline {4.2.1}Native}{27}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Cross-Platform}{28}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Mobile hardware limitations}{29}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Memory limitations}{29}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Performance limitations}{29}{subsection.4.3.2}
+\contentsline {section}{\numberline {4.4}ECG baseline wander}{30}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}State of Art}{30}{subsection.4.4.1}
+\contentsline {subsubsection}{Simple Moving Average Filter}{31}{section*.26}
+\contentsline {subsubsection}{Distortion using Simple Moving Average Filtering}{32}{section*.27}
+\contentsline {subsubsection}{CPU intensive operation}{32}{section*.28}
+\contentsline {section}{\numberline {4.5}Signal visualization}{32}{section.4.5}
+\contentsline {chapter}{Acknowledgement}{35}{chapter*.30}

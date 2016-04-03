@@ -31,4 +31,12 @@
 \BOOKMARK [0][-]{chapter.4}{Problems}{}% 31
 \BOOKMARK [1][-]{section.4.1}{Mobile platform fragmentation}{chapter.4}% 32
 \BOOKMARK [1][-]{section.4.2}{Native vs Cross-Platform}{chapter.4}% 33
-\BOOKMARK [0][-]{chapter*.22}{Acknowledgement}{}% 34
+\BOOKMARK [2][-]{subsection.4.2.1}{Native}{section.4.2}% 34
+\BOOKMARK [2][-]{subsection.4.2.2}{Cross-Platform}{section.4.2}% 35
+\BOOKMARK [1][-]{section.4.3}{Mobile hardware limitations}{chapter.4}% 36
+\BOOKMARK [2][-]{subsection.4.3.1}{Memory limitations}{section.4.3}% 37
+\BOOKMARK [2][-]{subsection.4.3.2}{Performance limitations}{section.4.3}% 38
+\BOOKMARK [1][-]{section.4.4}{ECG baseline wander}{chapter.4}% 39
+\BOOKMARK [2][-]{subsection.4.4.1}{State of Art}{section.4.4}% 40
+\BOOKMARK [1][-]{section.4.5}{Signal visualization}{chapter.4}% 41
+\BOOKMARK [0][-]{chapter*.30}{Acknowledgement}{}% 42
