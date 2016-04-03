@@ -19,4 +19,14 @@
 \contentsline {subsection}{\numberline {2.4.2}Interference}{16}{subsection.2.4.2}
 \contentsline {subsection}{\numberline {2.4.3}Wandering baseline}{16}{subsection.2.4.3}
 \contentsline {subsection}{\numberline {2.4.4}Faulty equipment}{17}{subsection.2.4.4}
-\contentsline {chapter}{Acknowledgement}{19}{chapter*.16}
+\contentsline {chapter}{\numberline {3}State of Art}{19}{chapter.3}
+\contentsline {section}{\numberline {3.1}Device}{19}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Mortara ELI 10 Mobile}{19}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Philips DigiTrak XT Holter Recorder}{20}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}AliveCor ECG}{21}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.4}M-Trace (PC)Mobile}{21}{subsection.3.1.4}
+\contentsline {subsection}{\numberline {3.1.5}ECG Expert}{22}{subsection.3.1.5}
+\contentsline {section}{\numberline {3.2}Mobile application}{22}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Visualization only application}{23}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Visualization and Analysis}{23}{subsection.3.2.2}
+\contentsline {chapter}{Acknowledgement}{25}{chapter*.21}
