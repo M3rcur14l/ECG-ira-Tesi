@@ -10,5 +10,11 @@ You're missing a field name---line 26 of file Include/Bibliography.bib
  :  %type     = {Master Thesis},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+You're missing a field name---line 43 of file Include/Bibliography.bib
+ :  
+ :  %type     = {Master Thesis},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Warning--empty year in ref3
-(There was 1 error message)
+Warning--empty year in ref22
+(There were 2 error messages)

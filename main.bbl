@@ -19,6 +19,21 @@ Nicos et~al Maglaveras.
 \newblock An adaptive backpropagation neural network for real-time ischemia
   episodes detection: development and performance analysis using the european
   st-t database.
-\newblock {\em iomedical Engineering, IEEE Transactions}, 45(7):805--813, 1998.
+\newblock {\em Biomedical Engineering, IEEE Transactions}, 45(7):805--813,
+  1998.
+
+\bibitem{ref22}
+Ulisse~Pizzagalli Crespi~Alessandro.
+\newblock Zecg: Acquisizione, trasmissione e memorizzazione del segnale ecg.
+\newblock Master's thesis, Politecnico di Milano.
+
+\bibitem{ref23}
+Benjamin Muschko.
+\newblock {\em Gradle in Action}.
+\newblock Manning, 2014.
+
+\bibitem{ref27}
+Samsung galaxy siii mini, samsung galaxy note, oneplus x, sony xperia z3
+  compact, sony tablet z, huawei p8 lite.
 
 \end{thebibliography}

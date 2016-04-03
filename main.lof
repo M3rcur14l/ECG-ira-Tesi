@@ -23,4 +23,14 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Istogram from the desktop application resulted from an analysis on a MIT/BIH record.\relax }}{29}{figure.caption.21}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Tacogram from the desktop application resulted from an analysis on a MIT/BIH record.\relax }}{29}{figure.caption.22}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces ST+/ST- graph from the desktop application resulted from an analysis on a MIT/BIH record.\relax }}{30}{figure.caption.23}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces ZEcg device block diagram including all the modules components.\relax }}{34}{figure.caption.24}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces ADS1198 functional diagram showing the 8 channels representing the 8 leads used during the ECG record acquisition.\relax }}{35}{figure.caption.25}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Android Build system process. How and which component are involved during an android application build and compilation.\relax }}{36}{figure.caption.26}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces ECG-ira project structure and packages inside Android Studio IDE.\relax }}{37}{figure.caption.27}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces The home screen of the application ECG-ira.\relax }}{42}{figure.caption.31}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces The form to be compiled before a record can start. It is necessary to bind any record to a patient data in order to avoid confusion between ecg records. This data is also useful for a fully understanding of the record itself.\relax }}{43}{figure.caption.32}
 \addvspace {10\p@ }

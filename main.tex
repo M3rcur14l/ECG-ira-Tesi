@@ -22,7 +22,7 @@
 \usepackage[italian, english]{babel}    % Last language is default one
 \usepackage{graphicx} 
 \usepackage[utf8]{inputenc}
-
+\usepackage{sidecap}
 \usepackage{url} 
 \usepackage{amssymb} 
 \usepackage{eurosym} 
@@ -42,7 +42,32 @@
 \usepackage{algorithm}
 \usepackage[noend]{algpseudocode}
 \usepackage[square, numbers, comma, sort&compress]{natbib} % Use the natbib reference package - read up on this to edit the reference style; if you want text (e.g. Smith et al., 2012) for the in-text references (instead of numbers), remove 'numbers' 
+%code java 
 \usepackage{hyperref}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\usepackage{listings}
+
+\lstset{frame=tb,
+	language=Java,
+	aboveskip=3mm,
+	belowskip=3mm,
+	showstringspaces=false,
+	columns=flexible,
+	basicstyle={\small\ttfamily},
+	numbers=none,
+	numberstyle=\tiny\color{gray},
+	keywordstyle=\color{blue},
+	commentstyle=\color{dkgreen},
+	stringstyle=\color{mauve},
+	breaklines=true,
+	breakatwhitespace=true,
+	tabsize=3
+}
+%code java end
 \hypersetup{
     colorlinks,
     citecolor=black,

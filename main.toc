@@ -40,4 +40,18 @@
 \contentsline {subsection}{\numberline {5.1.4}Dynamic display scaling}{28}{subsection.5.1.4}
 \contentsline {subsection}{\numberline {5.1.5}ECG record analysis integration on mobile platform}{28}{subsection.5.1.5}
 \contentsline {subsection}{\numberline {5.1.6}Analysis results displaying}{29}{subsection.5.1.6}
-\contentsline {chapter}{Acknowledgement}{31}{chapter*.22}
+\contentsline {subsection}{\numberline {5.1.7}Highly parameterizable}{30}{subsection.5.1.7}
+\contentsline {section}{\numberline {5.2}Nonfunctional}{30}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Reduced memory usage}{30}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Minimum performance rate and scalability on performance}{31}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3} Wide platform compatibility and accessibility}{31}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Documentation}{31}{subsection.5.2.4}
+\contentsline {chapter}{\numberline {6}System architecture}{33}{chapter.6}
+\contentsline {section}{\numberline {6.1}Acquisition device}{33}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Mobile app}{34}{subsection.6.1.1}
+\contentsline {subsubsection}{Code reuse and maintainability}{38}{section*.28}
+\contentsline {subsubsection}{Maximize performance depending on the device constraints}{38}{section*.29}
+\contentsline {subsubsection}{ Usability in term of interface and interaction}{39}{section*.30}
+\contentsline {chapter}{\numberline {7}Final result}{41}{chapter.7}
+\contentsline {section}{\numberline {7.1}App Screens}{41}{section.7.1}
+\contentsline {chapter}{Acknowledgement}{45}{chapter*.33}

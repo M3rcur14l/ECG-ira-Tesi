@@ -39,4 +39,15 @@
 \BOOKMARK [2][-]{subsection.5.1.4}{Dynamic display scaling}{section.5.1}% 39
 \BOOKMARK [2][-]{subsection.5.1.5}{ECG record analysis integration on mobile platform}{section.5.1}% 40
 \BOOKMARK [2][-]{subsection.5.1.6}{Analysis results displaying}{section.5.1}% 41
-\BOOKMARK [0][-]{chapter*.22}{Acknowledgement}{}% 42
+\BOOKMARK [2][-]{subsection.5.1.7}{Highly parameterizable}{section.5.1}% 42
+\BOOKMARK [1][-]{section.5.2}{Nonfunctional}{chapter.5}% 43
+\BOOKMARK [2][-]{subsection.5.2.1}{Reduced memory usage}{section.5.2}% 44
+\BOOKMARK [2][-]{subsection.5.2.2}{Minimum performance rate and scalability on performance}{section.5.2}% 45
+\BOOKMARK [2][-]{subsection.5.2.3}{ Wide platform compatibility and accessibility}{section.5.2}% 46
+\BOOKMARK [2][-]{subsection.5.2.4}{Documentation}{section.5.2}% 47
+\BOOKMARK [0][-]{chapter.6}{System architecture}{}% 48
+\BOOKMARK [1][-]{section.6.1}{Acquisition device}{chapter.6}% 49
+\BOOKMARK [2][-]{subsection.6.1.1}{Mobile app}{section.6.1}% 50
+\BOOKMARK [0][-]{chapter.7}{Final result}{}% 51
+\BOOKMARK [1][-]{section.7.1}{App Screens}{chapter.7}% 52
+\BOOKMARK [0][-]{chapter*.33}{Acknowledgement}{}% 53
