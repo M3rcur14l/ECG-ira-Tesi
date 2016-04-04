@@ -56,9 +56,29 @@
 \BOOKMARK [1][-]{section.6.4}{ECG baseline wander}{chapter.6}% 56
 \BOOKMARK [2][-]{subsection.6.4.1}{State of Art}{section.6.4}% 57
 \BOOKMARK [1][-]{section.6.5}{Signal visualization}{chapter.6}% 58
-\BOOKMARK [0][-]{chapter.7}{System architecture}{}% 59
-\BOOKMARK [1][-]{section.7.1}{Acquisition device}{chapter.7}% 60
-\BOOKMARK [2][-]{subsection.7.1.1}{Mobile app}{section.7.1}% 61
-\BOOKMARK [0][-]{chapter.8}{Final result}{}% 62
-\BOOKMARK [1][-]{section.8.1}{App Screens}{chapter.8}% 63
-\BOOKMARK [0][-]{chapter*.42}{Acknowledgement}{}% 64
+\BOOKMARK [0][-]{chapter.7}{Solution choices}{}% 59
+\BOOKMARK [1][-]{section.7.1}{Android platform}{chapter.7}% 60
+\BOOKMARK [1][-]{section.7.2}{Why native?}{chapter.7}% 61
+\BOOKMARK [1][-]{section.7.3}{Android concurrency exploitation}{chapter.7}% 62
+\BOOKMARK [2][-]{subsection.7.3.1}{Thread Overview}{section.7.3}% 63
+\BOOKMARK [2][-]{subsection.7.3.2}{Threads in Android}{section.7.3}% 64
+\BOOKMARK [2][-]{subsection.7.3.3}{ Thread communication in Android}{section.7.3}% 65
+\BOOKMARK [2][-]{subsection.7.3.4}{HandlerThread}{section.7.3}% 66
+\BOOKMARK [2][-]{subsection.7.3.5}{Thread Pools}{section.7.3}% 67
+\BOOKMARK [2][-]{subsection.7.3.6}{AsyncTask}{section.7.3}% 68
+\BOOKMARK [1][-]{section.7.4}{Baseline wander solutions}{chapter.7}% 69
+\BOOKMARK [2][-]{subsection.7.4.1}{Adaptive vertical displaying}{section.7.4}% 70
+\BOOKMARK [2][-]{subsection.7.4.2}{Moving average filter}{section.7.4}% 71
+\BOOKMARK [1][-]{section.7.5}{Custom View Drawing}{chapter.7}% 72
+\BOOKMARK [2][-]{subsection.7.5.1}{Custom Libraries}{section.7.5}% 73
+\BOOKMARK [2][-]{subsection.7.5.2}{Hardware Accelerated Drawing \(GPU\)}{section.7.5}% 74
+\BOOKMARK [2][-]{subsection.7.5.3}{Not hardware Accelerated Drawing \(CPU\)}{section.7.5}% 75
+\BOOKMARK [0][-]{chapter.8}{System architecture}{}% 76
+\BOOKMARK [1][-]{section.8.1}{Acquisition device}{chapter.8}% 77
+\BOOKMARK [2][-]{subsection.8.1.1}{Mobile app}{section.8.1}% 78
+\BOOKMARK [0][-]{chapter.9}{Final result}{}% 79
+\BOOKMARK [1][-]{section.9.1}{App Screens}{chapter.9}% 80
+\BOOKMARK [2][-]{subsection.9.1.1}{Performance}{section.9.1}% 81
+\BOOKMARK [2][-]{subsection.9.1.2}{Evaluation}{section.9.1}% 82
+\BOOKMARK [2][-]{subsection.9.1.3}{Response Time}{section.9.1}% 83
+\BOOKMARK [0][-]{chapter*.95}{Acknowledgement}{}% 84

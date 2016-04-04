@@ -10,11 +10,13 @@ You're missing a field name---line 12 of file Include/Bibliography.bib
  :  %type     = {Master Thesis},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 127 of file Include/Bibliography.bib
+You're missing a field name---line 154 of file Include/Bibliography.bib
  :  
- :  %type     = {Master Thesis},
+ :  %type = {Master Thesis},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--empty year in ref3
+Name 1 in "Lee Sangchul, and Jae Wook Jeon" has a comma at the end for entry ref20
+while executing---line 944 of file unsrt.bst
 Warning--empty year in ref22
-(There were 2 error messages)
+(There were 3 error messages)

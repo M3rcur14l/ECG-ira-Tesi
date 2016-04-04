@@ -48,8 +48,8 @@ Redda~Yonathan Aklilu.
 \bibitem{ref10}
 Palmieri Manuel, Inderjeet Singh, and Antonio Cicchetti.
 \newblock Comparison of cross-platform mobile development tools.
-\newblock In Intelligence in~Next Generation Networks~(ICIN), editor, {\em 16th
-  International Conference}, pages 179--186, Oct. 2012.
+\newblock In {\em Intelligence in Next Generation Networks (ICIN)}, pages
+  179--186, Oct. 2012.
 
 \bibitem{ref11}
 Emily Blem, Jaikrishnan Menon, and Karthikeyan Sankaralingam.
@@ -92,6 +92,29 @@ Hu, Xiao, Zhong Xiao, and Ni~Zhang.
   weighted moving average filter.
 \newblock {\em Journal of Zhejiang University SCIENCE C}, 12(5):397--403, 2011.
 
+\bibitem{ref18}
+Manjoo and Farhad.
+\newblock A murky road ahead for android, despite market dominance.
+\newblock {\em The New York Times}, May 2015.
+
+\bibitem{ref19}
+Goransson Anders.
+\newblock {\em Efficient Android Threading: Asynchronous Processing Techniques
+  for Android Applications}.
+\newblock O'Reilly Media, 1 edition, May 2014.
+
+\bibitem{ref20}
+Lee Sangchul and Jae~Wook Jeon.
+\newblock Evaluating performance of android platform using native c for
+  embedded systems.
+\newblock In {\em Control Automation and Systems (ICCAS)}, pages 1160--1163,
+  Oct. 2012.
+
+\bibitem{ref21}
+Tahir~Mir Nauman.
+\newblock {\em Learning Android Canvas}.
+\newblock Packt Publishing Ltd, 2013.
+
 \bibitem{ref22}
 Crespi Alessandro and Ulisse Pizzagalli.
 \newblock Zecg: Acquisizione, trasmissione e memorizzazione del segnale ecg.
@@ -101,9 +124,5 @@ Crespi Alessandro and Ulisse Pizzagalli.
 Muschko and Benjamin.
 \newblock {\em Gradle in Action}.
 \newblock Manning, 2014.
-
-\bibitem{ref27}
-Samsung galaxy siii mini, samsung galaxy note n7000, oneplus x, sony xperia z3
-  compact, sony tablet z, huawei p8 lite.
 
 \end{thebibliography}
