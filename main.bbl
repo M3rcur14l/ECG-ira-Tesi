@@ -130,6 +130,20 @@ Wikipedia.
 \newblock Dots per inch.
 \newblock \url{https://en.wikipedia.org/wiki/Dots_per_inch}, 2011.
 
+\bibitem{ref25}
+Android Developers.
+\newblock Canvas and drawables.
+\newblock
+  \url{http://developer.android.com/guide/topics/graphics/2d-graphics.html},
+  2009.
+
+\bibitem{ref26}
+Android~Design Patterns.
+\newblock How to leak a context: Handlers \& Inner Casses.
+\newblock
+  \url{http://www.androiddesignpatterns.com/2013/01/inner-class-handler-memory-leak.html},
+  2013.
+
 \bibitem{ref27}
 Samsung galaxy siii mini, samsung galaxy note n7000, oneplus x, sony xperia z3
   compact, sony tablet z, huawei p8 lite.

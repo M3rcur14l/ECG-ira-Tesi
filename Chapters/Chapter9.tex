@@ -173,3 +173,116 @@ Lastly, we need to specify that SignalScrollView will also handle drag events co
 	\caption{Class diagram of the SignalScrollView class.}
 	\label{fig9.8}
 \end{figure}
+
+\subsubsection{SignalSurfaceView}
+In  order to achieve the best performance, we used the best mechanism available in Android for fast and custom drawing. For this purpose we extended the class SurfaceView. As explained in the Android developer site \textit{“The SurfaceView is a special subclass of View that offers a dedicated drawing surface within the View hierarchy. The aim is to offer this drawing surface to an application's secondary thread, so that the application isn't required to wait until the system's View hierarchy is ready to draw. Instead, a secondary thread that has reference to a SurfaceView can draw to its own Canvas at its own pace.”}\cite{ref25}. We will focus on the thread responsible of drawing on the SignalSurfaceView when will describe the Drawer class. For now, we describe only the main operation of the SignalSurfaceView. This class will be liable of reacting after the creation of the view and on view change event. This last will occur typically after a rotation of the device screen, performed by the user. This will cause for example to change the orientation from portrait to landscape, and so the new SignalSurfaceView will be required to fill all the new available space.
+
+\subsubsection{DrawingHelper}
+As the name suggests, this is the helper class for all drawing operation. Many of its methods and variables will be used by the Drawer for handle drawing. It is an abstract class, because we provide to different plotting type: a scrollable drawing and a oscilloscope drawing ( figure \ref*{fig9.9}). For each type, there is a proper extending  class:
+\begin{itemize}
+	\item DrawingHelperScroll, for scrollable drawing type;
+	\item DrawingHelperOsc, for oscilloscope drawing type.
+\end{itemize}
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=100mm]{figures/ch9/9.png}
+	\caption{The different ECG visualization types. The one on top is the scrolling drawing, the one in the bottom is the oscilloscope drawing. The time passed after the movement of the ECG paper is one second.}
+	\label{fig9.9}
+\end{figure}
+Each of these class will store the list of all sampleWindows, containing a sampleWindow for each ECG lead. The sampleWindow will store the samples window that is currently visualized on the screen. The collection type for the sampleWindow is different in the two classes, because each one use the most suitable implementation for its update type. For example, the DrawingHelperScroll, will treat the window as a queue: it will always add new sample to the head or to the tail. Thus, it uses a ArrayDeque, an very efficient and fast class when applied to this type of scenario.\\
+During its initialization, with the method prepare(args ...) the DrawingHelper creates some Drawer. This last is the class used for drawing on the SignalSurfaceView, and will be described in the next section. The number of Drawer created depends on the computational power availability of the device used: in the method the DrawingHelper will retrieve the number of cores available in the device CPU, and will create accordingly the same number of  Drawer ( which, you will see, will extend the HandlerThread class ). For this reason, with a single core CPU, only a Drawer will be created, and it will be the sole handler for all the SignalSurfaceView ( and so all ECG strips ). Instead, if we had four CPU core, and for example all the twelve ECG leads, there will be created four Drawer, where each will handle the drawing of three SignalSurfaceView. This characteristic provide a nice performance scalability, dependent on the CPU of the used device.\\
+The DrawingHelper also will handle the lifecycle of all Drawers using:
+\begin{itemize}
+	\item startDrawing(int signalIndex), for starting the drawing operation of the Drawer which is the handler for the passed signalIndex;
+	\item pauseDrawing(int signalIndex), for pausing the drawing operation of the Drawer which is the handler for the passed signalIndex;
+	\item quit(), for stopping all Drawers currently active and destroying them.
+\end{itemize}
+Furthermore, the DrawingHelper will provide the helper methods, used by the Drawer, to compute the different drawing layers:
+\begin{itemize}
+	\item drawGrid(Canvas c, Paint p): it draws the ECG grid in the passend Canvas using the passed Paint. It uses the variable blockInPixel for the right sizing;
+	\item drawSignalLabelsAndTime(int signalIndex, Canvas c, Paint p): it draws the labels of the time and the ECG leads in the passend Canvas using the passed Paint;
+	\item drawSamples(int signalIndex, Canvas c, Paint p): it draws all the samples inside the sampleWindow as lines in the passend Canvas using the passed Paint. It avoid the drawing of consecutive equals value when plotting the lines, in order to save useless operations;
+	\item drawRAnnotations(Canvas c, Paint p): it highlights all the R peaks by drawing vertical lines on them and with the respective R annotation, in the passend Canvas using the passed Paint. This of course will be active only after the analysis.
+\end{itemize}
+In the figure \ref{fig9.10} you can find the class diagram of the DrawingHelper class.
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=140mm]{figures/ch9/10.eps}
+	\caption{Class diagram of the DrawingHelper class.}
+	\label{fig9.10}
+\end{figure}
+
+\subsubsection{Drawer}
+As already mentioned earlier, the Drawer class will be a thread, responsable of drawing on one or more SignalSurfaceViews. It is a private static inner class of the DrawingHelper, and it hold a WeakReference to the DrawingHelper in order to avoid as much as possible memory leaks.\cite{ref26} It extends the HandlerThread class and its basic functioning is reading and responding to all messages sent to its MessageQueue. The messages will contain the index of the ECG lead that need to be drawn. Actually, there will be always only one message per ECG lead on its MessageQueue: this is because, beside of the lead index, all messages are equals, and incorporate the same drawing routine including all drawing method seen in the previous section. But each message at the end will also include a recursive sending of the next message to the MessageQueue, delayed by the time unit dictated from the specified FPS of the application. So each message will cause a sending of the next message. In this way, the Drawer we can continuously draw and update the SignalSurfaceView, at a rate of FPS. The starting of drawing will be managed by the DrawingHelper, which will send the first recursive message. The pausing, manage by the same, will be easily achieved by the removal of all the messages present in the MessageQueue at that moment.\\
+In the figure \ref{fig9.11} is showed the class diagram of the Drawer.
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=100mm]{figures/ch9/11.eps}
+	\caption{Class diagram of the Drawer class.}
+	\label{fig9.11}
+\end{figure}
+
+\subsection{Connection}
+As we have often mentioned, the communication between the acquisition device and the app will rely on a bluetooth connection. There are mainly two different situation where we are using this type of connection:
+\begin{itemize}
+	\item During the device connection menu, where we use bluetooth to scan all nearby devices in order to find ZEcg;
+	\item During real-time acquisition, when we are connect to the device and start receiving the patient ECG samples.
+\end{itemize}
+In the first case, we made use of a BroadcastReceiver, which will be notified during bluetooth scanning, when a new device will be found. As we don’t want to include external devices in the device scan list, we filtered all devices by name, and included only devices with a name containing the word \textit{“ecg”}.\\
+In the second case we made use of the class BluetoothSerial, which is an external library that we have modified and included in our application. The type of connection between two devices differs according to the specific bluetooth modules mount on the different devices we tested our application with. For most of the devices we could establish an unsecure connection with Zecg, without any  security protocols nor explicit  pairing request. On other devices the connection was established only after an explicit pairing request. Either way the Zecg was always the server side and the smartphone the client side of the Bluetooth connection. Whenever a client closes the connection with the server, the connection is automatically lost and any other device can ask data from the server.
+
+\subsubsection{BluetoothSerial}
+As we have said when we were talking about the ZEcgReceiver, the BluetoothSerial class will pass data received from the acquisition device to the last by sending messages to it. This is done by using an Handler instance that is passed in the BluetoothSerial constructor, that is pointing to the MessageQueue of the ZEcgReceiver. The messages will include the partial data received from the bluetooth connection, that will be parsed as we described in the ZEcgReceiver section. BluetoothSerial will create different thread, where each one will handle a different connection step:
+\begin{itemize}
+	\item AcceptThread: this thread runs while listening for incoming connections. It behaves like a server-side client. It runs until a connection is accepted (not used in our case, as the smartphone always act like a client in the connection);
+	\item ConnectThread: this thread runs while attempting to make an outgoing connection with a device. It runs straight through. The connection either succeeds or fails;
+	\item ConnectedThread: this thread runs during a connection with a remote device. It handles all incoming and outgoing transmissions (only incoming in our case).
+\end{itemize}
+In the ConnectedThread the message sending will take place.
+
+\subsection{Operations Flow}
+In the previous sections we went deep to some component implementations in order to clarify some of the main functioning and iterations. Therefore, we move from a low level description, to an higher level, in order to explain the flow of the app operations. We will focus on our main two operation flow:
+\begin{itemize}
+	\item Record acquisition: the user acquires a new ECG record by connecting to the acquisition device;
+	\item Saved record opening: the user open a stored ECG record, choosing one of them from a list, and visualizes it.
+\end{itemize}
+For the sake of clarity, we put aside technical terminology for activity describing, as some methods call may be not so explanatory for the understanding. Instead, we used a general description of each activity, being all the details in the previous sections.
+
+\subsubsection{Record acquisition}
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=\linewidth]{figures/ch9/12.eps}
+	\caption{Activity diagram of a new ECG record acquisition operation.}
+	\label{fig9.12}
+\end{figure}
+The process starts with the selection of \textit{“New Record”} in the app home. After that the user will move to the CreateNewRecordActivity, where will be displayed a form where the user will be required to specify his:
+\begin{itemize}
+	\item Name,
+	\item Surname,
+	\item Sex,
+	\item Age,
+	\item Weight.
+\end{itemize}
+If the user will omit some information, and clicks on the submit button, an error will be displayed, asking the user to complete the form. After a positive check of the form, there will be the creation of the .hea, including all the previous user data, and the .dat file, the container of all ECG record samples.\\
+Then, the bluetooth connection of the device will be checked: if deactivated, the user will be jumped to the DeviceConnectionActivity, where will be able to activate it and search for the acquisition device; if activated, the BluetoothSerial will start the connection with the device, and wait for the first data. At each new data arrival, it will send a message with the new data to the ZEcgReceiver class. This last after having received the message, will extract the new data and insert it into a acquisition buffer. Then it will try to empty the buffer, removing all complete samples. All removed sample will be decoded and added to the sample window tail of the SampleDisplay.
+The process of acquiring new data and pass it to the ZEcgReceiver continues until the user will click on the stop button. Afterwords, the connection will be close and additional data will be written to the .hea record file. The operations flow are depicted as an activity diagram in the figure \ref{fig9.12}.
+
+\subsubsection{Saved record opening}
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=\linewidth]{figures/ch9/13.eps}
+	\caption{Activity diagram of a new ECG record acquisition operation.}
+	\label{fig9.13}
+\end{figure}
+The process starts with the selection of \textit{“Open Record”} in the app home. A list of all stored ECG record will be presented to the user. The user will be able to scroll the list and select a ECG record to open it. After that it will be moved to the SavedRecordActivity, where the record .hea file will be decoded to extract all useful information, as sample rate, number of lead, lead labels, signal gain and others. Then, the SampleDisplay component will be created: this will compute all the metrics for which regarding the dynamic ECG paper sizing, and will create all ECG paper strip views. Subsequently, the SampleSource will be created and initialized and binded to the SampleDisplay, which will be started. At start, the SampleDisplay will request from the SampleSource the initial sample window, in order to fill the ECG lead strips created previously. Later, the SampleDisplay will start waiting for any user input. The user input will be of two types:
+\begin{itemize}
+	\item Animation button click;
+	\item Scrolling.
+\end{itemize}
+In the first case, the state of the animation will be queried:
+\begin{itemize}
+	\item If playing, the animation will be stopped;
+	\item Otherwise, the animation will be started.
+\end{itemize}
+In the second case, according to the scrolling direction, the respective samples will be read and added to sample window tail or head, respectively if right or left.\\
+The process of processing new user inputs continues until the user will close the record visualization. The operations flow are depicted as an activity diagram in the figure \ref{fig9.13}.
