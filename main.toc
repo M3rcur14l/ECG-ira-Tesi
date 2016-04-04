@@ -85,29 +85,29 @@
 \contentsline {section}{\numberline {8.1}Acquisition device}{63}{section.8.1}
 \contentsline {subsection}{\numberline {8.1.1}Mobile app}{64}{subsection.8.1.1}
 \contentsline {subsubsection}{Code reuse and maintainability}{68}{section*.45}
-\contentsline {subsubsection}{Maximize performance depending on the device constraints}{68}{section*.46}
+\contentsline {subsubsection}{Maximize performance depending on the device constraints}{69}{section*.46}
 \contentsline {subsubsection}{ Usability in term of interface and interaction}{69}{section*.47}
-\contentsline {chapter}{\numberline {9}Final result}{71}{chapter.9}
-\contentsline {section}{\numberline {9.1}App Screens}{71}{section.9.1}
-\contentsline {subsection}{\numberline {9.1.1}Performance}{79}{subsection.9.1.1}
-\contentsline {subsection}{\numberline {9.1.2}Evaluation}{80}{subsection.9.1.2}
-\contentsline {subsubsection}{Memory}{80}{section*.55}
-\contentsline {paragraph}{Samsung Galaxy N7000}{82}{section*.57}
-\contentsline {subparagraph}{Idle state}{82}{section*.58}
-\contentsline {subparagraph}{Plotting state}{83}{section*.61}
-\contentsline {subparagraph}{Analysis state}{84}{section*.63}
-\contentsline {paragraph}{OnePlus X}{87}{section*.67}
-\contentsline {subparagraph}{Idle state}{87}{section*.68}
-\contentsline {subparagraph}{Plotting state}{88}{section*.71}
-\contentsline {subparagraph}{Analysis state}{90}{section*.74}
-\contentsline {subsubsection}{CPU}{92}{section*.77}
-\contentsline {paragraph}{Samsung Galaxy N7000}{93}{section*.78}
-\contentsline {subparagraph}{Idle state}{93}{section*.79}
-\contentsline {subparagraph}{Plotting state}{93}{section*.81}
-\contentsline {subparagraph}{Analysis state}{95}{section*.84}
-\contentsline {paragraph}{OnePlus X}{95}{section*.86}
-\contentsline {subparagraph}{Idle state}{95}{section*.87}
-\contentsline {subparagraph}{Plotting state}{95}{section*.89}
-\contentsline {subparagraph}{Analysis state}{96}{section*.91}
-\contentsline {subsection}{\numberline {9.1.3}Response Time}{97}{subsection.9.1.3}
-\contentsline {chapter}{Acknowledgement}{101}{chapter*.95}
+\contentsline {chapter}{\numberline {9}Implementation details}{71}{chapter.9}
+\contentsline {section}{\numberline {9.1}Main components}{71}{section.9.1}
+\contentsline {subsection}{\numberline {9.1.1}Data Sources}{72}{subsection.9.1.1}
+\contentsline {subsubsection}{SampleSource}{72}{section*.48}
+\contentsline {subsubsection}{DatReader}{73}{section*.50}
+\contentsline {subsubsection}{ ZEcgReceiver}{77}{section*.55}
+\contentsline {subsection}{\numberline {9.1.2}Display}{79}{subsection.9.1.2}
+\contentsline {subsubsection}{SampleDisplay}{79}{section*.56}
+\contentsline {subsubsection}{SignalScrollView}{80}{section*.58}
+\contentsline {subsubsection}{SignalSurfaceView}{82}{section*.61}
+\contentsline {subsubsection}{DrawingHelper}{83}{section*.62}
+\contentsline {subsubsection}{Drawer}{85}{section*.65}
+\contentsline {subsection}{\numberline {9.1.3}Connection}{87}{subsection.9.1.3}
+\contentsline {subsubsection}{BluetoothSerial}{88}{section*.67}
+\contentsline {subsection}{\numberline {9.1.4}Operations Flow}{88}{subsection.9.1.4}
+\contentsline {subsubsection}{Record acquisition}{89}{section*.68}
+\contentsline {subsubsection}{Saved record opening}{90}{section*.70}
+\contentsline {chapter}{\numberline {10}Final result}{93}{chapter.10}
+\contentsline {section}{\numberline {10.1}App Screens}{93}{section.10.1}
+\contentsline {chapter}{\numberline {11}Conclusions}{97}{chapter.11}
+\contentsline {section}{\numberline {11.1}Future works}{97}{section.11.1}
+\contentsline {section}{\numberline {11.2}Mobile as replacement to desktop}{98}{section.11.2}
+\contentsline {section}{\numberline {11.3}Mobile as first medical solution}{98}{section.11.3}
+\contentsline {chapter}{Acknowledgement}{101}{chapter*.74}

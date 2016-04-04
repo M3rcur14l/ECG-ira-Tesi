@@ -43,46 +43,21 @@
 \contentsline {figure}{\numberline {8.3}{\ignorespaces Android Build system process. How and which component are involved during an android application build and compilation.\relax }}{66}{figure.caption.43}
 \contentsline {figure}{\numberline {8.4}{\ignorespaces ECG-ira project structure and packages inside Android Studio IDE.\relax }}{67}{figure.caption.44}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {9.1}{\ignorespaces Two screens of the application, respectively the home screen and the form screen to be compiled by the patient\relax }}{72}{figure.caption.48}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {The home screen of the application ECG-ira.}}}{72}{subfigure.1.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {The form to be compiled before a record can start. It is necessary to bind any record to a patient data in order to avoid confusion between ecg records. This data is also useful for a fully understanding of the record itself}}}{72}{subfigure.1.2}
-\contentsline {figure}{\numberline {9.2}{\ignorespaces Two screens of the application representing the realtime acquisition and the list of records within the device\relax }}{74}{figure.caption.49}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {A real time ECG acquisition from the Zecg acquisition device.}}}{74}{subfigure.2.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {List of records within the device default folder}}}{74}{subfigure.2.2}
-\contentsline {figure}{\numberline {9.3}{\ignorespaces Two screens of the application representing the info dialog for a certain record and the visualization of that record\relax }}{75}{figure.caption.50}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Screen triggered by long pressing on a list item. At the bottom of the screen there is a ToolBar showing the info and the delete options described above.}}}{75}{subfigure.3.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {An example of record opening and plotting. In the screen a MIT-BIH record format was opened.}}}{75}{subfigure.3.2}
-\contentsline {figure}{\numberline {9.4}{\ignorespaces Two screens of the application representing the info dialog for a certain record and the visualization of that record\relax }}{76}{figure.caption.51}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Progress displaying during the analysis process over the record.}}}{76}{subfigure.4.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Screen of the record plot with annotations results from an analysis over the first lead (MLII).}}}{76}{subfigure.4.2}
-\contentsline {figure}{\numberline {9.5}{\ignorespaces Screen of the three graphs generated after an analysis of the records. They are graphs summing up the complete record characteristics. Useful for a general overview of the patient record and health status.\relax }}{77}{figure.caption.52}
-\contentsline {figure}{\numberline {9.6}{\ignorespaces The customization section of the application. A list of available settings parameters to tune the application behaviour.d\relax }}{78}{figure.caption.53}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {First parameters option within the Custom Settings}}}{78}{subfigure.6.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Second parameters option within the Custom Settings}}}{78}{subfigure.6.2}
-\contentsline {figure}{\numberline {9.7}{\ignorespaces An example of detailed view of an application memory usage.\relax }}{81}{figure.caption.56}
-\contentsline {figure}{\numberline {9.8}{\ignorespaces Memory usage during application idle state. It is quite constant (due to user interaction it can slightly increase or decrease if no interaction at all for a while).\relax }}{82}{figure.caption.59}
-\contentsline {figure}{\numberline {9.9}{\ignorespaces Details about memory usage and allocation over the different RAM section for the application EC-ira.\relax }}{83}{figure.caption.60}
-\contentsline {figure}{\numberline {9.10}{\ignorespaces Two memory usage views, relatively the realtime view with the application running and the per process memory view and allocation.\relax }}{84}{figure.caption.62}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Memory usage during a record plotting. The waves are due to Garbage collector calls to free resources. The final resource usage in this phase is rather constant as well.}}}{84}{subfigure.10.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Memory usage by RAM types during a record plot.}}}{84}{subfigure.10.2}
-\contentsline {figure}{\numberline {9.11}{\ignorespaces Memory usage during an analysis launched over a record. The step is due to the record allocation in a memory buffer.\relax }}{85}{figure.caption.64}
-\contentsline {figure}{\numberline {9.12}{\ignorespaces Memory usage at the exact time the algorithm performs the final steps by computing the ST+/St- areas (execution finish at 10m34s).\relax }}{85}{figure.caption.65}
-\contentsline {figure}{\numberline {9.13}{\ignorespaces Memory usage details by RAM types.\relax }}{86}{figure.caption.66}
-\contentsline {figure}{\numberline {9.14}{\ignorespaces Memory usage of ECG-ira in Idle state.\relax }}{87}{figure.caption.69}
-\contentsline {figure}{\numberline {9.15}{\ignorespaces Memory usage of ECG-ira in Idle state by RAM types.\relax }}{88}{figure.caption.70}
-\contentsline {figure}{\numberline {9.16}{\ignorespaces Two memory usage views during a normal app execution, on the second figure a GC is called before the memory reach the heap\relax }}{89}{figure.caption.72}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Memory usage during a record plotting. We can see that the step is due to a GC call.}}}{89}{subfigure.16.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Memory usage during a record plotting. We force two GC calls as they can be seen considering the the first big step and the second small one.}}}{89}{subfigure.16.2}
-\contentsline {figure}{\numberline {9.17}{\ignorespaces Memory usage details by RAM types.\relax }}{90}{figure.caption.73}
-\contentsline {figure}{\numberline {9.18}{\ignorespaces Two memory usage views during the execution of the analysis algorithms, on the first figure \ref {fig10.25} the step sign the execution satrting point, in figure \ref {fig10.26} the step is due to the end of the execution\relax }}{91}{figure.caption.75}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Memory usage when a record analysis is called. The step in the memory usage graph is due to the buffer allocation for the record.}}}{91}{subfigure.18.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Memory usage when a record analysis is called. The step in the memory usage graph is due to the analysis algorithm running on the record.}}}{91}{subfigure.18.2}
-\contentsline {figure}{\numberline {9.19}{\ignorespaces Memory usage when a record analysis is called. The memory usage is divide by RAM types.\relax }}{92}{figure.caption.76}
-\contentsline {figure}{\numberline {9.20}{\ignorespaces Cpu usage during idle state, the application is on foreground on a static page.\relax }}{93}{figure.caption.80}
-\contentsline {figure}{\numberline {9.21}{\ignorespaces Cpu usage when a record is plot on screen.\relax }}{94}{figure.caption.82}
-\contentsline {figure}{\numberline {9.22}{\ignorespaces Cpu usage when we close a plotting screen and reopen it.\relax }}{94}{figure.caption.83}
-\contentsline {figure}{\numberline {9.23}{\ignorespaces CPU usage during analysis state. An analysis command is launched over an ECG record strip.\relax }}{95}{figure.caption.85}
-\contentsline {figure}{\numberline {9.24}{\ignorespaces CPU usage on idle pages(app open on static screen page)\relax }}{96}{figure.caption.88}
-\contentsline {figure}{\numberline {9.25}{\ignorespaces CPU usage during a record plotting)\relax }}{96}{figure.caption.90}
-\contentsline {figure}{\numberline {9.26}{\ignorespaces usage when the analysis algorithm is launched over a record)\relax }}{97}{figure.caption.92}
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Class diagram of the SampleSource interface.\relax }}{73}{figure.caption.49}
+\contentsline {figure}{\numberline {9.2}{\ignorespaces The movement of the file pointer in the DatReader, after the user change direction of scrolling the ECG paper.\relax }}{75}{figure.caption.51}
+\contentsline {figure}{\numberline {9.3}{\ignorespaces The iteration between SampleSource and SampleDisplay after the user scroll the ECG paper.\relax }}{76}{figure.caption.52}
+\contentsline {figure}{\numberline {9.4}{\ignorespaces The animation mechanism of DatReader using SheduledThreadPoolExecutor.\relax }}{77}{figure.caption.53}
+\contentsline {figure}{\numberline {9.5}{\ignorespaces Class diagram of the DatReader class.\relax }}{78}{figure.caption.54}
+\contentsline {figure}{\numberline {9.6}{\ignorespaces Class diagram of the SampleDisplay interface.\relax }}{79}{figure.caption.57}
+\contentsline {figure}{\numberline {9.7}{\ignorespaces The size of the ECG paper block after the computation of the method calculateMetrics().\relax }}{81}{figure.caption.59}
+\contentsline {figure}{\numberline {9.8}{\ignorespaces Class diagram of the SignalScrollView class.\relax }}{83}{figure.caption.60}
+\contentsline {figure}{\numberline {9.9}{\ignorespaces The different ECG visualization types. The one on top is the scrolling drawing, the one in the bottom is the oscilloscope drawing. The time passed after the movement of the ECG paper is one second.\relax }}{84}{figure.caption.63}
+\contentsline {figure}{\numberline {9.10}{\ignorespaces Class diagram of the DrawingHelper class.\relax }}{86}{figure.caption.64}
+\contentsline {figure}{\numberline {9.11}{\ignorespaces Class diagram of the Drawer class.\relax }}{87}{figure.caption.66}
+\contentsline {figure}{\numberline {9.12}{\ignorespaces Activity diagram of a new ECG record acquisition operation.\relax }}{89}{figure.caption.69}
+\contentsline {figure}{\numberline {9.13}{\ignorespaces Activity diagram of a new ECG record acquisition operation.\relax }}{91}{figure.caption.71}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {10.1}{\ignorespaces The home screen of the application ECG-ira.\relax }}{94}{figure.caption.72}
+\contentsline {figure}{\numberline {10.2}{\ignorespaces The form to be compiled before a record can start. It is necessary to bind any record to a patient data in order to avoid confusion between ecg records. This data is also useful for a fully understanding of the record itself.\relax }}{95}{figure.caption.73}
+\addvspace {10\p@ }
 \addvspace {10\p@ }

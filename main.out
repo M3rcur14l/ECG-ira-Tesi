@@ -76,9 +76,16 @@
 \BOOKMARK [0][-]{chapter.8}{System architecture}{}% 76
 \BOOKMARK [1][-]{section.8.1}{Acquisition device}{chapter.8}% 77
 \BOOKMARK [2][-]{subsection.8.1.1}{Mobile app}{section.8.1}% 78
-\BOOKMARK [0][-]{chapter.9}{Final result}{}% 79
-\BOOKMARK [1][-]{section.9.1}{App Screens}{chapter.9}% 80
-\BOOKMARK [2][-]{subsection.9.1.1}{Performance}{section.9.1}% 81
-\BOOKMARK [2][-]{subsection.9.1.2}{Evaluation}{section.9.1}% 82
-\BOOKMARK [2][-]{subsection.9.1.3}{Response Time}{section.9.1}% 83
-\BOOKMARK [0][-]{chapter*.95}{Acknowledgement}{}% 84
+\BOOKMARK [0][-]{chapter.9}{Implementation details}{}% 79
+\BOOKMARK [1][-]{section.9.1}{Main components}{chapter.9}% 80
+\BOOKMARK [2][-]{subsection.9.1.1}{Data Sources}{section.9.1}% 81
+\BOOKMARK [2][-]{subsection.9.1.2}{Display}{section.9.1}% 82
+\BOOKMARK [2][-]{subsection.9.1.3}{Connection}{section.9.1}% 83
+\BOOKMARK [2][-]{subsection.9.1.4}{Operations Flow}{section.9.1}% 84
+\BOOKMARK [0][-]{chapter.10}{Final result}{}% 85
+\BOOKMARK [1][-]{section.10.1}{App Screens}{chapter.10}% 86
+\BOOKMARK [0][-]{chapter.11}{Conclusions}{}% 87
+\BOOKMARK [1][-]{section.11.1}{Future works}{chapter.11}% 88
+\BOOKMARK [1][-]{section.11.2}{Mobile as replacement to desktop}{chapter.11}% 89
+\BOOKMARK [1][-]{section.11.3}{Mobile as first medical solution}{chapter.11}% 90
+\BOOKMARK [0][-]{chapter*.74}{Acknowledgement}{}% 91
