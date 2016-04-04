@@ -139,13 +139,9 @@ Android Developers.
 
 \bibitem{ref26}
 Android~Design Patterns.
-\newblock How to leak a context: Handlers \& Inner Casses.
+\newblock How to leak a context: Handlers \& inner classes.
 \newblock
   \url{http://www.androiddesignpatterns.com/2013/01/inner-class-handler-memory-leak.html},
   2013.
-
-\bibitem{ref27}
-Samsung galaxy siii mini, samsung galaxy note n7000, oneplus x, sony xperia z3
-  compact, sony tablet z, huawei p8 lite.
 
 \end{thebibliography}

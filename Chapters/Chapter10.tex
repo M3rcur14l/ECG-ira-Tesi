@@ -11,11 +11,8 @@ By launching the application the first screen is the home screen. It is the star
 \caption{Two screens of the application, respectively the home screen and the form screen to be compiled by the patient}  
 \label{fig10.1ab}
 \end{figure}
-\\By clicking on the “New Record” button option (see figure \ref{fig10.1}), the user will be asked to fill a form with his data as a patient. This data will be then stored within a header file (with .hea extension)  together with the file containing the effective record (.dat file extension). The personal data are only used by the doctor to identify the patient records.
-\newpage
-Over the submission of the form the file .hea is immediately created to store all the information.\\
-If the device is already connected with an acquisition device Zecg, then the application tries immediately to establish a connection to receive data. Otherwise it opens a connection request activity to enable the Bluetooth and start to discover nearby Bluetooth devices.
-\newpage
+\\By clicking on the “New Record” button option (see figure \ref{fig10.1}), the user will be asked to fill a form with his data as a patient. This data will be then stored within a header file (with .hea extension)  together with the file containing the effective record (.dat file extension). The personal data are only used by the doctor to identify the patient records.\\
+Over the submission of the form the file .hea is immediately created to store all the information. If the device is already connected with an acquisition device ZEcg, the application tries immediately to establish a connection to receive data and visualize it (see the acquisition screen in the figure \ref{fig10.3}). Otherwise it opens a connection request activity to enable the Bluetooth and start to discover nearby Bluetooth devices.\\
 \begin{figure}[!htb]
 	\centering
 	\subfloat[A real time ECG acquisition from the Zecg acquisition device.]{	\includegraphics[width=0.3\linewidth]{figures/ch10/3.png}\label{fig10.3}}
@@ -24,7 +21,7 @@ If the device is already connected with an acquisition device Zecg, then the app
 	\caption{Two screens of the application representing the realtime acquisition and the list of records within the device}  
 	\label{fig10.3ab}
 \end{figure}
-Going back to the home screen (figure \ref{fig10.1}), by clicking on the “Open record” option button the user will access a list of ECG records saved on its own device on a predefined root folder within the device system memory (the default folder can be changed within the setting section).\\
+Going back to the home screen (figure \ref{fig10.1}), by clicking on the “Open record” option button the user will access a list of ECG records saved (figure \ref{fig10.4}) on its own device on a predefined root folder within the device system memory (the default folder can be changed within the setting section).\\
 For each record the most relevant information are highlighted:
 \begin{itemize}
 	\item File Name
@@ -33,8 +30,7 @@ For each record the most relevant information are highlighted:
 	\item Duration in time of the record
 	\item Name of the patient
 \end{itemize}	
-For more details about each record it is possible to long press on the desired record to show up a ToolBar shown in figure 10.5.
-\newpage
+For more details about each record it is possible to long press on the desired record to show up a ToolBar shown in figure \ref{fig10.5}.\\
 \begin{figure}[!htb]
 	\centering
 	\subfloat[Screen triggered by long pressing on a list item. At the bottom of the screen there is a ToolBar showing the info and the delete options described above.]{	\includegraphics[width=0.3\linewidth]{figures/ch10/5.png}\label{fig10.5}}
@@ -43,10 +39,9 @@ For more details about each record it is possible to long press on the desired r
 	\caption{Two screens of the application representing the info dialog for a certain record and the visualization of that record}  
 	\label{fig10.5ab}
 \end{figure}
-The ToolBar is show at the bottom, it gives the possibility to show more details about the record and the patient information. In the side screenshot the user clicked on the “i” info button so the .hea file containing the user information are shown. Plus the user (in this case the doctor) can add personal notes to the specific record and the specific patient. The notes will be permanently stored within the .hea file.\\
+The ToolBar is show at the bottom, it gives the possibility to show more details about the record and the patient information. In the figure \ref{fig10.5} the user clicked on the “i” info button so the .hea file containing the user information are shown. Plus the user (in this case the doctor) can add personal notes to the specific record and the specific patient. The notes will be permanently stored within the .hea file.\\
 The other option within the ToolBar is a delete record option in case the user decide to remove that specific record, assuming it was taken with too noises or it was just a test record.\\
-By opening a record the application will fetch the .dat file and will plot its content over the ECG paper view. It is possible to scroll the record strip just by touching and dragging the screen with a finger, otherwise it is possible to reproduce the record as it was recorded with the exact acquisition speed time by clicking on the green round button at the bottom right.
-\newpage
+By opening a record the application will fetch the .dat file and will plot its content over the ECG paper view (figure \ref{fig10.6}). It is possible to scroll the record strip just by touching and dragging the screen with a finger, otherwise it is possible to reproduce the record as it was recorded with the exact acquisition speed time by clicking on the green round button at the bottom right.\\
 \begin{figure}[!htb]
 	\centering
 	\subfloat[Progress displaying during the analysis process over the record.]{	\includegraphics[width=0.3\linewidth]{figures/ch10/7.png}\label{fig10.7}}
@@ -55,34 +50,33 @@ By opening a record the application will fetch the .dat file and will plot its c
 	\caption{Two screens of the application representing the info dialog for a certain record and the visualization of that record}  
 	\label{fig10.7ab}
 \end{figure}
-The top ToolBar option menu is used to trigger the analysis algorithm over the opened record. If the user triggers this command, due to the great amount of operations behind the analysis process we force the user to wait for the result till the process ends. \\
-The result of an analysis is the plot of the annotation letters (N=normal, V=ventricular, A=atrial) related to each detected beats and its diagnosis.  In the screenshot we can see four heart beats marked as Normal. The annotations covers all the record length and even if it is done on one lead only (D2 as default analysis signal), it is shown on all the other leads.
-\newpage
+The top ToolBar option menu is used to trigger the analysis algorithm over the opened record. If the user triggers this command, due to the great amount of operations behind the analysis process we force the user to wait for the result till the process ends.\\
+The result of an analysis is the plot of the annotation letters (N=normal, V=ventricular, A=atrial) related to each detected beats and its diagnosis. In the figure \ref{fig10.8} we can see four heart beats marked as Normal. The annotations covers all the record length and even if it is done on one lead only (D2 as default analysis signal), it is shown on all the other leads.\\
 \begin{figure}
 \centering
 \includegraphics[width=0.3\linewidth]{figures/ch10/9.png}
 	\caption{Screen of the three graphs generated after an analysis of the records. They are graphs summing up the complete record characteristics. Useful for a general overview of the patient record and health status.}  
 	\label{fig10.9}
 \end{figure}
-Another result from the analysis is the generation of three different graphs useful to support a better analysis over the heart overall behaviour as they sum up the total record “statistics”. They are:\\
+Another result from the analysis is the generation of three different graphs (see figure \ref{fig10.9}), useful to support a better analysis over the heart overall behaviour as they sum up the total record “statistics”. They are:
 \begin{itemize}
 \item \textbf{Istogram} : on the X-axis we have an ordered values of the heart beats measures in bpm. On the Y-axis the occurrences of beats at that bpm value.
 \item \textbf{Tacogram}: on the X-axis we have the number of heartbeats retrieved by the analysis. On the Y-axis the bpm values of each heart beats. 
 \item \textbf{ST+/ST-}: this graph shows instead, for each heartbeat, the amount of area below the ST segment and the area above that segment. This is useful especially to detect some specific arrhythmias.
 \end{itemize}
-\newpage
 \begin{figure}[!htb]
 	\centering
-	\subfloat[First parameters option within the Custom Settings]{	\includegraphics[width=0.3\linewidth]{figures/ch10/10.png}\label{fig10.10a}}
+	\subfloat[First parameters option within the Custom Settings]{	\includegraphics[width=0.3\linewidth]{figures/ch10/10a.png}\label{fig10.10a}}
 	\qquad 
 	\subfloat[Second parameters option within the Custom Settings]{	\includegraphics[width=0.3\linewidth]{figures/ch10/10b.png}\label{fig10.10b}}
-	\caption{The customization section of the application. A list of available settings parameters to tune the application behaviour.d}  
+	\caption{The customization section of the application. A list of available settings parameters to tune the application behaviour.}  
 	\label{fig10.10}
 \end{figure}
-About the customization setting  for the application we made a long setting screen with lots of customizable parameters.\\
+About the customization setting for the application, we made a long setting screen with lots of customizable parameters (figure \ref{fig10.10}).\\
 The first is related to the application of a baseline filter during the record visualization in order to reduce the baseline wandering effect. The second category of settings are related to the acquisition phase. It includes the acquisition format, the gain, the sample rate, quantization and the name of the acquisition device (for example it can be: ZEcg vers 2/3/4).\\
 The third category is related to the drawing settings. These settings will affect only the graphical views such as the height of each strips, the way the strip is reproduces (by scrolling or by using the old style oscilloscope effect) and the preferred frame rate to be used.\\
 The last category is to tune the default folder to store the new acquired records and from which open the records within the application (figure \ref{fig10.4}).
+
 \subsection{Performance}
 In this section we reported some performance results from different aspects such as Memory usage, CPU usage and response time during a run of the application performed on different devices with installed different Android OS and different hardwares. The tests were performed on the following devices dated respectibely on 2011 and on 2015:
 \begin{itemize}
