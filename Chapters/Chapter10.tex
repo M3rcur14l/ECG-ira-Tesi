@@ -331,28 +331,28 @@ To have accurate measurements we put inside the application additional lines of 
 Android OS offers an utility class to measure execution time of methods that is the TimingLogger class.\\
 As documented into the Android references guide the class is used as follows:
 \begin{lstlisting}
-     TimingLogger timings = new TimingLogger(TAG,"methodA");
-          //do some work A
-          timings.addSplit("work A");
-          // do some work 
-          timings.addSplit("work B");
-          //do some work C
-          timings.addSplit("work C");
-          timings.dumpToLog();
+	TimingLogger timings = new TimingLogger(TAG,"methodA");
+	//do some work A
+	timings.addSplit("work A");
+	// do some work 
+	timings.addSplit("work B");
+	//do some work C
+	timings.addSplit("work C");
+	timings.dumpToLog();
 \end{lstlisting}
 After a class declaration we split the time between the methods we want to check the execution time.\
 We used such a class to measure the longest operations within ECG-ira, that is when we load the record into memory and when we execute the analysis on the record.
 \begin{lstlisting}
-//A timingLogger implementation to measure the execution time of the two //longest processes.
-@Override
-protected Boolean doInBackground(Void params) {
-TimingLogger timeLogger = new TimingLogger("it.polimi.anto.chai.ecg_ira.Activity.AsyncTask", "RECORD ANALYSIS");
-short[] result = parser.getSamplesForAnalysis(index);
-timeLogger.addSplit("sample extraction from file to memory");
-Analysis.execute(result, rate);
-timeLogger.addSplit("analysis execution");
-timeLogger.dumoToLog();
-}
+	/*A timingLogger implementation to measure the execution time of the two longest processes.*/
+	@Override
+	protected Boolean doInBackground(Void params) {
+		TimingLogger timeLogger = new TimingLogger("it.polimi.anto.chai.ecg_ira.Activity.AsyncTask", "RECORD ANALYSIS");
+		short[] result = parser.getSamplesForAnalysis(index);
+		timeLogger.addSplit("sample extraction from file to memory");
+		Analysis.execute(result, rate);
+		timeLogger.addSplit("analysis execution");
+		timeLogger.dumoToLog();
+	}
 \end{lstlisting}
 The same code was executed on different devices and as expected the OnePlus X performed much better in term of execution time.\\
 Below is reported the execution time in milliseconds for the sample extraction from the .dat file to the memory and the time spent to execute the analysis on the record.\\
