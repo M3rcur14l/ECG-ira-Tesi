@@ -227,18 +227,47 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {8.4}{\ignorespaces ECG-ira project structure and packages inside Android Studio IDE.\relax }}{67}{figure.caption.44}}
 \newlabel{fig8.4}{{8.4}{67}{ECG-ira project structure and packages inside Android Studio IDE.\relax }{figure.caption.44}{}}
 \@writefile{toc}{\contentsline {subsubsection}{Code reuse and maintainability}{68}{section*.45}}
-\@writefile{toc}{\contentsline {subsubsection}{Maximize performance depending on the device constraints}{68}{section*.46}}
+\@writefile{toc}{\contentsline {subsubsection}{Maximize performance depending on the device constraints}{69}{section*.46}}
 \@writefile{toc}{\contentsline {subsubsection}{ Usability in term of interface and interaction}{69}{section*.47}}
-\citation{ref27}
-\@writefile{toc}{\contentsline {chapter}{\numberline {9}Final result}{71}{chapter.9}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {9}Implementation details}{71}{chapter.9}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {9.1}App Screens}{71}{section.9.1}}
-\@writefile{lof}{\contentsline {figure}{\numberline {9.1}{\ignorespaces The home screen of the application ECG-ira.\relax }}{72}{figure.caption.48}}
-\newlabel{fig10.1}{{9.1}{72}{The home screen of the application ECG-ira.\relax }{figure.caption.48}{}}
-\newlabel{SC@1}{{\caption@xref {??}{ on input line 18}}{73}{App Screens}{figure.caption.49}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {9.2}{\ignorespaces The form to be compiled before a record can start. It is necessary to bind any record to a patient data in order to avoid confusion between ecg records. This data is also useful for a fully understanding of the record itself.\relax }}{73}{figure.caption.49}}
-\newlabel{fig10.2}{{9.2}{73}{The form to be compiled before a record can start. It is necessary to bind any record to a patient data in order to avoid confusion between ecg records. This data is also useful for a fully understanding of the record itself.\relax }{figure.caption.49}{}}
+\newlabel{Chapter9}{{9}{71}{Implementation details}{chapter.9}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {9.1}Main components}{71}{section.9.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.1.1}Data Sources}{72}{subsection.9.1.1}}
+\@writefile{toc}{\contentsline {subsubsection}{SampleSource}{72}{section*.48}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9.1}{\ignorespaces Class diagram of the SampleSource interface.\relax }}{73}{figure.caption.49}}
+\newlabel{fig9.1}{{9.1}{73}{Class diagram of the SampleSource interface.\relax }{figure.caption.49}{}}
+\@writefile{toc}{\contentsline {subsubsection}{DatReader}{73}{section*.50}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9.2}{\ignorespaces The movement of the file pointer in the DatReader, after the user change direction of scrolling the ECG paper.\relax }}{75}{figure.caption.51}}
+\newlabel{fig9.2}{{9.2}{75}{The movement of the file pointer in the DatReader, after the user change direction of scrolling the ECG paper.\relax }{figure.caption.51}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9.3}{\ignorespaces The iteration between SampleSource and SampleDisplay after the user scroll the ECG paper.\relax }}{76}{figure.caption.52}}
+\newlabel{fig9.3}{{9.3}{76}{The iteration between SampleSource and SampleDisplay after the user scroll the ECG paper.\relax }{figure.caption.52}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9.4}{\ignorespaces The animation mechanism of DatReader using SheduledThreadPoolExecutor.\relax }}{77}{figure.caption.53}}
+\newlabel{fig9.4}{{9.4}{77}{The animation mechanism of DatReader using SheduledThreadPoolExecutor.\relax }{figure.caption.53}{}}
+\@writefile{toc}{\contentsline {subsubsection}{ ZEcgReceiver}{77}{section*.55}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9.5}{\ignorespaces Class diagram of the DatReader class.\relax }}{78}{figure.caption.54}}
+\newlabel{fig9.5}{{9.5}{78}{Class diagram of the DatReader class.\relax }{figure.caption.54}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.1.2}Display}{79}{subsection.9.1.2}}
+\@writefile{toc}{\contentsline {subsubsection}{SampleDisplay}{79}{section*.56}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9.6}{\ignorespaces Class diagram of the SampleDisplay interface.\relax }}{79}{figure.caption.57}}
+\newlabel{fig9.6}{{9.6}{79}{Class diagram of the SampleDisplay interface.\relax }{figure.caption.57}{}}
+\citation{ref24}
+\@writefile{toc}{\contentsline {subsubsection}{SignalScrollView}{80}{section*.58}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9.7}{\ignorespaces The size of the ECG paper block after the computation of the method calculateMetrics().\relax }}{81}{figure.caption.59}}
+\newlabel{fig9.7}{{9.7}{81}{The size of the ECG paper block after the computation of the method calculateMetrics().\relax }{figure.caption.59}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9.8}{\ignorespaces Class diagram of the SignalScrollView class.\relax }}{83}{figure.caption.60}}
+\newlabel{fig9.8}{{9.8}{83}{Class diagram of the SignalScrollView class.\relax }{figure.caption.60}{}}
+\citation{ref27}
+\@writefile{toc}{\contentsline {chapter}{\numberline {10}Final result}{85}{chapter.10}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {section}{\numberline {10.1}App Screens}{85}{section.10.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10.1}{\ignorespaces The home screen of the application ECG-ira.\relax }}{86}{figure.caption.61}}
+\newlabel{fig10.1}{{10.1}{86}{The home screen of the application ECG-ira.\relax }{figure.caption.61}{}}
+\newlabel{SC@1}{{\caption@xref {??}{ on input line 18}}{87}{App Screens}{figure.caption.62}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10.2}{\ignorespaces The form to be compiled before a record can start. It is necessary to bind any record to a patient data in order to avoid confusion between ecg records. This data is also useful for a fully understanding of the record itself.\relax }}{87}{figure.caption.62}}
+\newlabel{fig10.2}{{10.2}{87}{The form to be compiled before a record can start. It is necessary to bind any record to a patient data in order to avoid confusion between ecg records. This data is also useful for a fully understanding of the record itself.\relax }{figure.caption.62}{}}
 \@input{Include/acknowledgements.aux}
 \bibdata{Include/Bibliography}
 \bibcite{ref1}{{1}{}{{}}{{}}}
@@ -264,5 +293,6 @@
 \bibcite{ref21}{{21}{}{{}}{{}}}
 \bibcite{ref22}{{22}{}{{}}{{}}}
 \bibcite{ref23}{{23}{}{{}}{{}}}
-\bibcite{ref27}{{24}{}{{}}{{}}}
+\bibcite{ref24}{{24}{}{{}}{{}}}
+\bibcite{ref27}{{25}{}{{}}{{}}}
 \providecommand\NAT@force@numbers{}\NAT@force@numbers

@@ -85,8 +85,17 @@
 \contentsline {section}{\numberline {8.1}Acquisition device}{63}{section.8.1}
 \contentsline {subsection}{\numberline {8.1.1}Mobile app}{64}{subsection.8.1.1}
 \contentsline {subsubsection}{Code reuse and maintainability}{68}{section*.45}
-\contentsline {subsubsection}{Maximize performance depending on the device constraints}{68}{section*.46}
+\contentsline {subsubsection}{Maximize performance depending on the device constraints}{69}{section*.46}
 \contentsline {subsubsection}{ Usability in term of interface and interaction}{69}{section*.47}
-\contentsline {chapter}{\numberline {9}Final result}{71}{chapter.9}
-\contentsline {section}{\numberline {9.1}App Screens}{71}{section.9.1}
-\contentsline {chapter}{Acknowledgement}{75}{chapter*.50}
+\contentsline {chapter}{\numberline {9}Implementation details}{71}{chapter.9}
+\contentsline {section}{\numberline {9.1}Main components}{71}{section.9.1}
+\contentsline {subsection}{\numberline {9.1.1}Data Sources}{72}{subsection.9.1.1}
+\contentsline {subsubsection}{SampleSource}{72}{section*.48}
+\contentsline {subsubsection}{DatReader}{73}{section*.50}
+\contentsline {subsubsection}{ ZEcgReceiver}{77}{section*.55}
+\contentsline {subsection}{\numberline {9.1.2}Display}{79}{subsection.9.1.2}
+\contentsline {subsubsection}{SampleDisplay}{79}{section*.56}
+\contentsline {subsubsection}{SignalScrollView}{80}{section*.58}
+\contentsline {chapter}{\numberline {10}Final result}{85}{chapter.10}
+\contentsline {section}{\numberline {10.1}App Screens}{85}{section.10.1}
+\contentsline {chapter}{Acknowledgement}{89}{chapter*.63}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.13)  3 APR 2016 22:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.13)  4 APR 2016 15:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -589,6 +589,58 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count146
 )
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf.sty
+Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+)))
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
@@ -601,26 +653,15 @@ Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
 Package hobsub Info: Skipping package `ltxcmds' (already loaded).
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifluatex' (already loaded).
 Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
-Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package hobsub Info: Skipping package `etexcmds' (already loaded).
+Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
+Package hobsub Info: Skipping package `kvdefinekeys' (already loaded).
+Package hobsub Info: Skipping package `pdftexcmds' (already loaded).
 Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
 Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
 )
@@ -641,9 +682,6 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen160
 \Hy@linkcounter=\count147
@@ -728,7 +766,7 @@ Package: listings 2014/09/06 1.5e (Carsten Heinz)
 (/usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2014/09/06 1.5e listings language file
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 77.
+Package hyperref Info: Option `colorlinks' set `true' on input line 78.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 \fancy@headwidth=\skip65
@@ -748,22 +786,22 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 (./Include/abstract_ITA.aux) (./Include/acknowledgements.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 161.
-LaTeX Font Info:    ... okay on input line 161.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 161.
-LaTeX Font Info:    ... okay on input line 161.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 161.
-LaTeX Font Info:    ... okay on input line 161.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 161.
-LaTeX Font Info:    ... okay on input line 161.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 161.
-LaTeX Font Info:    ... okay on input line 161.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 161.
-LaTeX Font Info:    ... okay on input line 161.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 161.
-LaTeX Font Info:    ... okay on input line 161.
-LaTeX Info: Redefining \it@ocap on input line 161.
-LaTeX Info: Redefining \it@ccap on input line 161.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 162.
+LaTeX Font Info:    ... okay on input line 162.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 162.
+LaTeX Font Info:    ... okay on input line 162.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 162.
+LaTeX Font Info:    ... okay on input line 162.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 162.
+LaTeX Font Info:    ... okay on input line 162.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 162.
+LaTeX Font Info:    ... okay on input line 162.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 162.
+LaTeX Font Info:    ... okay on input line 162.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 162.
+LaTeX Font Info:    ... okay on input line 162.
+LaTeX Info: Redefining \it@ocap on input line 162.
+LaTeX Info: Redefining \it@ccap on input line 162.
 
 
 File italian.ldf warning: 
@@ -771,7 +809,7 @@ italian.ldf    With OT1 encoding guillemets are poorly faked
 italian.ldf    Use T1 encoding
 italian.ldf    or specify a font with command \CaporaliFrom
 italian.ldf    See the documentation concerning the babel-italian typesetting 
-italian.ldf    on input line 161.
+italian.ldf    on input line 162.
 
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -786,22 +824,7 @@ italian.ldf    on input line 161.
 \MPnumerator=\count169
 \makeMPintoPDFobject=\count170
 \everyMPtoPDFconversion=\toks31
-) (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
-)
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/ms/ragged2e.sty
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/ms/ragged2e.sty
 Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/ms/everysel.sty
@@ -837,7 +860,7 @@ Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
 )
 Package caption Info: xtab package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \microtypecontext on input line 161.
+LaTeX Info: Redefining \microtypecontext on input line 162.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -853,7 +876,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 (RS)
 )
 \AtBeginShipoutBox=\box41
-Package hyperref Info: Link coloring ON on input line 161.
+Package hyperref Info: Link coloring ON on input line 162.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -863,9 +886,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count171
 )
-LaTeX Info: Redefining \ref on input line 161.
-LaTeX Info: Redefining \pageref on input line 161.
-LaTeX Info: Redefining \nameref on input line 161.
+LaTeX Info: Redefining \ref on input line 162.
+LaTeX Info: Redefining \pageref on input line 162.
+LaTeX Info: Redefining \nameref on input line 162.
 
 (./main.out) (./main.out)
 \@outlinefile=\write6
@@ -875,7 +898,7 @@ LaTeX Info: Redefining \nameref on input line 161.
 \openout2 = `Include/cover.aux'.
 
  (./Include/cover.tex
-<figures/polimi_logo.png, id=329, 642.4pt x 401.5pt>
+<figures/polimi_logo.png, id=345, 642.4pt x 401.5pt>
 File: figures/polimi_logo.png Graphic file (type png)
 
 <use figures/polimi_logo.png>
@@ -934,11 +957,13 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 
  [9] [10
 
-] (./main.lof [11])
+] (./main.lof [11] [12])
 \tf@lof=\write8
 \openout8 = `main.lof'.
 
- [12] (./Chapters/Chapter1.tex
+ [13] [14
+
+] (./Chapters/Chapter1.tex
 Chapter 1.
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 9.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
@@ -948,13 +973,12 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 9.
  [1
 
-
 ] [2])
 (./Chapters/Chapter2.tex [3] [4
 
 ]
 Chapter 2.
-<figures/ch2/1.png, id=582, 1606.0pt x 1606.0pt>
+<figures/ch2/1.png, id=630, 1606.0pt x 1606.0pt>
 File: figures/ch2/1.png Graphic file (type png)
  <use figures/ch2/1.png>
 Package pdftex.def Info: figures/ch2/1.png used on input line 21.
@@ -968,7 +992,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--46
 
  []
 
-[7] <figures/ch2/2.png, id=603, 1606.0pt x 1606.0pt>
+[7] <figures/ch2/2.png, id=652, 1606.0pt x 1606.0pt>
 File: figures/ch2/2.png Graphic file (type png)
  <use figures/ch2/2.png>
 Package pdftex.def Info: figures/ch2/2.png used on input line 57.
@@ -978,26 +1002,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 63--65
 
  []
 
-[8 <./figures/ch2/2.png>] <figures/ch2/3.png, id=609, 240.9pt x 153.57375pt>
+[8 <./figures/ch2/2.png>] <figures/ch2/3.png, id=658, 240.9pt x 153.57375pt>
 File: figures/ch2/3.png Graphic file (type png)
 
 <use figures/ch2/3.png>
 Package pdftex.def Info: figures/ch2/3.png used on input line 68.
 (pdftex.def)             Requested size: 170.71652pt x 108.83424pt.
- <figures/ch2/4.png, id=610, 240.9pt x 153.57375pt>
+ <figures/ch2/4.png, id=659, 240.9pt x 153.57375pt>
 File: figures/ch2/4.png Graphic file (type png)
 
 <use figures/ch2/4.png>
 Package pdftex.def Info: figures/ch2/4.png used on input line 74.
 (pdftex.def)             Requested size: 170.71652pt x 108.83424pt.
  [9 <./figures/ch2/3.png>]
-<figures/ch2/5.png, id=616, 301.125pt x 301.125pt>
+<figures/ch2/5.png, id=665, 301.125pt x 301.125pt>
 File: figures/ch2/5.png Graphic file (type png)
  <use figures/ch2/5.png>
 Package pdftex.def Info: figures/ch2/5.png used on input line 91.
 (pdftex.def)             Requested size: 170.71652pt x 170.72406pt.
 
-<figures/ch2/6.png, id=617, 385.44pt x 251.94125pt>
+<figures/ch2/6.png, id=666, 385.44pt x 251.94125pt>
 File: figures/ch2/6.png Graphic file (type png)
  <use figures/ch2/6.png>
 Package pdftex.def Info: figures/ch2/6.png used on input line 102.
@@ -1006,27 +1030,27 @@ Package pdftex.def Info: figures/ch2/6.png used on input line 102.
 [10 <./figures/ch2/4.png>] [11 <./figures/ch2/5.png>]
 Underfull \vbox (badness 6236) has occurred while \output is active []
 
- [12 <./figures/ch2/6.png>] [13] <figures/ch2/7.png, id=638, 403.5075pt x 252.9
+ [12 <./figures/ch2/6.png>] [13] <figures/ch2/7.png, id=686, 403.5075pt x 252.9
 45pt>
 File: figures/ch2/7.png Graphic file (type png)
 
 <use figures/ch2/7.png>
 Package pdftex.def Info: figures/ch2/7.png used on input line 132.
 (pdftex.def)             Requested size: 256.0748pt x 160.52565pt.
- <figures/ch2/8.png, id=639, 727.518pt x 202.95825pt>
+ <figures/ch2/8.png, id=687, 727.518pt x 202.95825pt>
 File: figures/ch2/8.png Graphic file (type png)
 
 <use figures/ch2/8.png>
 Package pdftex.def Info: figures/ch2/8.png used on input line 141.
 (pdftex.def)             Requested size: 369.88582pt x 103.18835pt.
  [14 <./figures/ch2/7.png> <./figures/ch2/8.png>]
-<figures/ch2/9.png, id=645, 286.06876pt x 147.55125pt>
+<figures/ch2/9.png, id=693, 286.06876pt x 147.55125pt>
 File: figures/ch2/9.png Graphic file (type png)
  <use figures/ch2/9.png>
 Package pdftex.def Info: figures/ch2/9.png used on input line 154.
 (pdftex.def)             Requested size: 256.0748pt x 132.08116pt.
 
-<figures/ch2/10.png, id=646, 289.08pt x 140.9265pt>
+<figures/ch2/10.png, id=694, 289.08pt x 140.9265pt>
 File: figures/ch2/10.png Graphic file (type png)
  <use figures/ch2/10.png>
 Package pdftex.def Info: figures/ch2/10.png used on input line 163.
@@ -1034,7 +1058,7 @@ Package pdftex.def Info: figures/ch2/10.png used on input line 163.
 
 Underfull \vbox (badness 2253) has occurred while \output is active []
 
- [15 <./figures/ch2/9.png>] <figures/ch2/11.png, id=652, 290.2845pt x 145.7445p
+ [15 <./figures/ch2/9.png>] <figures/ch2/11.png, id=700, 290.2845pt x 145.7445p
 t>
 File: figures/ch2/11.png Graphic file (type png)
 
@@ -1046,44 +1070,44 @@ Package pdftex.def Info: figures/ch2/11.png used on input line 172.
 
 ]
 Chapter 3.
-<figures/ch3/1.png, id=667, 248.6088pt x 193.6836pt>
+<figures/ch3/1.png, id=716, 248.6088pt x 193.6836pt>
 File: figures/ch3/1.png Graphic file (type png)
  <use figures/ch3/1.png>
 Package pdftex.def Info: figures/ch3/1.png used on input line 19.
 (pdftex.def)             Requested size: 256.0748pt x 199.5111pt.
 
-<figures/ch3/2a.png, id=668, 963.6pt x 422.57875pt>
+<figures/ch3/2a.png, id=717, 963.6pt x 422.57875pt>
 File: figures/ch3/2a.png Graphic file (type png)
  <use figures/ch3/2a.png>
 Package pdftex.def Info: figures/ch3/2a.png used on input line 28.
 (pdftex.def)             Requested size: 256.0748pt x 112.29878pt.
 
-<figures/ch3/2b.png, id=669, 963.6pt x 422.57875pt>
+<figures/ch3/2b.png, id=718, 963.6pt x 422.57875pt>
 File: figures/ch3/2b.png Graphic file (type png)
  <use figures/ch3/2b.png>
 Package pdftex.def Info: figures/ch3/2b.png used on input line 29.
 (pdftex.def)             Requested size: 256.0748pt x 112.29878pt.
 
-[19] <figures/ch3/3.png, id=675, 481.8pt x 411.5375pt>
+[19] <figures/ch3/3.png, id=723, 481.8pt x 411.5375pt>
 File: figures/ch3/3.png Graphic file (type png)
  <use figures/ch3/3.png>
 Package pdftex.def Info: figures/ch3/3.png used on input line 38.
 (pdftex.def)             Requested size: 256.0748pt x 218.7355pt.
 
 [20 <./figures/ch3/1.png> <./figures/ch3/2a.png> <./figures/ch3/2b.png>]
-<figures/ch3/4a.png, id=683, 301.125pt x 301.125pt>
+<figures/ch3/4a.png, id=731, 301.125pt x 301.125pt>
 File: figures/ch3/4a.png Graphic file (type png)
  <use figures/ch3/4a.png>
 Package pdftex.def Info: figures/ch3/4a.png used on input line 47.
 (pdftex.def)             Requested size: 170.71652pt x 170.72406pt.
 
-<figures/ch3/4b.png, id=684, 301.125pt x 301.125pt>
+<figures/ch3/4b.png, id=732, 301.125pt x 301.125pt>
 File: figures/ch3/4b.png Graphic file (type png)
  <use figures/ch3/4b.png>
 Package pdftex.def Info: figures/ch3/4b.png used on input line 48.
 (pdftex.def)             Requested size: 170.71652pt x 170.72406pt.
 
-<figures/ch3/5.png, id=685, 423.38174pt x 240.9pt>
+<figures/ch3/5.png, id=733, 423.38174pt x 240.9pt>
 File: figures/ch3/5.png Graphic file (type png)
  <use figures/ch3/5.png>
 Package pdftex.def Info: figures/ch3/5.png used on input line 57.
@@ -1100,19 +1124,19 @@ Chapter 4.
 Chapter 5.
 [27
 
-] <figures/ch5/1.png, id=725, 388.45125pt x 231.86626pt>
+] <figures/ch5/1.png, id=774, 388.45125pt x 231.86626pt>
 File: figures/ch5/1.png Graphic file (type png)
 
 <use figures/ch5/1.png>
 Package pdftex.def Info: figures/ch5/1.png used on input line 28.
 (pdftex.def)             Requested size: 256.0748pt x 152.85529pt.
- <figures/ch5/2.png, id=726, 388.45125pt x 231.86626pt>
+ <figures/ch5/2.png, id=775, 388.45125pt x 231.86626pt>
 File: figures/ch5/2.png Graphic file (type png)
 
 <use figures/ch5/2.png>
 Package pdftex.def Info: figures/ch5/2.png used on input line 34.
 (pdftex.def)             Requested size: 256.0748pt x 152.85529pt.
- <figures/ch5/3.png, id=727, 388.45125pt x 231.86626pt>
+ <figures/ch5/3.png, id=776, 388.45125pt x 231.86626pt>
 File: figures/ch5/3.png Graphic file (type png)
 
 <use figures/ch5/3.png>
@@ -1131,33 +1155,33 @@ Underfull \vbox (badness 4181) has occurred while \output is active []
 
 ]
 Chapter 6.
-<figures/ch6/1.png, id=755, 733.74126pt x 330.23375pt>
+<figures/ch6/1.png, id=803, 733.74126pt x 330.23375pt>
 File: figures/ch6/1.png Graphic file (type png)
  <use figures/ch6/1.png>
 Package pdftex.def Info: figures/ch6/1.png used on input line 12.
 (pdftex.def)             Requested size: 341.43306pt x 153.66795pt.
 
-[33] <figures/ch6/2.png, id=764, 485.815pt x 331.2375pt>
+[33] <figures/ch6/2.png, id=812, 485.815pt x 331.2375pt>
 File: figures/ch6/2.png Graphic file (type png)
 
 <use figures/ch6/2.png>
 Package pdftex.def Info: figures/ch6/2.png used on input line 29.
 (pdftex.def)             Requested size: 284.52756pt x 193.99301pt.
  [34 <./figures/ch6/1.png>] [35 <./figures/ch6/2.png>]
-<figures/ch6/3.png, id=778, 561.09625pt x 461.725pt>
+<figures/ch6/3.png, id=827, 561.09625pt x 461.725pt>
 File: figures/ch6/3.png Graphic file (type png)
  <use figures/ch6/3.png>
 Package pdftex.def Info: figures/ch6/3.png used on input line 38.
 (pdftex.def)             Requested size: 341.43306pt x 280.9614pt.
 
 [36 <./figures/ch6/3.png>]
-<figures/ch6/4.png, id=789, 431.6125pt x 271.0125pt>
+<figures/ch6/4.png, id=838, 431.6125pt x 271.0125pt>
 File: figures/ch6/4.png Graphic file (type png)
  <use figures/ch6/4.png>
 Package pdftex.def Info: figures/ch6/4.png used on input line 57.
 (pdftex.def)             Requested size: 341.43306pt x 214.39526pt.
 
-[37] <figures/ch6/5.png, id=798, 690.58pt x 479.7925pt>
+[37] <figures/ch6/5.png, id=846, 690.58pt x 479.7925pt>
 File: figures/ch6/5.png Graphic file (type png)
 
 <use figures/ch6/5.png>
@@ -1166,7 +1190,7 @@ Package pdftex.def Info: figures/ch6/5.png used on input line 75.
  [38 <./figures/ch6/4.png>]
 Underfull \vbox (badness 1033) has occurred while \output is active []
 
- [39 <./figures/ch6/5.png>] <figures/ch6/6.png, id=826, 425.59pt x 545.03625pt>
+ [39 <./figures/ch6/5.png>] <figures/ch6/6.png, id=874, 425.59pt x 545.03625pt>
 File: figures/ch6/6.png Graphic file (type png)
 
 <use figures/ch6/6.png>
@@ -1174,7 +1198,7 @@ Package pdftex.def Info: figures/ch6/6.png used on input line 111.
 (pdftex.def)             Requested size: 312.9803pt x 400.84218pt.
 ) (./Chapters/Chapter7.tex [40] [41 <./figures/ch6/6.png>] [42]
 Chapter 7.
-<figures/ch7/1.png, id=848, 679.94025pt x 388.45125pt>
+<figures/ch7/1.png, id=898, 679.94025pt x 388.45125pt>
 File: figures/ch7/1.png Graphic file (type png)
  <use figures/ch7/1.png>
 Package pdftex.def Info: figures/ch7/1.png used on input line 12.
@@ -1193,7 +1217,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
  [45] [46] [47]
-<figures/ch7/2.png, id=888, 438.63875pt x 258.9675pt>
+<figures/ch7/2.png, id=937, 438.63875pt x 258.9675pt>
 File: figures/ch7/2.png Graphic file (type png)
  <use figures/ch7/2.png>
 Package pdftex.def Info: figures/ch7/2.png used on input line 73.
@@ -1212,14 +1236,14 @@ Overfull \hbox (122.21611pt too wide) in paragraph at lines 140--141
  []
 
 [50] [51] [52] [53] [54]
-<figures/ch7/3.png, id=1001, 537.00626pt x 426.59375pt>
+<figures/ch7/3.png, id=1050, 537.00626pt x 426.59375pt>
 File: figures/ch7/3.png Graphic file (type png)
 
 <use figures/ch7/3.png>
 Package pdftex.def Info: figures/ch7/3.png used on input line 240.
 (pdftex.def)             Requested size: 341.43306pt x 271.229pt.
  [55] [56 <./figures/ch7/3.png>]
-<figures/ch7/4.png, id=1029, 1561.835pt x 1210.5225pt>
+<figures/ch7/4.png, id=1077, 1561.835pt x 1210.5225pt>
 File: figures/ch7/4.png Graphic file (type png)
  <use figures/ch7/4.png>
 Package pdftex.def Info: figures/ch7/4.png used on input line 267.
@@ -1230,26 +1254,26 @@ Package pdftex.def Info: figures/ch7/4.png used on input line 267.
 
 ]
 Chapter 8.
-<figures/ch8/1.png, id=1060, 769.6755pt x 326.4195pt>
+<figures/ch8/1.png, id=1109, 769.6755pt x 326.4195pt>
 File: figures/ch8/1.png Graphic file (type png)
  <use figures/ch8/1.png>
 Package pdftex.def Info: figures/ch8/1.png used on input line 20.
-(pdftex.def)             Requested size: 256.0748pt x 108.60036pt.
+(pdftex.def)             Requested size: 312.9803pt x 132.73708pt.
 
-<figures/ch8/2.png, id=1061, 733.74126pt x 676.5275pt>
+<figures/ch8/2.png, id=1110, 733.74126pt x 676.5275pt>
 File: figures/ch8/2.png Graphic file (type png)
  <use figures/ch8/2.png>
 Package pdftex.def Info: figures/ch8/2.png used on input line 30.
-(pdftex.def)             Requested size: 256.0748pt x 236.10684pt.
+(pdftex.def)             Requested size: 341.43306pt x 314.80913pt.
 
-[63] <figures/ch8/3.png, id=1076, 324.61275pt x 526.96875pt>
+[63] <figures/ch8/3.png, id=1125, 324.61275pt x 526.96875pt>
 File: figures/ch8/3.png Graphic file (type png)
 
 <use figures/ch8/3.png>
 Package pdftex.def Info: figures/ch8/3.png used on input line 41.
 (pdftex.def)             Requested size: 256.0748pt x 415.7218pt.
  [64 <./figures/ch8/1.png>] [65 <./figures/ch8/2.png>]
-<figures/ch8/4.png, id=1096, 393.26926pt x 428.802pt>
+<figures/ch8/4.png, id=1144, 393.26926pt x 428.802pt>
 File: figures/ch8/4.png Graphic file (type png)
  <use figures/ch8/4.png>
 Package pdftex.def Info: figures/ch8/4.png used on input line 58.
@@ -1260,11 +1284,121 @@ Underfull \hbox (badness 10000) in paragraph at lines 88--90
 
  []
 
-[68]) (./Chapters/Chapter9.tex) (./Chapters/Chapter10.tex [69] [70
+[68]) (./Chapters/Chapter9.tex [69] [70]
+Chapter 9.
+
+Underfull \vbox (badness 2126) has occurred while \output is active []
+
+ [71
 
 ]
-Chapter 9.
-<figures/ch10/1.png, id=1129, 903.375pt x 1606.0pt>
+Package epstopdf Info: Source file: <figures/ch9/1.eps>
+(epstopdf)                    date: 2016-04-03 23:15:41
+(epstopdf)                    size: 43974 bytes
+(epstopdf)             Output file: <figures/ch9/1-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-04-03 23:17:52
+(epstopdf)                    size: 61904 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/ch9/1-eps-converte
+d-to.pdf figures/ch9/1.eps>
+(epstopdf)             \includegraphics on input line 35.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/ch9/1-eps-converted-to.pdf, id=1182, 332.24126pt x 187.70125pt>
+File: figures/ch9/1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/ch9/1-eps-converted-to.pdf>
+Package pdftex.def Info: figures/ch9/1-eps-converted-to.pdf used on input line 
+35.
+(pdftex.def)             Requested size: 256.0748pt x 144.67934pt.
+ [72] [73 <./figures/ch9/1-eps-converted-to.pdf>] <figures/ch9/2.png, id=1196, 
+1606.0pt x 865.2325pt>
+File: figures/ch9/2.png Graphic file (type png)
+
+<use figures/ch9/2.png>
+Package pdftex.def Info: figures/ch9/2.png used on input line 66.
+(pdftex.def)             Requested size: 398.33858pt x 214.60449pt.
+ <figures/ch9/3.png, id=1198, 811.03pt x 471.7625pt>
+File: figures/ch9/3.png Graphic file (type png)
+
+<use figures/ch9/3.png>
+Package pdftex.def Info: figures/ch9/3.png used on input line 74.
+(pdftex.def)             Requested size: 341.43306pt x 198.6068pt.
+ [74] [75 <./figures/ch9/2.png>] [76 <./figures/ch9/3.png>] <figures/ch9/4.png,
+ id=1221, 1369.115pt x 754.82pt>
+File: figures/ch9/4.png Graphic file (type png)
+
+<use figures/ch9/4.png>
+Package pdftex.def Info: figures/ch9/4.png used on input line 97.
+(pdftex.def)             Requested size: 341.43306pt x 188.23232pt.
+Package epstopdf Info: Source file: <figures/ch9/5.eps>
+(epstopdf)                    date: 2016-04-03 23:38:12
+(epstopdf)                    size: 79225 bytes
+(epstopdf)             Output file: <figures/ch9/5-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-04-03 23:38:44
+(epstopdf)                    size: 137687 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/ch9/5-eps-converte
+d-to.pdf figures/ch9/5.eps>
+(epstopdf)             \includegraphics on input line 103.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/ch9/5-eps-converted-to.pdf, id=1222, 528.97626pt x 452.69125pt>
+File: figures/ch9/5-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/ch9/5-eps-converted-to.pdf>
+Package pdftex.def Info: figures/ch9/5-eps-converted-to.pdf used on input line 
+103.
+(pdftex.def)             Requested size: 369.88582pt x 316.54324pt.
+ [77 <./figures/ch9/4.png>] [78 <./figures/ch9/5-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <figures/ch9/6.eps>
+(epstopdf)                    date: 2016-04-04 14:14:12
+(epstopdf)                    size: 45618 bytes
+(epstopdf)             Output file: <figures/ch9/6-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-04-04 14:14:57
+(epstopdf)                    size: 75257 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/ch9/6-eps-converte
+d-to.pdf figures/ch9/6.eps>
+(epstopdf)             \includegraphics on input line 125.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/ch9/6-eps-converted-to.pdf, id=1241, 444.66125pt x 187.70125pt>
+File: figures/ch9/6-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/ch9/6-eps-converted-to.pdf>
+Package pdftex.def Info: figures/ch9/6-eps-converted-to.pdf used on input line 
+125.
+(pdftex.def)             Requested size: 341.43306pt x 144.12657pt.
+ [79 <./figures/ch9/6-eps-converted-to.pdf>] <figures/ch9/7.png, id=1250, 722.7
+pt x 562.1pt>
+File: figures/ch9/7.png Graphic file (type png)
+ <use figures/ch9/7.png>
+Package pdftex.def Info: figures/ch9/7.png used on input line 146.
+(pdftex.def)             Requested size: 256.0748pt x 199.16522pt.
+
+[80] [81 <./figures/ch9/7.png>]
+Package epstopdf Info: Source file: <figures/ch9/8.eps>
+(epstopdf)                    date: 2016-04-04 15:02:56
+(epstopdf)                    size: 78932 bytes
+(epstopdf)             Output file: <figures/ch9/8-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-04-04 15:03:21
+(epstopdf)                    size: 148899 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/ch9/8-eps-converte
+d-to.pdf figures/ch9/8.eps>
+(epstopdf)             \includegraphics on input line 172.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/ch9/8-eps-converted-to.pdf, id=1265, 500.87125pt x 452.69125pt>
+File: figures/ch9/8-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/ch9/8-eps-converted-to.pdf>
+Package pdftex.def Info: figures/ch9/8-eps-converted-to.pdf used on input line 
+172.
+(pdftex.def)             Requested size: 369.88582pt x 334.31625pt.
+) (./Chapters/Chapter10.tex [82]
+[83 <./figures/ch9/8-eps-converted-to.pdf>] [84
+
+]
+Chapter 10.
+<figures/ch10/1.png, id=1282, 903.375pt x 1606.0pt>
 File: figures/ch10/1.png Graphic file (type png)
  <use figures/ch10/1.png>
 Package pdftex.def Info: figures/ch10/1.png used on input line 8.
@@ -1274,41 +1408,35 @@ File: figures/ch10/1.png Graphic file (type png)
 <use figures/ch10/1.png>
 Package pdftex.def Info: figures/ch10/1.png used on input line 16.
 (pdftex.def)             Requested size: 259.6101pt x 461.53763pt.
-
-Underfull \hbox (badness 1112) in paragraph at lines 18--18
-[][]\OT1/cmr/m/n/12 (+20) : |The form to be
- []
-
-) (./Chapters/Chapter11.tex) [71] [72 <./figures/ch10/1.png>] [73] [74
+) (./Chapters/Chapter11.tex) [85] [86 <./figures/ch10/1.png>] [87] [88
 
 ]
 \openout2 = `Include/acknowledgements.aux'.
 
-
-(./Include/acknowledgements.tex) [75
-
-
-] (./main.bbl [76
+ (./Include/acknowledgements.tex) [89
 
 
-] [77] [78])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 246.
- [79]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 246.
+] (./main.bbl [90
 
-(./main.aux (./Include/cover.aux) (./Include/abstract_ENG.aux)
+
+]
+[91] [92])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 247.
+ [93]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 247.
+ (./main.aux (./Include/cover.aux) (./Include/abstract_ENG.aux)
 (./Include/abstract_ITA.aux) (./Include/acknowledgements.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 246.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 246.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 247.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 247.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: EF4B2E565BF74BA6BE4A5CA63C2E6B11;5635.
+(rerunfilecheck)             Checksum: 43B7321D6020385164FE4CAB3E0EAB90;5885.
  ) 
 Here is how much of TeX's memory you used:
- 14319 strings out of 493089
- 209837 string characters out of 6134842
- 365806 words of memory out of 5000000
- 16997 multiletter control sequences out of 15000+600000
- 15295 words of font info for 99 fonts, out of 8000000 for 9000
+ 14446 strings out of 493089
+ 212765 string characters out of 6134842
+ 369159 words of memory out of 5000000
+ 17055 multiletter control sequences out of 15000+600000
+ 15573 words of font info for 101 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,12n,48p,1959b,1870s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
@@ -1321,11 +1449,12 @@ sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
 cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
 al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local
 /texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/
-texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (91 pages, 6189543 bytes).
+texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/t
+exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on main.pdf (107 pages, 6990034 bytes).
 PDF statistics:
- 1292 PDF objects out of 1440 (max. 8388607)
- 1110 compressed objects within 12 object streams
- 382 named destinations out of 1000 (max. 500000)
- 16706 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 1458 PDF objects out of 1728 (max. 8388607)
+ 1247 compressed objects within 13 object streams
+ 427 named destinations out of 1000 (max. 500000)
+ 17290 words of extra memory for PDF output out of 20736 (max. 10000000)
 

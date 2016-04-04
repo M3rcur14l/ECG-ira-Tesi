@@ -21,45 +21,45 @@ Warning--empty year in ref3
 Name 1 in "Lee Sangchul, and Jae Wook Jeon" has a comma at the end for entry ref20
 while executing---line 944 of file unsrt.bst
 Warning--empty year in ref22
-You've used 24 entries,
+You've used 25 entries,
             1791 wiz_defined-function locations,
-            569 strings with 6726 characters,
-and the built_in function-call counts, 4441 in all, are:
-= -- 371
-> -- 165
+            573 strings with 6802 characters,
+and the built_in function-call counts, 4570 in all, are:
+= -- 382
+> -- 169
 < -- 3
-+ -- 67
-- -- 43
-* -- 231
-:= -- 672
-add.period$ -- 64
-call.type$ -- 24
-change.case$ -- 22
++ -- 69
+- -- 44
+* -- 232
+:= -- 692
+add.period$ -- 67
+call.type$ -- 25
+change.case$ -- 23
 chr.to.int$ -- 0
-cite$ -- 26
-duplicate$ -- 214
-empty$ -- 499
-format.name$ -- 43
-if$ -- 1032
+cite$ -- 27
+duplicate$ -- 219
+empty$ -- 517
+format.name$ -- 44
+if$ -- 1063
 int.to.chr$ -- 0
-int.to.str$ -- 24
+int.to.str$ -- 25
 missing$ -- 17
-newline$ -- 115
-num.names$ -- 22
-pop$ -- 103
+newline$ -- 120
+num.names$ -- 23
+pop$ -- 109
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 129
+skip$ -- 132
 stack$ -- 0
 substring$ -- 203
-swap$ -- 53
+swap$ -- 54
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 34
-width$ -- 26
-write$ -- 233
+while$ -- 35
+width$ -- 27
+write$ -- 243
 (There were 3 error messages)

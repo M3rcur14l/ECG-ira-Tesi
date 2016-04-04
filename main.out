@@ -76,6 +76,10 @@
 \BOOKMARK [0][-]{chapter.8}{System architecture}{}% 76
 \BOOKMARK [1][-]{section.8.1}{Acquisition device}{chapter.8}% 77
 \BOOKMARK [2][-]{subsection.8.1.1}{Mobile app}{section.8.1}% 78
-\BOOKMARK [0][-]{chapter.9}{Final result}{}% 79
-\BOOKMARK [1][-]{section.9.1}{App Screens}{chapter.9}% 80
-\BOOKMARK [0][-]{chapter*.50}{Acknowledgement}{}% 81
+\BOOKMARK [0][-]{chapter.9}{Implementation details}{}% 79
+\BOOKMARK [1][-]{section.9.1}{Main components}{chapter.9}% 80
+\BOOKMARK [2][-]{subsection.9.1.1}{Data Sources}{section.9.1}% 81
+\BOOKMARK [2][-]{subsection.9.1.2}{Display}{section.9.1}% 82
+\BOOKMARK [0][-]{chapter.10}{Final result}{}% 83
+\BOOKMARK [1][-]{section.10.1}{App Screens}{chapter.10}% 84
+\BOOKMARK [0][-]{chapter*.63}{Acknowledgement}{}% 85
