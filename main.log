@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.13)  4 APR 2016 18:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.13)  4 APR 2016 18:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -898,7 +898,7 @@ LaTeX Info: Redefining \nameref on input line 162.
 \openout2 = `Include/cover.aux'.
 
  (./Include/cover.tex
-<figures/polimi_logo.png, id=353, 642.4pt x 401.5pt>
+<figures/polimi_logo.png, id=369, 642.4pt x 401.5pt>
 File: figures/polimi_logo.png Graphic file (type png)
 
 <use figures/polimi_logo.png>
@@ -978,7 +978,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 
 ]
 Chapter 2.
-<figures/ch2/1.png, id=652, 1606.0pt x 1606.0pt>
+<figures/ch2/1.png, id=673, 1606.0pt x 1606.0pt>
 File: figures/ch2/1.png Graphic file (type png)
  <use figures/ch2/1.png>
 Package pdftex.def Info: figures/ch2/1.png used on input line 21.
@@ -992,7 +992,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--46
 
  []
 
-[7] <figures/ch2/2.png, id=674, 1606.0pt x 1606.0pt>
+[7] <figures/ch2/2.png, id=694, 1606.0pt x 1606.0pt>
 File: figures/ch2/2.png Graphic file (type png)
  <use figures/ch2/2.png>
 Package pdftex.def Info: figures/ch2/2.png used on input line 57.
@@ -1002,26 +1002,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 63--65
 
  []
 
-[8 <./figures/ch2/2.png>] <figures/ch2/3.png, id=680, 240.9pt x 153.57375pt>
+[8 <./figures/ch2/2.png>] <figures/ch2/3.png, id=700, 240.9pt x 153.57375pt>
 File: figures/ch2/3.png Graphic file (type png)
 
 <use figures/ch2/3.png>
 Package pdftex.def Info: figures/ch2/3.png used on input line 68.
 (pdftex.def)             Requested size: 170.71652pt x 108.83424pt.
- <figures/ch2/4.png, id=681, 240.9pt x 153.57375pt>
+ <figures/ch2/4.png, id=701, 240.9pt x 153.57375pt>
 File: figures/ch2/4.png Graphic file (type png)
 
 <use figures/ch2/4.png>
 Package pdftex.def Info: figures/ch2/4.png used on input line 74.
 (pdftex.def)             Requested size: 170.71652pt x 108.83424pt.
  [9 <./figures/ch2/3.png>]
-<figures/ch2/5.png, id=687, 301.125pt x 301.125pt>
+<figures/ch2/5.png, id=707, 301.125pt x 301.125pt>
 File: figures/ch2/5.png Graphic file (type png)
  <use figures/ch2/5.png>
 Package pdftex.def Info: figures/ch2/5.png used on input line 91.
 (pdftex.def)             Requested size: 170.71652pt x 170.72406pt.
 
-<figures/ch2/6.png, id=688, 385.44pt x 251.94125pt>
+<figures/ch2/6.png, id=708, 385.44pt x 251.94125pt>
 File: figures/ch2/6.png Graphic file (type png)
  <use figures/ch2/6.png>
 Package pdftex.def Info: figures/ch2/6.png used on input line 102.
@@ -1030,27 +1030,27 @@ Package pdftex.def Info: figures/ch2/6.png used on input line 102.
 [10 <./figures/ch2/4.png>] [11 <./figures/ch2/5.png>]
 Underfull \vbox (badness 6236) has occurred while \output is active []
 
- [12 <./figures/ch2/6.png>] [13] <figures/ch2/7.png, id=708, 403.5075pt x 252.9
+ [12 <./figures/ch2/6.png>] [13] <figures/ch2/7.png, id=728, 403.5075pt x 252.9
 45pt>
 File: figures/ch2/7.png Graphic file (type png)
 
 <use figures/ch2/7.png>
 Package pdftex.def Info: figures/ch2/7.png used on input line 132.
 (pdftex.def)             Requested size: 256.0748pt x 160.52565pt.
- <figures/ch2/8.png, id=709, 727.518pt x 202.95825pt>
+ <figures/ch2/8.png, id=729, 727.518pt x 202.95825pt>
 File: figures/ch2/8.png Graphic file (type png)
 
 <use figures/ch2/8.png>
 Package pdftex.def Info: figures/ch2/8.png used on input line 141.
 (pdftex.def)             Requested size: 369.88582pt x 103.18835pt.
  [14 <./figures/ch2/7.png> <./figures/ch2/8.png>]
-<figures/ch2/9.png, id=715, 286.06876pt x 147.55125pt>
+<figures/ch2/9.png, id=735, 286.06876pt x 147.55125pt>
 File: figures/ch2/9.png Graphic file (type png)
  <use figures/ch2/9.png>
 Package pdftex.def Info: figures/ch2/9.png used on input line 154.
 (pdftex.def)             Requested size: 256.0748pt x 132.08116pt.
 
-<figures/ch2/10.png, id=716, 289.08pt x 140.9265pt>
+<figures/ch2/10.png, id=736, 289.08pt x 140.9265pt>
 File: figures/ch2/10.png Graphic file (type png)
  <use figures/ch2/10.png>
 Package pdftex.def Info: figures/ch2/10.png used on input line 163.
@@ -1058,7 +1058,7 @@ Package pdftex.def Info: figures/ch2/10.png used on input line 163.
 
 Underfull \vbox (badness 2253) has occurred while \output is active []
 
- [15 <./figures/ch2/9.png>] <figures/ch2/11.png, id=722, 290.2845pt x 145.7445p
+ [15 <./figures/ch2/9.png>] <figures/ch2/11.png, id=742, 290.2845pt x 145.7445p
 t>
 File: figures/ch2/11.png Graphic file (type png)
 
@@ -1070,44 +1070,44 @@ Package pdftex.def Info: figures/ch2/11.png used on input line 172.
 
 ]
 Chapter 3.
-<figures/ch3/1.png, id=738, 248.6088pt x 193.6836pt>
+<figures/ch3/1.png, id=758, 248.6088pt x 193.6836pt>
 File: figures/ch3/1.png Graphic file (type png)
  <use figures/ch3/1.png>
 Package pdftex.def Info: figures/ch3/1.png used on input line 19.
 (pdftex.def)             Requested size: 256.0748pt x 199.5111pt.
 
-<figures/ch3/2a.png, id=739, 963.6pt x 422.57875pt>
+<figures/ch3/2a.png, id=759, 963.6pt x 422.57875pt>
 File: figures/ch3/2a.png Graphic file (type png)
  <use figures/ch3/2a.png>
 Package pdftex.def Info: figures/ch3/2a.png used on input line 28.
 (pdftex.def)             Requested size: 256.0748pt x 112.29878pt.
 
-<figures/ch3/2b.png, id=740, 963.6pt x 422.57875pt>
+<figures/ch3/2b.png, id=760, 963.6pt x 422.57875pt>
 File: figures/ch3/2b.png Graphic file (type png)
  <use figures/ch3/2b.png>
 Package pdftex.def Info: figures/ch3/2b.png used on input line 29.
 (pdftex.def)             Requested size: 256.0748pt x 112.29878pt.
 
-[19] <figures/ch3/3.png, id=745, 481.8pt x 411.5375pt>
+[19] <figures/ch3/3.png, id=765, 481.8pt x 411.5375pt>
 File: figures/ch3/3.png Graphic file (type png)
  <use figures/ch3/3.png>
 Package pdftex.def Info: figures/ch3/3.png used on input line 38.
 (pdftex.def)             Requested size: 256.0748pt x 218.7355pt.
 
 [20 <./figures/ch3/1.png> <./figures/ch3/2a.png> <./figures/ch3/2b.png>]
-<figures/ch3/4a.png, id=753, 301.125pt x 301.125pt>
+<figures/ch3/4a.png, id=774, 301.125pt x 301.125pt>
 File: figures/ch3/4a.png Graphic file (type png)
  <use figures/ch3/4a.png>
 Package pdftex.def Info: figures/ch3/4a.png used on input line 47.
 (pdftex.def)             Requested size: 170.71652pt x 170.72406pt.
 
-<figures/ch3/4b.png, id=754, 301.125pt x 301.125pt>
+<figures/ch3/4b.png, id=775, 301.125pt x 301.125pt>
 File: figures/ch3/4b.png Graphic file (type png)
  <use figures/ch3/4b.png>
 Package pdftex.def Info: figures/ch3/4b.png used on input line 48.
 (pdftex.def)             Requested size: 170.71652pt x 170.72406pt.
 
-<figures/ch3/5.png, id=755, 423.38174pt x 240.9pt>
+<figures/ch3/5.png, id=776, 423.38174pt x 240.9pt>
 File: figures/ch3/5.png Graphic file (type png)
  <use figures/ch3/5.png>
 Package pdftex.def Info: figures/ch3/5.png used on input line 57.
@@ -1124,19 +1124,19 @@ Chapter 4.
 Chapter 5.
 [27
 
-] <figures/ch5/1.png, id=796, 388.45125pt x 231.86626pt>
+] <figures/ch5/1.png, id=816, 388.45125pt x 231.86626pt>
 File: figures/ch5/1.png Graphic file (type png)
 
 <use figures/ch5/1.png>
 Package pdftex.def Info: figures/ch5/1.png used on input line 28.
 (pdftex.def)             Requested size: 256.0748pt x 152.85529pt.
- <figures/ch5/2.png, id=797, 388.45125pt x 231.86626pt>
+ <figures/ch5/2.png, id=817, 388.45125pt x 231.86626pt>
 File: figures/ch5/2.png Graphic file (type png)
 
 <use figures/ch5/2.png>
 Package pdftex.def Info: figures/ch5/2.png used on input line 34.
 (pdftex.def)             Requested size: 256.0748pt x 152.85529pt.
- <figures/ch5/3.png, id=798, 388.45125pt x 231.86626pt>
+ <figures/ch5/3.png, id=818, 388.45125pt x 231.86626pt>
 File: figures/ch5/3.png Graphic file (type png)
 
 <use figures/ch5/3.png>
@@ -1155,33 +1155,33 @@ Underfull \vbox (badness 4181) has occurred while \output is active []
 
 ]
 Chapter 6.
-<figures/ch6/1.png, id=825, 733.74126pt x 330.23375pt>
+<figures/ch6/1.png, id=845, 733.74126pt x 330.23375pt>
 File: figures/ch6/1.png Graphic file (type png)
  <use figures/ch6/1.png>
 Package pdftex.def Info: figures/ch6/1.png used on input line 12.
 (pdftex.def)             Requested size: 341.43306pt x 153.66795pt.
 
-[33] <figures/ch6/2.png, id=834, 485.815pt x 331.2375pt>
+[33] <figures/ch6/2.png, id=854, 485.815pt x 331.2375pt>
 File: figures/ch6/2.png Graphic file (type png)
 
 <use figures/ch6/2.png>
 Package pdftex.def Info: figures/ch6/2.png used on input line 29.
 (pdftex.def)             Requested size: 284.52756pt x 193.99301pt.
  [34 <./figures/ch6/1.png>] [35 <./figures/ch6/2.png>]
-<figures/ch6/3.png, id=849, 561.09625pt x 461.725pt>
+<figures/ch6/3.png, id=869, 561.09625pt x 461.725pt>
 File: figures/ch6/3.png Graphic file (type png)
  <use figures/ch6/3.png>
 Package pdftex.def Info: figures/ch6/3.png used on input line 38.
 (pdftex.def)             Requested size: 341.43306pt x 280.9614pt.
 
 [36 <./figures/ch6/3.png>]
-<figures/ch6/4.png, id=860, 431.6125pt x 271.0125pt>
+<figures/ch6/4.png, id=880, 431.6125pt x 271.0125pt>
 File: figures/ch6/4.png Graphic file (type png)
  <use figures/ch6/4.png>
 Package pdftex.def Info: figures/ch6/4.png used on input line 57.
 (pdftex.def)             Requested size: 341.43306pt x 214.39526pt.
 
-[37] <figures/ch6/5.png, id=868, 690.58pt x 479.7925pt>
+[37] <figures/ch6/5.png, id=889, 690.58pt x 479.7925pt>
 File: figures/ch6/5.png Graphic file (type png)
 
 <use figures/ch6/5.png>
@@ -1190,7 +1190,7 @@ Package pdftex.def Info: figures/ch6/5.png used on input line 75.
  [38 <./figures/ch6/4.png>]
 Underfull \vbox (badness 1033) has occurred while \output is active []
 
- [39 <./figures/ch6/5.png>] <figures/ch6/6.png, id=897, 425.59pt x 545.03625pt>
+ [39 <./figures/ch6/5.png>] <figures/ch6/6.png, id=917, 425.59pt x 545.03625pt>
 File: figures/ch6/6.png Graphic file (type png)
 
 <use figures/ch6/6.png>
@@ -1198,7 +1198,7 @@ Package pdftex.def Info: figures/ch6/6.png used on input line 111.
 (pdftex.def)             Requested size: 312.9803pt x 400.84218pt.
 ) (./Chapters/Chapter7.tex [40] [41 <./figures/ch6/6.png>] [42]
 Chapter 7.
-<figures/ch7/1.png, id=920, 679.94025pt x 388.45125pt>
+<figures/ch7/1.png, id=940, 679.94025pt x 388.45125pt>
 File: figures/ch7/1.png Graphic file (type png)
  <use figures/ch7/1.png>
 Package pdftex.def Info: figures/ch7/1.png used on input line 12.
@@ -1217,7 +1217,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
  [45] [46] [47]
-<figures/ch7/2.png, id=959, 438.63875pt x 258.9675pt>
+<figures/ch7/2.png, id=979, 438.63875pt x 258.9675pt>
 File: figures/ch7/2.png Graphic file (type png)
  <use figures/ch7/2.png>
 Package pdftex.def Info: figures/ch7/2.png used on input line 73.
@@ -1236,14 +1236,14 @@ Overfull \hbox (122.21611pt too wide) in paragraph at lines 140--141
  []
 
 [50] [51] [52] [53] [54]
-<figures/ch7/3.png, id=1072, 537.00626pt x 426.59375pt>
+<figures/ch7/3.png, id=1092, 537.00626pt x 426.59375pt>
 File: figures/ch7/3.png Graphic file (type png)
 
 <use figures/ch7/3.png>
 Package pdftex.def Info: figures/ch7/3.png used on input line 240.
 (pdftex.def)             Requested size: 341.43306pt x 271.229pt.
  [55] [56 <./figures/ch7/3.png>]
-<figures/ch7/4.png, id=1099, 1561.835pt x 1210.5225pt>
+<figures/ch7/4.png, id=1120, 1561.835pt x 1210.5225pt>
 File: figures/ch7/4.png Graphic file (type png)
  <use figures/ch7/4.png>
 Package pdftex.def Info: figures/ch7/4.png used on input line 267.
@@ -1254,26 +1254,26 @@ Package pdftex.def Info: figures/ch7/4.png used on input line 267.
 
 ]
 Chapter 8.
-<figures/ch8/1.png, id=1131, 769.6755pt x 326.4195pt>
+<figures/ch8/1.png, id=1151, 769.6755pt x 326.4195pt>
 File: figures/ch8/1.png Graphic file (type png)
  <use figures/ch8/1.png>
 Package pdftex.def Info: figures/ch8/1.png used on input line 20.
 (pdftex.def)             Requested size: 312.9803pt x 132.73708pt.
 
-<figures/ch8/2.png, id=1132, 733.74126pt x 676.5275pt>
+<figures/ch8/2.png, id=1152, 733.74126pt x 676.5275pt>
 File: figures/ch8/2.png Graphic file (type png)
  <use figures/ch8/2.png>
 Package pdftex.def Info: figures/ch8/2.png used on input line 30.
 (pdftex.def)             Requested size: 341.43306pt x 314.80913pt.
 
-[63] <figures/ch8/3.png, id=1147, 324.61275pt x 526.96875pt>
+[63] <figures/ch8/3.png, id=1167, 324.61275pt x 526.96875pt>
 File: figures/ch8/3.png Graphic file (type png)
 
 <use figures/ch8/3.png>
 Package pdftex.def Info: figures/ch8/3.png used on input line 41.
 (pdftex.def)             Requested size: 256.0748pt x 415.7218pt.
  [64 <./figures/ch8/1.png>] [65 <./figures/ch8/2.png>]
-<figures/ch8/4.png, id=1166, 393.26926pt x 428.802pt>
+<figures/ch8/4.png, id=1186, 393.26926pt x 428.802pt>
 File: figures/ch8/4.png Graphic file (type png)
  <use figures/ch8/4.png>
 Package pdftex.def Info: figures/ch8/4.png used on input line 58.
@@ -1303,28 +1303,28 @@ d-to.pdf figures/ch9/1.eps>
 (epstopdf)             \includegraphics on input line 35.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/ch9/1-eps-converted-to.pdf, id=1204, 332.24126pt x 187.70125pt>
+<figures/ch9/1-eps-converted-to.pdf, id=1224, 332.24126pt x 187.70125pt>
 File: figures/ch9/1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/ch9/1-eps-converted-to.pdf>
 Package pdftex.def Info: figures/ch9/1-eps-converted-to.pdf used on input line 
 35.
 (pdftex.def)             Requested size: 256.0748pt x 144.67934pt.
- [72] [73 <./figures/ch9/1-eps-converted-to.pdf>] <figures/ch9/2.png, id=1218, 
+ [72] [73 <./figures/ch9/1-eps-converted-to.pdf>] <figures/ch9/2.png, id=1239, 
 1606.0pt x 865.2325pt>
 File: figures/ch9/2.png Graphic file (type png)
 
 <use figures/ch9/2.png>
 Package pdftex.def Info: figures/ch9/2.png used on input line 66.
 (pdftex.def)             Requested size: 398.33858pt x 214.60449pt.
- <figures/ch9/3.png, id=1220, 811.03pt x 471.7625pt>
+ <figures/ch9/3.png, id=1241, 811.03pt x 471.7625pt>
 File: figures/ch9/3.png Graphic file (type png)
 
 <use figures/ch9/3.png>
 Package pdftex.def Info: figures/ch9/3.png used on input line 74.
 (pdftex.def)             Requested size: 341.43306pt x 198.6068pt.
  [74] [75 <./figures/ch9/2.png>] [76 <./figures/ch9/3.png>] <figures/ch9/4.png,
- id=1243, 1369.115pt x 754.82pt>
+ id=1263, 1369.115pt x 754.82pt>
 File: figures/ch9/4.png Graphic file (type png)
 
 <use figures/ch9/4.png>
@@ -1341,7 +1341,7 @@ d-to.pdf figures/ch9/5.eps>
 (epstopdf)             \includegraphics on input line 103.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/ch9/5-eps-converted-to.pdf, id=1244, 528.97626pt x 452.69125pt>
+<figures/ch9/5-eps-converted-to.pdf, id=1264, 528.97626pt x 452.69125pt>
 File: figures/ch9/5-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/ch9/5-eps-converted-to.pdf>
@@ -1360,14 +1360,14 @@ d-to.pdf figures/ch9/6.eps>
 (epstopdf)             \includegraphics on input line 125.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/ch9/6-eps-converted-to.pdf, id=1263, 444.66125pt x 187.70125pt>
+<figures/ch9/6-eps-converted-to.pdf, id=1283, 444.66125pt x 187.70125pt>
 File: figures/ch9/6-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/ch9/6-eps-converted-to.pdf>
 Package pdftex.def Info: figures/ch9/6-eps-converted-to.pdf used on input line 
 125.
 (pdftex.def)             Requested size: 341.43306pt x 144.12657pt.
- [79 <./figures/ch9/6-eps-converted-to.pdf>] <figures/ch9/7.png, id=1272, 722.7
+ [79 <./figures/ch9/6-eps-converted-to.pdf>] <figures/ch9/7.png, id=1292, 722.7
 pt x 562.1pt>
 File: figures/ch9/7.png Graphic file (type png)
  <use figures/ch9/7.png>
@@ -1386,7 +1386,7 @@ d-to.pdf figures/ch9/8.eps>
 (epstopdf)             \includegraphics on input line 172.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/ch9/8-eps-converted-to.pdf, id=1287, 500.87125pt x 452.69125pt>
+<figures/ch9/8-eps-converted-to.pdf, id=1307, 500.87125pt x 452.69125pt>
 File: figures/ch9/8-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/ch9/8-eps-converted-to.pdf>
@@ -1394,7 +1394,7 @@ Package pdftex.def Info: figures/ch9/8-eps-converted-to.pdf used on input line
 172.
 (pdftex.def)             Requested size: 369.88582pt x 334.31625pt.
  [82]
-<figures/ch9/9.png, id=1295, 1528.71124pt x 958.58125pt>
+<figures/ch9/9.png, id=1315, 1528.71124pt x 958.58125pt>
 File: figures/ch9/9.png Graphic file (type png)
 
 <use figures/ch9/9.png>
@@ -1412,7 +1412,7 @@ ed-to.pdf figures/ch9/10.eps>
 (epstopdf)             \includegraphics on input line 210.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/ch9/10-eps-converted-to.pdf, id=1310, 618.31pt x 637.38126pt>
+<figures/ch9/10-eps-converted-to.pdf, id=1330, 618.31pt x 637.38126pt>
 File: figures/ch9/10-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/ch9/10-eps-converted-to.pdf>
@@ -1430,7 +1430,7 @@ ed-to.pdf figures/ch9/11.eps>
 (epstopdf)             \includegraphics on input line 220.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/ch9/11-eps-converted-to.pdf, id=1313, 416.55624pt x 284.06125pt>
+<figures/ch9/11-eps-converted-to.pdf, id=1333, 416.55624pt x 284.06125pt>
 File: figures/ch9/11-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/ch9/11-eps-converted-to.pdf>
@@ -1452,7 +1452,7 @@ Package epstopdf Info: Source file: <figures/ch9/12.eps>
 ed-to.pdf figures/ch9/12.eps>
 (epstopdf)             \includegraphics on input line 254.
 Package epstopdf Info: Output file is already uptodate.
- <figures/ch9/12-eps-converted-to.pdf, id=1337, 1349.04pt x 1379.1525pt>
+ <figures/ch9/12-eps-converted-to.pdf, id=1358, 1349.04pt x 1379.1525pt>
 File: figures/ch9/12-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/ch9/12-eps-converted-to.pdf>
@@ -1471,7 +1471,7 @@ ed-to.pdf figures/ch9/13.eps>
 (epstopdf)             \includegraphics on input line 273.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/ch9/13-eps-converted-to.pdf, id=1348, 1158.3275pt x 1302.8675pt>
+<figures/ch9/13-eps-converted-to.pdf, id=1368, 1158.3275pt x 1302.8675pt>
 File: figures/ch9/13-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/ch9/13-eps-converted-to.pdf>
@@ -1483,7 +1483,7 @@ Underfull \vbox (badness 1867) has occurred while \output is active []
 
  [91 <./figures/ch9/13-eps-converted-to.pdf>]) (./Chapters/Chapter10.tex [92]
 Chapter 10.
-<figures/ch10/1.png, id=1366, 903.375pt x 1606.0pt>
+<figures/ch10/1.png, id=1386, 903.375pt x 1606.0pt>
 File: figures/ch10/1.png Graphic file (type png)
  <use figures/ch10/1.png>
 Package pdftex.def Info: figures/ch10/1.png used on input line 8.
@@ -1493,21 +1493,25 @@ File: figures/ch10/1.png Graphic file (type png)
 <use figures/ch10/1.png>
 Package pdftex.def Info: figures/ch10/1.png used on input line 16.
 (pdftex.def)             Requested size: 259.6101pt x 461.53763pt.
-) (./Chapters/Chapter11.tex) [93
+) (./Chapters/Chapter11.tex [93
 
 ] [94 <./figures/ch10/1.png>] [95] [96
 
 ]
-\openout2 = `Include/acknowledgements.aux'.
-
- (./Include/acknowledgements.tex) [97
-
-
-] (./main.bbl [98
-
+Chapter 11.
+[97]) [98] [99] [100
 
 ]
-[99] [100]
+\openout2 = `Include/acknowledgements.aux'.
+
+ (./Include/acknowledgements.tex) [101
+
+
+] (./main.bbl
+[102
+
+
+] [103] [104]
 Underfull \hbox (badness 4940) in paragraph at lines 141--146
 []\OT1/cmr/m/n/12 (+20) Android De-sign Pat-terns.  How to leak a con-text: Han
 -dlers &
@@ -1521,20 +1525,20 @@ droiddesignpatterns . com / 2013 / 01 /
 
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 247.
- [101]
+ [105]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 247.
  (./main.aux (./Include/cover.aux) (./Include/abstract_ENG.aux)
 (./Include/abstract_ITA.aux) (./Include/acknowledgements.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 247.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 247.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 2A0A89D904CC7F0CA34BECA687E4BC4C;6018.
+(rerunfilecheck)             Checksum: 8ECF4AD67A80026CA26A338AAFD63C58;6289.
  ) 
 Here is how much of TeX's memory you used:
- 14510 strings out of 493089
- 213979 string characters out of 6134842
+ 14523 strings out of 493089
+ 214122 string characters out of 6134842
  369159 words of memory out of 5000000
- 17088 multiletter control sequences out of 15000+600000
+ 17093 multiletter control sequences out of 15000+600000
  15900 words of font info for 104 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,12n,48p,1959b,1870s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1550,10 +1554,10 @@ al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local
 /texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/
 texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (115 pages, 7591867 bytes).
+Output written on main.pdf (119 pages, 7597458 bytes).
 PDF statistics:
- 1553 PDF objects out of 1728 (max. 8388607)
- 1327 compressed objects within 14 object streams
- 450 named destinations out of 1000 (max. 500000)
- 17331 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 1591 PDF objects out of 1728 (max. 8388607)
+ 1361 compressed objects within 14 object streams
+ 458 named destinations out of 1000 (max. 500000)
+ 17363 words of extra memory for PDF output out of 20736 (max. 10000000)
 

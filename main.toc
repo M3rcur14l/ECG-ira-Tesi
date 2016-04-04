@@ -106,4 +106,8 @@
 \contentsline {subsubsection}{Saved record opening}{90}{section*.70}
 \contentsline {chapter}{\numberline {10}Final result}{93}{chapter.10}
 \contentsline {section}{\numberline {10.1}App Screens}{93}{section.10.1}
-\contentsline {chapter}{Acknowledgement}{97}{chapter*.74}
+\contentsline {chapter}{\numberline {11}Conclusions}{97}{chapter.11}
+\contentsline {section}{\numberline {11.1}Future works}{97}{section.11.1}
+\contentsline {section}{\numberline {11.2}Mobile as replacement to desktop}{98}{section.11.2}
+\contentsline {section}{\numberline {11.3}Mobile as first medical solution}{98}{section.11.3}
+\contentsline {chapter}{Acknowledgement}{101}{chapter*.74}
