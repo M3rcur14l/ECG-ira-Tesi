@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.13)  4 APR 2016 23:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.13)  4 APR 2016 23:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -934,13 +934,13 @@ es/polimi_logo.png>] [2
 \openout2 = `Include/abstract_ENG.aux'.
 
 
-(./Include/abstract_ENG.tex
+(./Include/abstract_ENG.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3
 
 
-])
+]
 [4]
 \openout2 = `Include/abstract_ITA.aux'.
 
@@ -1896,7 +1896,7 @@ ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texliv
 e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive
 /2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/
 2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (143 pages, 9341242 bytes).
+Output written on main.pdf (143 pages, 9340420 bytes).
 PDF statistics:
  1942 PDF objects out of 2073 (max. 8388607)
  1626 compressed objects within 17 object streams
