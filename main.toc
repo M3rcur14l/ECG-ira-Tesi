@@ -44,7 +44,7 @@
 \contentsline {section}{\numberline {5.2}Nonfunctional}{30}{section.5.2}
 \contentsline {subsection}{\numberline {5.2.1}Reduced memory usage}{30}{subsection.5.2.1}
 \contentsline {subsection}{\numberline {5.2.2}Minimum performance rate and scalability on performance}{31}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3} Wide platform compatibility and accessibility}{31}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.3}Wide platform compatibility and accessibility}{31}{subsection.5.2.3}
 \contentsline {subsection}{\numberline {5.2.4}Documentation}{31}{subsection.5.2.4}
 \contentsline {chapter}{\numberline {6}Problems}{33}{chapter.6}
 \contentsline {section}{\numberline {6.1}Mobile platform fragmentation}{33}{section.6.1}
