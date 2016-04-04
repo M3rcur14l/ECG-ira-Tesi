@@ -5,14 +5,16 @@ ECG-ira (ECG instant rapid analyzer) is a fully working mobile software applicat
 By launching the application the first screen is the home screen. It is the starting point, here the user can create a new record (starting a new acquisition with the ZEcg device), he can open the list of records (previously acquired or already present in the device system folder), he can discover and establish  a connection with an acquisition device for future acquisitions and he can access to the application settings section where he can customize the application behaviour and tune some settings like the default folder to store in and open the records from.
 \begin{figure}[ht!]
 	\centering
-	\includegraphics[width=90mm]{figures/ch10/1.png}
+	\includegraphics[width=60mm]{figures/ch10/1.png}
 	\caption{The home screen of the application ECG-ira.}
 	\label{fig10.1}
 \end{figure}
-\begin{SCfigure}
+\newline
+\begin{figure}[ht!]
 	\centering
-	\caption{The form to be compiled before a record can start. It is necessary to bind any record to a patient data in order to avoid confusion between ecg records. This data is also useful for a fully understanding of the record itself.}
-	\includegraphics[width=0.6\textwidth]%
-	{figures/ch10/1.png}
+	\includegraphics[width=60mm]
+	{figures/ch10/2.png}
+		\caption{The form to be compiled before a record can start. It is necessary to bind any record to a patient data in order to avoid confusion between ecg records. This data is also useful for a fully understanding of the record itself.}
 	\label{fig10.2}
-\end{SCfigure}
+\end{figure}
+By clicking on the “New Record” button option, the user will be asked to insert his data as a patient. This data will be then stored within a header file (with .hea extension)  together with the file containing the effective record (.dat file extension). The personal data are only used by the doctor to identify the patient records.
