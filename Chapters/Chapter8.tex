@@ -1,9 +1,9 @@
 %Chapter8
 \chapter{System architecture}
 \label{Chapter8}
-The entire system is based on an acquisition device named Zecg, and a native mobile application on the Android platform. Our focus and main effort were on the developing of the mobile application fulfilling all the requirements. The acquisition device was instead developed and designed by Crespi Alessandro and Ulisse Pizzagalli during their thesis work at the Politecnico of Milan.
+The entire system is based on an acquisition device named ZEcg, and a native mobile application on the Android Platform. Our focus and main effort were on the developing of the mobile application fulfilling all the requirements. The acquisition device was instead developed and designed by Crespi Alessandro and Ulisse Pizzagalli during their thesis work at the Politecnico of Milan.
 \section{Acquisition device}
-Zecg is composed by the following different modules:
+ZEcg is composed by the following different modules:
 \begin{enumerate}
 	\item OVP: used to protect the patient from high voltage or voltage leakage.
 	\item LFP EMI Filter: anti-aliasing RC filter used to remove noises due to high frequencies.
@@ -31,7 +31,7 @@ The WCT signal comes from the average between RA, LA and LL and it's connected t
 	\caption{ADS1198 functional diagram showing the 8 channels representing the 8 leads used during the ECG record acquisition.}
 	\label{fig8.2}
 \end{figure}
-Each channel is amplified using a programmable gain (PGA) and a CMRR, before being converted into digital. For more details about the entire device architecture we invite you to read the thesis of our colleagues Crespi Alessandro and Ulisse Pizzagalli\cite{ref22} who designed and developed zecg.
+Each channel is amplified using a programmable gain (PGA) and a CMRR, before being converted into digital. For more details about the entire device architecture we invite you to read the thesis of our colleagues Crespi Alessandro and Ulisse Pizzagalli\cite{ref22} who designed and developed ZEcg.
 \subsection{Mobile app}
 The mobile application we developed for this thesis work was implemented having in mind all the user best interface design principles and the best practice starting from the planning and design phase to the final  coding phase. As this application was designed for Android OS, we strictly followed Google specific standards and procedures.\\
 We made use of Android Studio as IDE (strongly suggested by Google as main IDE to develop Android native applications). Starting from 2013 the development of native Android application moved from Eclipse + Android Plugin to Android Studio. The entire project building system has changed and moved to use the Gradle  building system\cite{ref23}. 
@@ -44,10 +44,10 @@ The entire process during project building to compilation can be resumed in the 
 \end{figure}
 The most important steps along the building process are:
 \begin{enumerate}
-	\item The Android Asset Packaging Tool (aapt) takes the application resource files, such as AndroidManifest.xml file and the XML files for the Activities, and compiles them. A R.java  file is produced so that all the resources can be easly accessed within your application.
+	\item The Android Asset Packaging Tool (aapt) takes the application resource files, such as AndroidManifest.xml file and the XML files for the Activities, and compiles them. A R.java  file is produced so that all the resources can be easily accessed within your application.
 	\item The aidl tool converts any .aidl interfaces into Java interfaces.
 	\item The Java compiler will compile the R.java and .aidl files generating the .class files.
-	\item The Dex tool will convert the .class files to Dalvik bytecode. Any 3rd libraries and .class files included in the project build will be also converted into .dex files so that they can be later packed into the final .apk.
+	\item The Dex tool will convert the .class files to Dalvik bytecode. Any third libraries and .class files included in the project build will be also converted into .dex files so that they can be later packed into the final .apk.
 	\item All non-compiled resources(such as images), compiled resources, and the .dex files  are sent to the apkbuilder tool that will output the .apk file.
 	\item Once the .apk is built, it must be signed with either a debug or release key before it can be installed to a device.
 	\item To reduce the size of the .apk and to decrease the memory usage for releasing mode the zipalign tool is launched.
@@ -72,7 +72,7 @@ The packages content are divided as follow:
 The key points of this application are based on three main concepts:
 \begin{itemize}
 	\item Code reuse and maintainability
-	\item Maximize performance depending on the device constraints (cpu, memory, storage capacity)
+	\item Maximize performance depending on the device constraints (CPU, memory, storage capacity)
 	\item Usability in term of interface and interaction
 \end{itemize}
 \subsubsection{Code reuse and maintainability}
@@ -86,8 +86,8 @@ public void readAndAddSample(int numOfSample, int addPosition) {
 More concrete details about the effective implementation will be exploited later on in the next chapters.
 \subsubsection{Maximize performance depending on the device constraints}
 We do well know about the great number of constraints due to the huge number of different devices with different hardware on. We decide to make our application available starting from Android API 16 (the minimum sdk API recommended by Google to support).  To overcome the problem of the difference devices and Android OS version starting from Jelly Bean (API 16) we took maximum advantages from the device hardware by splitting the thread jobs in between the maximum number of cores available. In the class CpuInfoExtractor we discover the hardware capabilities (number of cores) and according to it we split the calculus between a certain number of threads. More the cores, more the threads we can take advantage of.\\
-From an interface point of view instead, we are forced  to depend on the density of pixel of the device screen and its size, but at the same time to accomplish our requirements related to achieve a perfect grid of squares of centimeters. We found a way to always achieve the same dimensions of square independently by the screen size of the devices by retrieving and taking in account the display exact pixels per inch size in the X dimension. Then, we computed the number of pixels needed to achieve the right sizing.  In this way, we solved the problem of having same dimensions and so metrics on different devices. On the other hand, if this method is quite functional and device independent, on devices with different screen size (width for example) the number of grid cells may vary from just a few on small screen, to many of them on tablets. This is a direct consequence due to the difference in number of pixels and the pixels size itself (some are square, most of them are rectangle).\\
+From an interface point of view instead, we are forced  to depend on the density of pixel of the device screen and its size, but at the same time to accomplish our requirements related to achieve a perfect grid of squares of centimeters. We found a way to always achieve the same dimensions of square independently by the screen size of the devices by retrieving and taking in account the display exact pixels per inch size in the X dimension. Then, we computed the number of pixels needed to achieve the right sizing.  In this way, we solved the problem of having same dimensions and so metrics on different devices. On the other hand, if this method is quite functional and device independent, on devices with different screen size (width for example) the number of grid cells may vary from just a few on small screen, to many of them on tablets. This is a direct consequence due to the difference in number of pixels and the pixels size itself (some are squared but most of them are rectangles).\\
 
 \subsubsection{ Usability in term of interface and interaction}
 One mobile application is usable if it does what the user expects it to do when interacting with it.\\
-We followed all Google guidelines in term of user experience using native view and patterns. We took advantage of the last API features, such as RecycleViews instead of the old classic ListViews. We made use of the button ripple effects available starting from Lollipop (Android API 21), but at the same time we provided to the older Android OS version the selector effect which still gives a nice response to the user interaction with command and buttons. We made use of the typical android Preference Settings so familiar to Android users and most important we always inform the user about the operations going on so he never feels lost inside the application.
+We followed all Google guidelines in term of user experience using native view and patterns. We took advantage of the last API features, such as RecycleViews instead of the old classic ListViews. We made use of the button ripple effects available starting from Lollipop (Android API 21), but at the same time we provided to the older Android OS version the selector effect that still gives a nice response to the user interaction with command and buttons. We made use of the typical android Preference Settings so familiar to Android users and most important we always inform the user about the operations going on so he never feels lost inside the application.

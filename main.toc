@@ -61,7 +61,7 @@
 \contentsline {subsubsection}{CPU intensive operation}{40}{section*.31}
 \contentsline {section}{\numberline {6.5}Signal visualization}{40}{section.6.5}
 \contentsline {chapter}{\numberline {7}Solution choices}{43}{chapter.7}
-\contentsline {section}{\numberline {7.1}Android platform}{43}{section.7.1}
+\contentsline {section}{\numberline {7.1}Android Platform}{43}{section.7.1}
 \contentsline {section}{\numberline {7.2}Why native?}{44}{section.7.2}
 \contentsline {section}{\numberline {7.3}Android concurrency exploitation}{45}{section.7.3}
 \contentsline {subsection}{\numberline {7.3.1}Thread Overview}{45}{subsection.7.3.1}
