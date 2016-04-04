@@ -106,8 +106,29 @@
 \contentsline {subsubsection}{Saved record opening}{90}{section*.70}
 \contentsline {chapter}{\numberline {10}Final result}{93}{chapter.10}
 \contentsline {section}{\numberline {10.1}App Screens}{93}{section.10.1}
-\contentsline {chapter}{\numberline {11}Conclusions}{97}{chapter.11}
-\contentsline {section}{\numberline {11.1}Future works}{97}{section.11.1}
-\contentsline {section}{\numberline {11.2}Mobile as replacement to desktop}{98}{section.11.2}
-\contentsline {section}{\numberline {11.3}Mobile as first medical solution}{98}{section.11.3}
-\contentsline {chapter}{Acknowledgement}{101}{chapter*.74}
+\contentsline {subsection}{\numberline {10.1.1}Performance}{101}{subsection.10.1.1}
+\contentsline {subsection}{\numberline {10.1.2}Evaluation}{102}{subsection.10.1.2}
+\contentsline {subsubsection}{Memory}{102}{section*.79}
+\contentsline {paragraph}{Samsung Galaxy N7000}{104}{section*.81}
+\contentsline {subparagraph}{Idle state}{104}{section*.82}
+\contentsline {subparagraph}{Plotting state}{105}{section*.85}
+\contentsline {subparagraph}{Analysis state}{106}{section*.87}
+\contentsline {paragraph}{OnePlus X}{109}{section*.91}
+\contentsline {subparagraph}{Idle state}{109}{section*.92}
+\contentsline {subparagraph}{Plotting state}{110}{section*.95}
+\contentsline {subparagraph}{Analysis state}{112}{section*.98}
+\contentsline {subsubsection}{CPU}{114}{section*.101}
+\contentsline {paragraph}{Samsung Galaxy N7000}{115}{section*.102}
+\contentsline {subparagraph}{Idle state}{115}{section*.103}
+\contentsline {subparagraph}{Plotting state}{115}{section*.105}
+\contentsline {subparagraph}{Analysis state}{117}{section*.108}
+\contentsline {paragraph}{OnePlus X}{117}{section*.110}
+\contentsline {subparagraph}{Idle state}{117}{section*.111}
+\contentsline {subparagraph}{Plotting state}{117}{section*.113}
+\contentsline {subparagraph}{Analysis state}{118}{section*.115}
+\contentsline {subsection}{\numberline {10.1.3}Response Time}{119}{subsection.10.1.3}
+\contentsline {chapter}{\numberline {11}Conclusions}{123}{chapter.11}
+\contentsline {section}{\numberline {11.1}Future works}{123}{section.11.1}
+\contentsline {section}{\numberline {11.2}Mobile as replacement to desktop}{124}{section.11.2}
+\contentsline {section}{\numberline {11.3}Mobile as first medical solution}{124}{section.11.3}
+\contentsline {chapter}{Acknowledgement}{127}{chapter*.119}
