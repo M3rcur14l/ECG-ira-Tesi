@@ -42,7 +42,7 @@
 \usepackage{algorithm}
 \usepackage[noend]{algpseudocode}
 \usepackage[square, numbers, comma, sort&compress]{natbib} % Use the natbib reference package - read up on this to edit the reference style; if you want text (e.g. Smith et al., 2012) for the in-text references (instead of numbers), remove 'numbers'
-\usepackage{epstopdf} 
+\usepackage{subfig}
 %code java 
 \usepackage{hyperref}
 
@@ -93,7 +93,10 @@
 
 \usepackage{fancyhdr}
 \pagestyle{fancy}
-
+%for tabular headers
+\newcommand*{\thead}[1]{\multicolumn{1}{c}{\bfseries #1}}
+%end for tabular headers
+\usepackage{tabularx}
 \renewcommand{\chaptermark}[1]{\markboth{#1}{}}
 \renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
 % Remove footer text
