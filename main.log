@@ -1,12 +1,14 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.12)  5 APR 2016 15:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.13)  5 APR 2016 16:17
 entering extended mode
-**./main.tex
-(main.tex
-LaTeX2e <2015/10/01> patch level 2
-Babel <3.9n> and hyphenation patterns for 69 languages loaded.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\book.cls"
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\bk12.clo"
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/bk12.clo
 File: bk12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -22,20 +24,14 @@ File: bk12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
-Package: babel 2016/01/08 3.9n The Babel package
+(/usr/local/texlive/2015/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2014/09/25 3.9l The Babel package
 
-*************************************
-* Local config file bblopts.cfg used
-*
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
-File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
-)
-(C:\Users\Chai\AppData\Roaming\MiKTeX\2.9\tex\latex\babel-italian\italian.ldf
+(/usr/local/texlive/2015/texmf-dist/tex/generic/babel-italian/italian.ldf
 Language: italian 2015/03/26 v1.3n Italian support from the babel system
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
-File: babel.def 2016/01/08 3.9n Babel common definitions
+(/usr/local/texlive/2015/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2014/09/25 3.9l Babel common definitions
 \babel@savecnt=\count88
 \U@D=\dimen103
 )
@@ -43,41 +39,41 @@ File: babel.def 2016/01/08 3.9n Babel common definitions
 \it@doublequoteactive=\count90
 \it@ISOcompliance=\count91
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\babel-english\english.ldf"
+(/usr/local/texlive/2015/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2012/08/20 v3.3p English support from the babel system
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 ))
-(C:\Users\Chai\AppData\Roaming\MiKTeX\2.9\tex\latex\etoolbox\etoolbox.sty
-Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2015/05/04 v2.2 e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count92
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
-File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 94.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count93
@@ -85,25 +81,23 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks15
 \inpenc@posthook=\toks16
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
-File: utf8.def 2015/09/07 v1.1p UTF-8 support for inputenc
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2014/09/29 v1.1m UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
-File: t1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
-   defining Unicode char U+00A0 (decimal 160)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
    defining Unicode char U+00AB (decimal 171)
-   defining Unicode char U+00AD (decimal 173)
    defining Unicode char U+00BB (decimal 187)
    defining Unicode char U+00BF (decimal 191)
    defining Unicode char U+00C0 (decimal 192)
@@ -224,10 +218,6 @@ File: t1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
    defining Unicode char U+016F (decimal 367)
    defining Unicode char U+0170 (decimal 368)
    defining Unicode char U+0171 (decimal 369)
-   defining Unicode char U+0174 (decimal 372)
-   defining Unicode char U+0175 (decimal 373)
-   defining Unicode char U+0176 (decimal 374)
-   defining Unicode char U+0177 (decimal 375)
    defining Unicode char U+0178 (decimal 376)
    defining Unicode char U+0179 (decimal 377)
    defining Unicode char U+017A (decimal 378)
@@ -235,10 +225,6 @@ File: t1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
    defining Unicode char U+017C (decimal 380)
    defining Unicode char U+017D (decimal 381)
    defining Unicode char U+017E (decimal 382)
-   defining Unicode char U+0218 (decimal 536)
-   defining Unicode char U+0219 (decimal 537)
-   defining Unicode char U+021A (decimal 538)
-   defining Unicode char U+021B (decimal 539)
    defining Unicode char U+200C (decimal 8204)
    defining Unicode char U+2013 (decimal 8211)
    defining Unicode char U+2014 (decimal 8212)
@@ -257,12 +243,10 @@ File: t1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
-File: ot1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
-   defining Unicode char U+00A0 (decimal 160)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
-   defining Unicode char U+00AD (decimal 173)
    defining Unicode char U+00B8 (decimal 184)
    defining Unicode char U+00BF (decimal 191)
    defining Unicode char U+00C5 (decimal 197)
@@ -280,14 +264,6 @@ File: ot1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
    defining Unicode char U+0142 (decimal 322)
    defining Unicode char U+0152 (decimal 338)
    defining Unicode char U+0153 (decimal 339)
-   defining Unicode char U+0174 (decimal 372)
-   defining Unicode char U+0175 (decimal 373)
-   defining Unicode char U+0176 (decimal 374)
-   defining Unicode char U+0177 (decimal 375)
-   defining Unicode char U+0218 (decimal 536)
-   defining Unicode char U+0219 (decimal 537)
-   defining Unicode char U+021A (decimal 538)
-   defining Unicode char U+021B (decimal 539)
    defining Unicode char U+2013 (decimal 8211)
    defining Unicode char U+2014 (decimal 8212)
    defining Unicode char U+2018 (decimal 8216)
@@ -298,8 +274,8 @@ File: ot1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
-File: omsenc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
    defining Unicode char U+00B7 (decimal 183)
@@ -322,10 +298,10 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(C:\Users\Chai\AppData\Roaming\MiKTeX\2.9\tex\latex\sidecap\sidecap.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/sidecap/sidecap.sty
 Package: sidecap 2003/06/06 v1.6f SideCap Package (RN/HjG)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \SC@BOXWD=\dimen106
@@ -335,14 +311,14 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \c@SC@C=\count94
 \SC@BOX=\box26
 )
-(C:\Users\Chai\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks17
 \symAMSa=\mathgroup4
@@ -350,19 +326,19 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\eurosym\eurosym.sty"
+(/usr/local/texlive/2015/texmf-dist/tex/latex/eurosym/eurosym.sty
 Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
 \@eurobox=\box27
 )
-(C:\Users\Chai\AppData\Roaming\MiKTeX\2.9\tex\latex\subfig\subfig.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/subfig/subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
 
-(C:\Users\Chai\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption.sty
-Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 
-(C:\Users\Chai\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption3.sty
-Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 67.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
 \captionmargin=\dimen110
 \captionmargin@=\dimen111
 \captionwidth=\dimen112
@@ -388,11 +364,11 @@ Package caption Info: sidecap package is loaded.
 \sf@top=\skip46
 \sf@bottom=\skip47
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\enumerate.sty"
-Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2014/10/28 v3.00 enumerate extensions (DPC)
 \@enLab=\toks18
 )
-(C:\Users\Chai\AppData\Roaming\MiKTeX\2.9\tex\latex\xtab\xtab.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/xtab/xtab.sty
 Package: xtab 2011/07/31 v2.3f Extended supertabular package
 \c@tracingst=\count103
 \PWSTcapht=\dimen118
@@ -421,7 +397,7 @@ Package: xtab 2011/07/31 v2.3f Extended supertabular package
 \ST@dimen=\dimen132
 \ST@pbox=\box28
 )
-(C:\Users\Chai\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyvrb\fancyvrb.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
 Package: fancyvrb 2008/02/07
 
 Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
@@ -433,18 +409,18 @@ Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix
 \FV@StepNumber=\count112
 \FV@OutFile=\write3
 )
-(C:\Users\Chai\AppData\Roaming\MiKTeX\2.9\tex\latex\mdwtools\sverb.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/mdwtools/sverb.sty
 Package: sverb 1996/05/08 1.3 Verbatim typesetting
 \svtab=\dimen133
 \listingindent=\dimen134
 \sv@writefile=\write4
 \sv@nestcount=\count113
 )
-(C:\Users\Chai\AppData\Roaming\MiKTeX\2.9\tex\latex\comment\comment.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/comment/comment.sty
 \CommentStream=\write5
 
 Excluding comment 'comment')
-(C:\Users\Chai\AppData\Roaming\MiKTeX\2.9\tex\latex\booktabs\booktabs.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \heavyrulewidth=\dimen135
 \lightrulewidth=\dimen136
@@ -464,24 +440,24 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@lastruleclass=\count117
 \@thisrulewidth=\dimen147
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip51
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks19
 \ex@=\dimen148
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen149
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count118
@@ -522,10 +498,10 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
+(/usr/local/texlive/2015/texmf-dist/tex/latex/multirow/multirow.sty
 \bigstrutjot=\dimen157
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\longtable.sty"
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LTleft=\skip54
 \LTright=\skip55
@@ -543,15 +519,15 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \c@LT@chunks=\count134
 \LT@p@ftn=\toks24
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 142.
 )
-(C:\Users\Chai\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\microtype.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2013/05/23 v2.5a Micro-typographical refinements (RS)
 \MT@toks=\toks25
 \MT@count=\count135
@@ -560,8 +536,7 @@ LaTeX Info: Redefining \textls on input line 766.
 LaTeX Info: Redefining \textmicrotypecontext on input line 1285.
 \MT@listname@count=\count136
 
-(C:\Users\Chai\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\microtype-pdftex.
-def
+(/usr/local/texlive/2015/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2013/05/23 v2.5a Definitions specific to pdftex (RS)
 
 LaTeX Info: Redefining \lsstyle on input line 915.
@@ -570,14 +545,14 @@ LaTeX Info: Redefining \lslig on input line 915.
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
-(C:\Users\Chai\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\microtype.cfg
+(/usr/local/texlive/2015/texmf-dist/tex/latex/microtype/microtype.cfg
 File: microtype.cfg 2013/05/23 v2.5a microtype main configuration file (RS)
 ))
-(C:\Users\Chai\AppData\Roaming\MiKTeX\2.9\tex\latex\algorithms\algorithm.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/algorithms/algorithm.sty
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
 nment
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
+(/usr/local/texlive/2015/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count137
 \float@exts=\toks26
@@ -588,12 +563,10 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@every@algorithm=\toks28
 \c@algorithm=\count138
 )
-(C:\Users\Chai\AppData\Roaming\MiKTeX\2.9\tex\latex\algorithmicx\algpseudocode.
-sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
 Package: algpseudocode 
 
-(C:\Users\Chai\AppData\Roaming\MiKTeX\2.9\tex\latex\algorithmicx\algorithmicx.s
-ty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
 Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
 
 Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
@@ -609,35 +582,35 @@ Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
 \ALG@tmplength=\skip61
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
-) (C:\Users\Chai\AppData\Roaming\MiKTeX\2.9\tex\latex\natbib\natbib.sty
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip62
 \bibsep=\skip63
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count146
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty"
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf.sty
 Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
 Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
 Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -646,11 +619,11 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
@@ -663,17 +636,21 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
-))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+)))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
-Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
 
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
-Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
 Package hobsub Info: Skipping package `ltxcmds' (already loaded).
 Package hobsub Info: Skipping package `ifluatex' (already loaded).
@@ -693,31 +670,31 @@ Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
 )
 Package hobsub Info: Skipping package `hobsub' (already loaded).
 Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
-Package: hopatch 2011/06/24 v1.1 Wrapper for package hooks (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
 Package: xcolor-patch 2011/01/30 xcolor patch
 Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
 Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
 \@linkdim=\dimen160
 \Hy@linkcounter=\count147
 \Hy@pagecounter=\count148
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
 \Hy@SavedSpaceFactor=\count149
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Hyper figures OFF on input line 4443.
@@ -749,19 +726,19 @@ LaTeX Info: Redefining \pageref on input line 6369.
 
 Package hyperref Message: Driver: hpdftex.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
 \Fld@listcount=\count155
 \c@bookmark@seq@number=\count156
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip64
 )
-(C:\Users\Chai\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count157
 \lst@gtempboxa=\box38
 \lst@token=\toks29
@@ -775,23 +752,23 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \lst@lineno=\count162
 \lst@maxwidth=\dimen167
 
-(C:\Users\Chai\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty
-File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
 \c@lstnumber=\count163
 \lst@skipnumbers=\count164
 \lst@framebox=\box39
 )
-(C:\Users\Chai\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.cfg
-File: listings.cfg 2015/06/04 1.6 listings configuration
+(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2014/09/06 1.5e listings configuration
 ))
-Package: listings 2015/06/04 1.6 (Carsten Heinz)
+Package: listings 2014/09/06 1.5e (Carsten Heinz)
 
-(C:\Users\Chai\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlang1.sty
-File: lstlang1.sty 2015/06/04 1.6 listings language file
+(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2014/09/06 1.5e listings language file
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 79.
 
-(C:\Users\Chai\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyhdr\fancyhdr.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 \fancy@headwidth=\skip65
 \f@ncyO@elh=\skip66
 \f@ncyO@erh=\skip67
@@ -802,10 +779,10 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 79.
 \f@ncyO@olf=\skip72
 \f@ncyO@orf=\skip73
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\tabularx.sty"
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2014/10/28 v2.10 `tabularx' package (DPC)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\array.sty"
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/array.sty
 Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen168
 \extrarowheight=\dimen169
@@ -821,11 +798,11 @@ Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \TX@cols=\count165
 \TX@ftn=\toks31
 )
-(C:\Users\Chai\AppData\Roaming\MiKTeX\2.9\tex\latex\setspace\setspace.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-(main.aux (Include/cover.aux) (Include/abstract_ENG.aux)
-(Include/abstract_ITA.aux) (Include/acknowledgements.aux))
+(./main.aux (./Include/cover.aux) (./Include/abstract_ENG.aux)
+(./Include/abstract_ITA.aux) (./Include/acknowledgements.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 166.
@@ -853,7 +830,7 @@ italian.ldf    or specify a font with command \CaporaliFrom
 italian.ldf    See the documentation concerning the babel-italian typesetting 
 italian.ldf    on input line 166.
 
-(C:\Users\Chai\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count166
 \scratchdimen=\dimen175
@@ -866,10 +843,10 @@ italian.ldf    on input line 166.
 \MPnumerator=\count170
 \makeMPintoPDFobject=\count171
 \everyMPtoPDFconversion=\toks33
-) (C:\Users\Chai\AppData\Roaming\MiKTeX\2.9\tex\latex\ms\ragged2e.sty
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/ms/ragged2e.sty
 Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
 
-(C:\Users\Chai\AppData\Roaming\MiKTeX\2.9\tex\latex\ms\everysel.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/ms/everysel.sty
 Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 
 ABD: EverySelectfont initializing macros
@@ -897,8 +874,8 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
 
-(C:\Users\Chai\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\ltcaption.sty
-Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
 )
 Package caption Info: xtab package is loaded.
 Package caption Info: End \AtBeginDocument code.
@@ -913,17 +890,17 @@ Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
 
-(C:\Users\Chai\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\mt-cmr.cfg
+(/usr/local/texlive/2015/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
 \AtBeginShipoutBox=\box41
 Package hyperref Info: Link coloring ON on input line 166.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count172
@@ -932,15 +909,15 @@ LaTeX Info: Redefining \ref on input line 166.
 LaTeX Info: Redefining \pageref on input line 166.
 LaTeX Info: Redefining \nameref on input line 166.
 
-(main.out) (main.out)
+(./main.out) (./main.out)
 \@outlinefile=\write6
 \openout6 = `main.out'.
 
 \c@lstlisting=\count173
 \openout2 = `Include/cover.aux'.
 
- (Include/cover.tex
-<figures/polimi_logo.png, id=379, 642.4pt x 401.5pt>
+ (./Include/cover.tex
+<figures/polimi_logo.png, id=381, 642.4pt x 401.5pt>
 File: figures/polimi_logo.png Graphic file (type png)
 
 <use figures/polimi_logo.png>
@@ -950,14 +927,15 @@ Package pdftex.def Info: figures/polimi_logo.png used on input line 10.
 
 
 
-{C:/Users/Chai/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./figures/po
-limi_logo.png>] [2
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./figur
+es/polimi_logo.png>] [2
 
 ]
 \openout2 = `Include/abstract_ENG.aux'.
 
- (Include/abstract_ENG.tex)
-Underfull \vbox (badness 1902) has occurred while \output is active []
+
+(./Include/abstract_ENG.tex)
+Underfull \vbox (badness 1102) has occurred while \output is active []
 
  [3
 
@@ -966,47 +944,46 @@ Underfull \vbox (badness 1902) has occurred while \output is active []
 [4]
 \openout2 = `Include/abstract_ITA.aux'.
 
- (Include/abstract_ITA.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ (./Include/abstract_ITA.tex
+Underfull \vbox (badness 1902) has occurred while \output is active []
 
  [5
 
 
 
 ])
-[6] (main.toc
+[6] (./main.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 6.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-(C:\Users\Chai\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\mt-msa.cfg
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 6.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-(C:\Users\Chai\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\mt-msb.cfg
+(/usr/local/texlive/2015/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
-[7
+) [7
 
 
-] [8] [9])
+]
+[8] [9])
 \tf@toc=\write7
 \openout7 = `main.toc'.
 
- [10] (main.lof [11
+ [10] (./main.lof [11
 
 ] [12] [13])
 \tf@lof=\write8
 \openout8 = `main.lof'.
 
- [14] (Chapters/Chapter1.tex
+ [14] (./Chapters/Chapter1.tex
 Chapter 1.
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 9.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
@@ -1015,11 +992,11 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 
 
 ] [2])
-(Chapters/Chapter2.tex [3] [4
+(./Chapters/Chapter2.tex [3] [4
 
 ]
 Chapter 2.
-<figures/ch2/1.png, id=751, 1606.0pt x 1606.0pt>
+<figures/ch2/1.png, id=756, 1606.0pt x 1606.0pt>
 File: figures/ch2/1.png Graphic file (type png)
  <use figures/ch2/1.png>
 Package pdftex.def Info: figures/ch2/1.png used on input line 21.
@@ -1033,7 +1010,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--46
 
  []
 
-[7] <figures/ch2/2.png, id=772, 1606.0pt x 1606.0pt>
+[7] <figures/ch2/2.png, id=777, 1606.0pt x 1606.0pt>
 File: figures/ch2/2.png Graphic file (type png)
  <use figures/ch2/2.png>
 Package pdftex.def Info: figures/ch2/2.png used on input line 57.
@@ -1043,26 +1020,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 63--65
 
  []
 
-[8 <./figures/ch2/2.png>] <figures/ch2/3.png, id=778, 240.9pt x 153.57375pt>
+[8 <./figures/ch2/2.png>] <figures/ch2/3.png, id=783, 240.9pt x 153.57375pt>
 File: figures/ch2/3.png Graphic file (type png)
 
 <use figures/ch2/3.png>
 Package pdftex.def Info: figures/ch2/3.png used on input line 68.
 (pdftex.def)             Requested size: 170.71652pt x 108.83424pt.
- <figures/ch2/4.png, id=779, 240.9pt x 153.57375pt>
+ <figures/ch2/4.png, id=784, 240.9pt x 153.57375pt>
 File: figures/ch2/4.png Graphic file (type png)
 
 <use figures/ch2/4.png>
 Package pdftex.def Info: figures/ch2/4.png used on input line 74.
 (pdftex.def)             Requested size: 170.71652pt x 108.83424pt.
  [9 <./figures/ch2/3.png>]
-<figures/ch2/5.png, id=785, 301.125pt x 301.125pt>
+<figures/ch2/5.png, id=790, 301.125pt x 301.125pt>
 File: figures/ch2/5.png Graphic file (type png)
  <use figures/ch2/5.png>
 Package pdftex.def Info: figures/ch2/5.png used on input line 91.
 (pdftex.def)             Requested size: 170.71652pt x 170.72406pt.
 
-<figures/ch2/6.png, id=786, 385.44pt x 251.94125pt>
+<figures/ch2/6.png, id=791, 385.44pt x 251.94125pt>
 File: figures/ch2/6.png Graphic file (type png)
  <use figures/ch2/6.png>
 Package pdftex.def Info: figures/ch2/6.png used on input line 102.
@@ -1071,27 +1048,27 @@ Package pdftex.def Info: figures/ch2/6.png used on input line 102.
 [10 <./figures/ch2/4.png>] [11 <./figures/ch2/5.png>]
 Underfull \vbox (badness 6236) has occurred while \output is active []
 
- [12 <./figures/ch2/6.png>] [13] <figures/ch2/7.png, id=806, 403.5075pt x 252.9
+ [12 <./figures/ch2/6.png>] [13] <figures/ch2/7.png, id=812, 403.5075pt x 252.9
 45pt>
 File: figures/ch2/7.png Graphic file (type png)
 
 <use figures/ch2/7.png>
 Package pdftex.def Info: figures/ch2/7.png used on input line 132.
 (pdftex.def)             Requested size: 256.0748pt x 160.52565pt.
- <figures/ch2/8.png, id=807, 727.518pt x 202.95825pt>
+ <figures/ch2/8.png, id=813, 727.518pt x 202.95825pt>
 File: figures/ch2/8.png Graphic file (type png)
 
 <use figures/ch2/8.png>
 Package pdftex.def Info: figures/ch2/8.png used on input line 141.
 (pdftex.def)             Requested size: 369.88582pt x 103.18835pt.
  [14 <./figures/ch2/7.png> <./figures/ch2/8.png>]
-<figures/ch2/9.png, id=813, 286.06876pt x 147.55125pt>
+<figures/ch2/9.png, id=819, 286.06876pt x 147.55125pt>
 File: figures/ch2/9.png Graphic file (type png)
  <use figures/ch2/9.png>
 Package pdftex.def Info: figures/ch2/9.png used on input line 154.
 (pdftex.def)             Requested size: 256.0748pt x 132.08116pt.
 
-<figures/ch2/10.png, id=814, 289.08pt x 140.9265pt>
+<figures/ch2/10.png, id=820, 289.08pt x 140.9265pt>
 File: figures/ch2/10.png Graphic file (type png)
  <use figures/ch2/10.png>
 Package pdftex.def Info: figures/ch2/10.png used on input line 163.
@@ -1099,56 +1076,56 @@ Package pdftex.def Info: figures/ch2/10.png used on input line 163.
 
 Underfull \vbox (badness 2253) has occurred while \output is active []
 
- [15 <./figures/ch2/9.png>] <figures/ch2/11.png, id=820, 290.2845pt x 145.7445p
+ [15 <./figures/ch2/9.png>] <figures/ch2/11.png, id=826, 290.2845pt x 145.7445p
 t>
 File: figures/ch2/11.png Graphic file (type png)
 
 <use figures/ch2/11.png>
 Package pdftex.def Info: figures/ch2/11.png used on input line 172.
 (pdftex.def)             Requested size: 256.0748pt x 128.56912pt.
-) (Chapters/Chapter3.tex [16 <./figures/ch2/10.png> <./figures/ch2/11.png>] [17
-] [18
+) (./Chapters/Chapter3.tex [16 <./figures/ch2/10.png> <./figures/ch2/11.png>] [
+17] [18
 
 ]
 Chapter 3.
-<figures/ch3/1.png, id=836, 248.6088pt x 193.6836pt>
+<figures/ch3/1.png, id=842, 248.6088pt x 193.6836pt>
 File: figures/ch3/1.png Graphic file (type png)
  <use figures/ch3/1.png>
 Package pdftex.def Info: figures/ch3/1.png used on input line 19.
 (pdftex.def)             Requested size: 256.0748pt x 199.5111pt.
 
-<figures/ch3/2a.png, id=837, 963.6pt x 422.57875pt>
+<figures/ch3/2a.png, id=843, 963.6pt x 422.57875pt>
 File: figures/ch3/2a.png Graphic file (type png)
  <use figures/ch3/2a.png>
 Package pdftex.def Info: figures/ch3/2a.png used on input line 28.
 (pdftex.def)             Requested size: 256.0748pt x 112.29878pt.
 
-<figures/ch3/2b.png, id=838, 963.6pt x 422.57875pt>
+<figures/ch3/2b.png, id=844, 963.6pt x 422.57875pt>
 File: figures/ch3/2b.png Graphic file (type png)
  <use figures/ch3/2b.png>
 Package pdftex.def Info: figures/ch3/2b.png used on input line 29.
 (pdftex.def)             Requested size: 256.0748pt x 112.29878pt.
 
-[19] <figures/ch3/3.png, id=843, 481.8pt x 411.5375pt>
+[19] <figures/ch3/3.png, id=849, 481.8pt x 411.5375pt>
 File: figures/ch3/3.png Graphic file (type png)
  <use figures/ch3/3.png>
 Package pdftex.def Info: figures/ch3/3.png used on input line 38.
 (pdftex.def)             Requested size: 256.0748pt x 218.7355pt.
 
 [20 <./figures/ch3/1.png> <./figures/ch3/2a.png> <./figures/ch3/2b.png>]
-<figures/ch3/4a.png, id=851, 301.125pt x 301.125pt>
+<figures/ch3/4a.png, id=857, 301.125pt x 301.125pt>
 File: figures/ch3/4a.png Graphic file (type png)
  <use figures/ch3/4a.png>
 Package pdftex.def Info: figures/ch3/4a.png used on input line 47.
 (pdftex.def)             Requested size: 170.71652pt x 170.72406pt.
 
-<figures/ch3/4b.png, id=852, 301.125pt x 301.125pt>
+<figures/ch3/4b.png, id=858, 301.125pt x 301.125pt>
 File: figures/ch3/4b.png Graphic file (type png)
  <use figures/ch3/4b.png>
 Package pdftex.def Info: figures/ch3/4b.png used on input line 48.
 (pdftex.def)             Requested size: 170.71652pt x 170.72406pt.
 
-<figures/ch3/5.png, id=853, 423.38174pt x 240.9pt>
+<figures/ch3/5.png, id=859, 423.38174pt x 240.9pt>
 File: figures/ch3/5.png Graphic file (type png)
  <use figures/ch3/5.png>
 Package pdftex.def Info: figures/ch3/5.png used on input line 57.
@@ -1157,27 +1134,27 @@ Package pdftex.def Info: figures/ch3/5.png used on input line 57.
 Underfull \vbox (badness 4872) has occurred while \output is active []
 
  [21 <./figures/ch3/3.png>] [22 <./figures/ch3/4a.png> <./figures/ch3/4b.png> <
-./figures/ch3/5.png>]) (Chapters/Chapter4.tex [23] [24]
+./figures/ch3/5.png>]) (./Chapters/Chapter4.tex [23] [24]
 Chapter 4.
 [25
 
-]) (Chapters/Chapter5.tex [26]
+]) (./Chapters/Chapter5.tex [26]
 Chapter 5.
 [27
 
-] <figures/ch5/1.png, id=893, 388.45125pt x 231.86626pt>
+] <figures/ch5/1.png, id=899, 388.45125pt x 231.86626pt>
 File: figures/ch5/1.png Graphic file (type png)
 
 <use figures/ch5/1.png>
 Package pdftex.def Info: figures/ch5/1.png used on input line 28.
 (pdftex.def)             Requested size: 256.0748pt x 152.85529pt.
- <figures/ch5/2.png, id=894, 388.45125pt x 231.86626pt>
+ <figures/ch5/2.png, id=900, 388.45125pt x 231.86626pt>
 File: figures/ch5/2.png Graphic file (type png)
 
 <use figures/ch5/2.png>
 Package pdftex.def Info: figures/ch5/2.png used on input line 34.
 (pdftex.def)             Requested size: 256.0748pt x 152.85529pt.
- <figures/ch5/3.png, id=895, 388.45125pt x 231.86626pt>
+ <figures/ch5/3.png, id=901, 388.45125pt x 231.86626pt>
 File: figures/ch5/3.png Graphic file (type png)
 
 <use figures/ch5/3.png>
@@ -1192,37 +1169,37 @@ Underfull \vbox (badness 2126) has occurred while \output is active []
  [29 <./figures/ch5/1.png (PNG copy)> <./figures/ch5/2.png>]
 Underfull \vbox (badness 4181) has occurred while \output is active []
 
- [30 <./figures/ch5/3.png>]) (Chapters/Chapter6.tex [31] [32
+ [30 <./figures/ch5/3.png>]) (./Chapters/Chapter6.tex [31] [32
 
 ]
 Chapter 6.
-<figures/ch6/1.png, id=922, 733.74126pt x 330.23375pt>
+<figures/ch6/1.png, id=929, 733.74126pt x 330.23375pt>
 File: figures/ch6/1.png Graphic file (type png)
  <use figures/ch6/1.png>
 Package pdftex.def Info: figures/ch6/1.png used on input line 12.
 (pdftex.def)             Requested size: 341.43306pt x 153.66795pt.
 
-[33] <figures/ch6/2.png, id=931, 485.815pt x 331.2375pt>
+[33] <figures/ch6/2.png, id=938, 485.815pt x 331.2375pt>
 File: figures/ch6/2.png Graphic file (type png)
 
 <use figures/ch6/2.png>
 Package pdftex.def Info: figures/ch6/2.png used on input line 29.
 (pdftex.def)             Requested size: 284.52756pt x 193.99301pt.
  [34 <./figures/ch6/1.png>] [35 <./figures/ch6/2.png>]
-<figures/ch6/3.png, id=946, 561.09625pt x 461.725pt>
+<figures/ch6/3.png, id=953, 561.09625pt x 461.725pt>
 File: figures/ch6/3.png Graphic file (type png)
  <use figures/ch6/3.png>
 Package pdftex.def Info: figures/ch6/3.png used on input line 38.
 (pdftex.def)             Requested size: 341.43306pt x 280.9614pt.
 
 [36 <./figures/ch6/3.png>]
-<figures/ch6/4.png, id=957, 431.6125pt x 271.0125pt>
+<figures/ch6/4.png, id=964, 431.6125pt x 271.0125pt>
 File: figures/ch6/4.png Graphic file (type png)
  <use figures/ch6/4.png>
 Package pdftex.def Info: figures/ch6/4.png used on input line 57.
 (pdftex.def)             Requested size: 341.43306pt x 214.39526pt.
 
-[37] <figures/ch6/5.png, id=965, 690.58pt x 479.7925pt>
+[37] <figures/ch6/5.png, id=972, 690.58pt x 479.7925pt>
 File: figures/ch6/5.png Graphic file (type png)
 
 <use figures/ch6/5.png>
@@ -1231,15 +1208,16 @@ Package pdftex.def Info: figures/ch6/5.png used on input line 75.
  [38 <./figures/ch6/4.png>]
 Underfull \vbox (badness 1033) has occurred while \output is active []
 
- [39 <./figures/ch6/5.png>] <figures/ch6/6.png, id=993, 425.59pt x 545.03625pt>
+ [39 <./figures/ch6/5.png>] <figures/ch6/6.png, id=1000, 425.59pt x 545.03625pt
+>
 File: figures/ch6/6.png Graphic file (type png)
 
 <use figures/ch6/6.png>
 Package pdftex.def Info: figures/ch6/6.png used on input line 111.
 (pdftex.def)             Requested size: 312.9803pt x 400.84218pt.
-) (Chapters/Chapter7.tex [40] [41 <./figures/ch6/6.png>] [42]
+) (./Chapters/Chapter7.tex [40] [41 <./figures/ch6/6.png>] [42]
 Chapter 7.
-<figures/ch7/1.png, id=1016, 679.94025pt x 388.45125pt>
+<figures/ch7/1.png, id=1023, 679.94025pt x 388.45125pt>
 File: figures/ch7/1.png Graphic file (type png)
 
 <use figures/ch7/1.png>
@@ -1259,7 +1237,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
  [45] [46] [47]
-<figures/ch7/2.png, id=1055, 438.63875pt x 258.9675pt>
+<figures/ch7/2.png, id=1063, 438.63875pt x 258.9675pt>
 File: figures/ch7/2.png Graphic file (type png)
  <use figures/ch7/2.png>
 Package pdftex.def Info: figures/ch7/2.png used on input line 73.
@@ -1278,14 +1256,14 @@ Overfull \hbox (122.21611pt too wide) in paragraph at lines 140--141
  []
 
 [50] [51] [52] [53] [54]
-<figures/ch7/3.png, id=1167, 537.00626pt x 426.59375pt>
+<figures/ch7/3.png, id=1176, 537.00626pt x 426.59375pt>
 File: figures/ch7/3.png Graphic file (type png)
 
 <use figures/ch7/3.png>
 Package pdftex.def Info: figures/ch7/3.png used on input line 240.
 (pdftex.def)             Requested size: 341.43306pt x 271.229pt.
  [55] [56 <./figures/ch7/3.png>]
-<figures/ch7/4.png, id=1194, 1561.835pt x 1210.5225pt>
+<figures/ch7/4.png, id=1203, 1561.835pt x 1210.5225pt>
 File: figures/ch7/4.png Graphic file (type png)
  <use figures/ch7/4.png>
 Package pdftex.def Info: figures/ch7/4.png used on input line 267.
@@ -1294,30 +1272,30 @@ Package pdftex.def Info: figures/ch7/4.png used on input line 267.
 [57]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [58 <./figures/ch7/4.png>] [59]) (Chapters/Chapter8.tex [60] [61] [62
+ [58 <./figures/ch7/4.png>] [59]) (./Chapters/Chapter8.tex [60] [61] [62
 
 ]
 Chapter 8.
-<figures/ch8/1.png, id=1225, 769.6755pt x 326.4195pt>
+<figures/ch8/1.png, id=1234, 769.6755pt x 326.4195pt>
 File: figures/ch8/1.png Graphic file (type png)
  <use figures/ch8/1.png>
 Package pdftex.def Info: figures/ch8/1.png used on input line 20.
 (pdftex.def)             Requested size: 312.9803pt x 132.73708pt.
 
-<figures/ch8/2.png, id=1226, 733.74126pt x 676.5275pt>
+<figures/ch8/2.png, id=1235, 733.74126pt x 676.5275pt>
 File: figures/ch8/2.png Graphic file (type png)
  <use figures/ch8/2.png>
 Package pdftex.def Info: figures/ch8/2.png used on input line 30.
 (pdftex.def)             Requested size: 341.43306pt x 314.80913pt.
 
-[63] <figures/ch8/3.png, id=1241, 324.61275pt x 526.96875pt>
+[63] <figures/ch8/3.png, id=1251, 324.61275pt x 526.96875pt>
 File: figures/ch8/3.png Graphic file (type png)
 
 <use figures/ch8/3.png>
 Package pdftex.def Info: figures/ch8/3.png used on input line 41.
 (pdftex.def)             Requested size: 256.0748pt x 415.7218pt.
  [64 <./figures/ch8/1.png>] [65 <./figures/ch8/2.png>]
-<figures/ch8/4.png, id=1260, 393.26926pt x 428.802pt>
+<figures/ch8/4.png, id=1270, 393.26926pt x 428.802pt>
 File: figures/ch8/4.png Graphic file (type png)
  <use figures/ch8/4.png>
 Package pdftex.def Info: figures/ch8/4.png used on input line 58.
@@ -1328,7 +1306,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 88--90
 
  []
 
-[68]) (Chapters/Chapter9.tex [69] [70]
+[68]) (./Chapters/Chapter9.tex [69] [70]
 Chapter 9.
 
 Underfull \vbox (badness 2126) has occurred while \output is active []
@@ -1337,55 +1315,55 @@ Underfull \vbox (badness 2126) has occurred while \output is active []
 
 ]
 Package epstopdf Info: Source file: <figures/ch9/1.eps>
-(epstopdf)                    date: 2016-04-04 21:11:49
+(epstopdf)                    date: 2016-04-03 23:15:41
 (epstopdf)                    size: 43974 bytes
 (epstopdf)             Output file: <figures/ch9/1-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-04-04 21:11:49
+(epstopdf)                    date: 2016-04-03 23:17:52
 (epstopdf)                    size: 61904 bytes
-(epstopdf)             Command: <epstopdf --outfile=figures/ch9/1-eps-converted
--to.pdf figures/ch9/1.eps>
+(epstopdf)             Command: <repstopdf --outfile=figures/ch9/1-eps-converte
+d-to.pdf figures/ch9/1.eps>
 (epstopdf)             \includegraphics on input line 35.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/ch9/1-eps-converted-to.pdf, id=1298, 332.24126pt x 187.70125pt>
+<figures/ch9/1-eps-converted-to.pdf, id=1308, 332.24126pt x 187.70125pt>
 File: figures/ch9/1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/ch9/1-eps-converted-to.pdf>
 Package pdftex.def Info: figures/ch9/1-eps-converted-to.pdf used on input line 
 35.
 (pdftex.def)             Requested size: 256.0748pt x 144.67934pt.
- [72] [73 <./figures/ch9/1-eps-converted-to.pdf>] <figures/ch9/2.png, id=1312, 
+ [72] [73 <./figures/ch9/1-eps-converted-to.pdf>] <figures/ch9/2.png, id=1322, 
 1606.0pt x 865.2325pt>
 File: figures/ch9/2.png Graphic file (type png)
 
 <use figures/ch9/2.png>
 Package pdftex.def Info: figures/ch9/2.png used on input line 66.
 (pdftex.def)             Requested size: 398.33858pt x 214.60449pt.
- <figures/ch9/3.png, id=1314, 811.03pt x 471.7625pt>
+ <figures/ch9/3.png, id=1324, 811.03pt x 471.7625pt>
 File: figures/ch9/3.png Graphic file (type png)
 
 <use figures/ch9/3.png>
 Package pdftex.def Info: figures/ch9/3.png used on input line 74.
 (pdftex.def)             Requested size: 341.43306pt x 198.6068pt.
  [74] [75 <./figures/ch9/2.png>] [76 <./figures/ch9/3.png>] <figures/ch9/4.png,
- id=1336, 1369.115pt x 754.82pt>
+ id=1346, 1369.115pt x 754.82pt>
 File: figures/ch9/4.png Graphic file (type png)
 
 <use figures/ch9/4.png>
 Package pdftex.def Info: figures/ch9/4.png used on input line 97.
 (pdftex.def)             Requested size: 341.43306pt x 188.23232pt.
 Package epstopdf Info: Source file: <figures/ch9/5.eps>
-(epstopdf)                    date: 2016-04-04 21:11:49
+(epstopdf)                    date: 2016-04-03 23:38:12
 (epstopdf)                    size: 79225 bytes
 (epstopdf)             Output file: <figures/ch9/5-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-04-04 21:11:49
+(epstopdf)                    date: 2016-04-03 23:38:44
 (epstopdf)                    size: 137687 bytes
-(epstopdf)             Command: <epstopdf --outfile=figures/ch9/5-eps-converted
--to.pdf figures/ch9/5.eps>
+(epstopdf)             Command: <repstopdf --outfile=figures/ch9/5-eps-converte
+d-to.pdf figures/ch9/5.eps>
 (epstopdf)             \includegraphics on input line 103.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/ch9/5-eps-converted-to.pdf, id=1337, 528.97626pt x 452.69125pt>
+<figures/ch9/5-eps-converted-to.pdf, id=1347, 528.97626pt x 452.69125pt>
 File: figures/ch9/5-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/ch9/5-eps-converted-to.pdf>
@@ -1394,24 +1372,24 @@ Package pdftex.def Info: figures/ch9/5-eps-converted-to.pdf used on input line
 (pdftex.def)             Requested size: 369.88582pt x 316.54324pt.
  [77 <./figures/ch9/4.png>] [78 <./figures/ch9/5-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figures/ch9/6.eps>
-(epstopdf)                    date: 2016-04-04 21:11:49
+(epstopdf)                    date: 2016-04-04 14:14:12
 (epstopdf)                    size: 45618 bytes
 (epstopdf)             Output file: <figures/ch9/6-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-04-04 21:11:49
+(epstopdf)                    date: 2016-04-04 14:14:57
 (epstopdf)                    size: 75257 bytes
-(epstopdf)             Command: <epstopdf --outfile=figures/ch9/6-eps-converted
--to.pdf figures/ch9/6.eps>
+(epstopdf)             Command: <repstopdf --outfile=figures/ch9/6-eps-converte
+d-to.pdf figures/ch9/6.eps>
 (epstopdf)             \includegraphics on input line 125.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/ch9/6-eps-converted-to.pdf, id=1356, 444.66125pt x 187.70125pt>
+<figures/ch9/6-eps-converted-to.pdf, id=1366, 444.66125pt x 187.70125pt>
 File: figures/ch9/6-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/ch9/6-eps-converted-to.pdf>
 Package pdftex.def Info: figures/ch9/6-eps-converted-to.pdf used on input line 
 125.
 (pdftex.def)             Requested size: 341.43306pt x 144.12657pt.
- [79 <./figures/ch9/6-eps-converted-to.pdf>] <figures/ch9/7.png, id=1365, 722.7
+ [79 <./figures/ch9/6-eps-converted-to.pdf>] <figures/ch9/7.png, id=1376, 722.7
 pt x 562.1pt>
 File: figures/ch9/7.png Graphic file (type png)
  <use figures/ch9/7.png>
@@ -1420,17 +1398,17 @@ Package pdftex.def Info: figures/ch9/7.png used on input line 146.
 
 [80] [81 <./figures/ch9/7.png>]
 Package epstopdf Info: Source file: <figures/ch9/8.eps>
-(epstopdf)                    date: 2016-04-04 21:11:49
+(epstopdf)                    date: 2016-04-04 15:02:56
 (epstopdf)                    size: 78932 bytes
 (epstopdf)             Output file: <figures/ch9/8-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-04-04 21:11:49
+(epstopdf)                    date: 2016-04-04 15:03:21
 (epstopdf)                    size: 148899 bytes
-(epstopdf)             Command: <epstopdf --outfile=figures/ch9/8-eps-converted
--to.pdf figures/ch9/8.eps>
+(epstopdf)             Command: <repstopdf --outfile=figures/ch9/8-eps-converte
+d-to.pdf figures/ch9/8.eps>
 (epstopdf)             \includegraphics on input line 172.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/ch9/8-eps-converted-to.pdf, id=1380, 500.87125pt x 452.69125pt>
+<figures/ch9/8-eps-converted-to.pdf, id=1391, 500.87125pt x 452.69125pt>
 File: figures/ch9/8-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/ch9/8-eps-converted-to.pdf>
@@ -1438,7 +1416,7 @@ Package pdftex.def Info: figures/ch9/8-eps-converted-to.pdf used on input line
 172.
 (pdftex.def)             Requested size: 369.88582pt x 334.31625pt.
  [82]
-<figures/ch9/9.png, id=1388, 1528.71124pt x 958.58125pt>
+<figures/ch9/9.png, id=1399, 1528.71124pt x 958.58125pt>
 File: figures/ch9/9.png Graphic file (type png)
 
 <use figures/ch9/9.png>
@@ -1446,17 +1424,17 @@ Package pdftex.def Info: figures/ch9/9.png used on input line 188.
 (pdftex.def)             Requested size: 284.52756pt x 178.40251pt.
  [83 <./figures/ch9/8-eps-converted-to.pdf>] [84 <./figures/ch9/9.png>]
 Package epstopdf Info: Source file: <figures/ch9/10.eps>
-(epstopdf)                    date: 2016-04-04 21:11:49
+(epstopdf)                    date: 2016-04-04 17:45:29
 (epstopdf)                    size: 97274 bytes
 (epstopdf)             Output file: <figures/ch9/10-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-04-04 21:11:49
+(epstopdf)                    date: 2016-04-04 17:45:55
 (epstopdf)                    size: 221196 bytes
-(epstopdf)             Command: <epstopdf --outfile=figures/ch9/10-eps-converte
-d-to.pdf figures/ch9/10.eps>
+(epstopdf)             Command: <repstopdf --outfile=figures/ch9/10-eps-convert
+ed-to.pdf figures/ch9/10.eps>
 (epstopdf)             \includegraphics on input line 210.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/ch9/10-eps-converted-to.pdf, id=1403, 618.31pt x 637.38126pt>
+<figures/ch9/10-eps-converted-to.pdf, id=1414, 618.31pt x 637.38126pt>
 File: figures/ch9/10-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/ch9/10-eps-converted-to.pdf>
@@ -1464,17 +1442,17 @@ Package pdftex.def Info: figures/ch9/10-eps-converted-to.pdf used on input line
  210.
 (pdftex.def)             Requested size: 398.33858pt x 410.63606pt.
 Package epstopdf Info: Source file: <figures/ch9/11.eps>
-(epstopdf)                    date: 2016-04-04 21:11:49
+(epstopdf)                    date: 2016-04-04 17:54:05
 (epstopdf)                    size: 40140 bytes
 (epstopdf)             Output file: <figures/ch9/11-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-04-04 21:11:49
+(epstopdf)                    date: 2016-04-04 17:54:16
 (epstopdf)                    size: 44069 bytes
-(epstopdf)             Command: <epstopdf --outfile=figures/ch9/11-eps-converte
-d-to.pdf figures/ch9/11.eps>
+(epstopdf)             Command: <repstopdf --outfile=figures/ch9/11-eps-convert
+ed-to.pdf figures/ch9/11.eps>
 (epstopdf)             \includegraphics on input line 220.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/ch9/11-eps-converted-to.pdf, id=1406, 416.55624pt x 284.06125pt>
+<figures/ch9/11-eps-converted-to.pdf, id=1417, 416.55624pt x 284.06125pt>
 File: figures/ch9/11-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/ch9/11-eps-converted-to.pdf>
@@ -1487,16 +1465,16 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [86 <./figures/ch9/10-eps-converted-to.pdf>] [87 <./figures/ch9/11-eps-convert
 ed-to.pdf>] [88]
 Package epstopdf Info: Source file: <figures/ch9/12.eps>
-(epstopdf)                    date: 2016-04-04 21:11:49
+(epstopdf)                    date: 2016-04-04 18:00:50
 (epstopdf)                    size: 114765 bytes
 (epstopdf)             Output file: <figures/ch9/12-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-04-04 21:11:49
+(epstopdf)                    date: 2016-04-04 18:02:16
 (epstopdf)                    size: 109877 bytes
-(epstopdf)             Command: <epstopdf --outfile=figures/ch9/12-eps-converte
-d-to.pdf figures/ch9/12.eps>
+(epstopdf)             Command: <repstopdf --outfile=figures/ch9/12-eps-convert
+ed-to.pdf figures/ch9/12.eps>
 (epstopdf)             \includegraphics on input line 254.
 Package epstopdf Info: Output file is already uptodate.
- <figures/ch9/12-eps-converted-to.pdf, id=1430, 1349.04pt x 1379.1525pt>
+ <figures/ch9/12-eps-converted-to.pdf, id=1441, 1349.04pt x 1379.1525pt>
 File: figures/ch9/12-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/ch9/12-eps-converted-to.pdf>
@@ -1505,17 +1483,17 @@ Package pdftex.def Info: figures/ch9/12-eps-converted-to.pdf used on input line
 (pdftex.def)             Requested size: 432.67912pt x 442.32689pt.
  [89 <./figures/ch9/12-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figures/ch9/13.eps>
-(epstopdf)                    date: 2016-04-04 21:11:49
+(epstopdf)                    date: 2016-04-04 18:00:58
 (epstopdf)                    size: 92270 bytes
 (epstopdf)             Output file: <figures/ch9/13-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-04-04 21:11:49
+(epstopdf)                    date: 2016-04-04 18:05:45
 (epstopdf)                    size: 77642 bytes
-(epstopdf)             Command: <epstopdf --outfile=figures/ch9/13-eps-converte
-d-to.pdf figures/ch9/13.eps>
+(epstopdf)             Command: <repstopdf --outfile=figures/ch9/13-eps-convert
+ed-to.pdf figures/ch9/13.eps>
 (epstopdf)             \includegraphics on input line 273.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/ch9/13-eps-converted-to.pdf, id=1440, 1158.3275pt x 1302.8675pt>
+<figures/ch9/13-eps-converted-to.pdf, id=1451, 1158.3275pt x 1302.8675pt>
 File: figures/ch9/13-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/ch9/13-eps-converted-to.pdf>
@@ -1525,27 +1503,27 @@ Package pdftex.def Info: figures/ch9/13-eps-converted-to.pdf used on input line
  [90]
 Underfull \vbox (badness 1867) has occurred while \output is active []
 
- [91 <./figures/ch9/13-eps-converted-to.pdf>]) (Chapters/Chapter10.tex [92]
+ [91 <./figures/ch9/13-eps-converted-to.pdf>]) (./Chapters/Chapter10.tex [92]
 Chapter 10.
-<figures/ch10/1.png, id=1458, 903.375pt x 1606.0pt>
+<figures/ch10/1.png, id=1469, 903.375pt x 1606.0pt>
 File: figures/ch10/1.png Graphic file (type png)
  <use figures/ch10/1.png>
 Package pdftex.def Info: figures/ch10/1.png used on input line 8.
 (pdftex.def)             Requested size: 129.80505pt x 230.74431pt.
 
-<figures/ch10/2.png, id=1459, 903.375pt x 1606.0pt>
+<figures/ch10/2.png, id=1470, 903.375pt x 1606.0pt>
 File: figures/ch10/2.png Graphic file (type png)
  <use figures/ch10/2.png>
 Package pdftex.def Info: figures/ch10/2.png used on input line 10.
 (pdftex.def)             Requested size: 129.80505pt x 230.74431pt.
 
-<figures/ch10/3.png, id=1462, 903.375pt x 1606.0pt>
+<figures/ch10/3.png, id=1473, 903.375pt x 1606.0pt>
 File: figures/ch10/3.png Graphic file (type png)
  <use figures/ch10/3.png>
 Package pdftex.def Info: figures/ch10/3.png used on input line 18.
 (pdftex.def)             Requested size: 129.80505pt x 230.74431pt.
 
-<figures/ch10/4.png, id=1463, 903.375pt x 1606.0pt>
+<figures/ch10/4.png, id=1474, 903.375pt x 1606.0pt>
 File: figures/ch10/4.png Graphic file (type png)
  <use figures/ch10/4.png>
 Package pdftex.def Info: figures/ch10/4.png used on input line 20.
@@ -1554,31 +1532,31 @@ Package pdftex.def Info: figures/ch10/4.png used on input line 20.
 [93
 
 ] [94 <./figures/ch10/1.png> <./figures/ch10/2.png>]
-<figures/ch10/5.png, id=1482, 903.375pt x 1606.0pt>
+<figures/ch10/5.png, id=1493, 903.375pt x 1606.0pt>
 File: figures/ch10/5.png Graphic file (type png)
  <use figures/ch10/5.png>
 Package pdftex.def Info: figures/ch10/5.png used on input line 36.
 (pdftex.def)             Requested size: 129.80505pt x 230.74431pt.
 
-<figures/ch10/6.png, id=1483, 903.375pt x 1606.0pt>
+<figures/ch10/6.png, id=1494, 903.375pt x 1606.0pt>
 File: figures/ch10/6.png Graphic file (type png)
  <use figures/ch10/6.png>
 Package pdftex.def Info: figures/ch10/6.png used on input line 38.
 (pdftex.def)             Requested size: 129.80505pt x 230.74431pt.
 
-<figures/ch10/7.png, id=1486, 903.375pt x 1606.0pt>
+<figures/ch10/7.png, id=1497, 903.375pt x 1606.0pt>
 File: figures/ch10/7.png Graphic file (type png)
  <use figures/ch10/7.png>
 Package pdftex.def Info: figures/ch10/7.png used on input line 47.
 (pdftex.def)             Requested size: 129.80505pt x 230.74431pt.
 
-<figures/ch10/8.png, id=1487, 903.375pt x 1606.0pt>
+<figures/ch10/8.png, id=1498, 903.375pt x 1606.0pt>
 File: figures/ch10/8.png Graphic file (type png)
  <use figures/ch10/8.png>
 Package pdftex.def Info: figures/ch10/8.png used on input line 49.
 (pdftex.def)             Requested size: 129.80505pt x 230.74431pt.
 
-<figures/ch10/9.png, id=1489, 903.375pt x 1606.0pt>
+<figures/ch10/9.png, id=1500, 903.375pt x 1606.0pt>
 File: figures/ch10/9.png Graphic file (type png)
  <use figures/ch10/9.png>
 Package pdftex.def Info: figures/ch10/9.png used on input line 57.
@@ -1588,7 +1566,7 @@ Package pdftex.def Info: figures/ch10/9.png used on input line 57.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [96 <./figures/ch10/5.png> <./figures/ch10/6.png>]
-<figures/ch10/10a.png, id=1503, 903.375pt x 1606.0pt>
+<figures/ch10/10a.png, id=1515, 903.375pt x 1606.0pt>
 File: figures/ch10/10a.png Graphic file (type png)
 
 <use figures/ch10/10a.png>
@@ -1599,7 +1577,7 @@ Underfull \hbox (badness 1609) in paragraph at lines 69--69
 []\OT1/cmr/m/n/10 (+20) (a) |First pa-ram-e-ters op-tion
  []
 
-<figures/ch10/10b.png, id=1504, 903.375pt x 1606.0pt>
+<figures/ch10/10b.png, id=1516, 903.375pt x 1606.0pt>
 File: figures/ch10/10b.png Graphic file (type png)
 
 <use figures/ch10/10b.png>
@@ -1620,7 +1598,7 @@ Underfull \hbox (badness 5802) in paragraph at lines 102--102
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [99 <./figures/ch10/10a.png> <./figures/ch10/10b.png>] [100]
-<figures/ch10/12.png, id=1529, 417.9615pt x 425.79076pt>
+<figures/ch10/12.png, id=1541, 417.9615pt x 425.79076pt>
 File: figures/ch10/12.png Graphic file (type png)
 
 <use figures/ch10/12.png>
@@ -1630,7 +1608,7 @@ Package pdftex.def Info: figures/ch10/12.png used on input line 129.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[101] <figures/ch10/13.png, id=1536, 649.2255pt x 310.761pt>
+[101] <figures/ch10/13.png, id=1548, 649.2255pt x 310.761pt>
 File: figures/ch10/13.png Graphic file (type png)
 
 <use figures/ch10/13.png>
@@ -1641,14 +1619,14 @@ Package pdftex.def Info: figures/ch10/13.png used on input line 143.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [102 <./figures/ch10/12.png>]
-<figures/ch10/14.png, id=1543, 417.9615pt x 425.79076pt>
+<figures/ch10/14.png, id=1555, 417.9615pt x 425.79076pt>
 File: figures/ch10/14.png Graphic file (type png)
 
 <use figures/ch10/14.png>
 Package pdftex.def Info: figures/ch10/14.png used on input line 152.
 (pdftex.def)             Requested size: 259.6101pt x 264.48131pt.
 
-<figures/ch10/15.png, id=1546, 646.21425pt x 306.54526pt>
+<figures/ch10/15.png, id=1558, 646.21425pt x 306.54526pt>
 File: figures/ch10/15.png Graphic file (type png)
 
 <use figures/ch10/15.png>
@@ -1659,28 +1637,28 @@ Overfull \hbox (3.91663pt too wide) in paragraph at lines 162--163
  [][] 
  []
 
-<figures/ch10/16.png, id=1547, 420.3705pt x 436.029pt>
+<figures/ch10/16.png, id=1559, 420.3705pt x 436.029pt>
 File: figures/ch10/16.png Graphic file (type png)
 
 <use figures/ch10/16.png>
 Package pdftex.def Info: figures/ch10/16.png used on input line 164.
 (pdftex.def)             Requested size: 259.6101pt x 269.29062pt.
  [103 <./figures/ch10/13.png>]
-<figures/ch10/17.png, id=1556, 649.2255pt x 302.3295pt>
+<figures/ch10/17.png, id=1568, 649.2255pt x 302.3295pt>
 File: figures/ch10/17.png Graphic file (type png)
 
 <use figures/ch10/17.png>
 Package pdftex.def Info: figures/ch10/17.png used on input line 175.
 (pdftex.def)             Requested size: 432.67912pt x 201.48944pt.
 
-<figures/ch10/18.png, id=1557, 648.62325pt x 308.95425pt>
+<figures/ch10/18.png, id=1569, 648.62325pt x 308.95425pt>
 File: figures/ch10/18.png Graphic file (type png)
 
 <use figures/ch10/18.png>
 Package pdftex.def Info: figures/ch10/18.png used on input line 182.
 (pdftex.def)             Requested size: 432.67912pt x 206.10255pt.
 
-<figures/ch10/19.png, id=1559, 425.79076pt x 433.01775pt>
+<figures/ch10/19.png, id=1571, 425.79076pt x 433.01775pt>
 File: figures/ch10/19.png Graphic file (type png)
 
 <use figures/ch10/19.png>
@@ -1706,14 +1684,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [104 <./figures/ch10/14.png>] [105 <./figures/ch10/15.png> <./figures/ch10/16.
 png>]
 [106 <./figures/ch10/17.png> <./figures/ch10/18.png>]
-<figures/ch10/20.png, id=1578, 646.8165pt x 286.06876pt>
+<figures/ch10/20.png, id=1590, 646.8165pt x 286.06876pt>
 File: figures/ch10/20.png Graphic file (type png)
 
 <use figures/ch10/20.png>
 Package pdftex.def Info: figures/ch10/20.png used on input line 206.
 (pdftex.def)             Requested size: 432.67912pt x 191.35951pt.
 
-<figures/ch10/21.png, id=1580, 466.74374pt x 466.1415pt>
+<figures/ch10/21.png, id=1592, 466.74374pt x 466.1415pt>
 File: figures/ch10/21.png Graphic file (type png)
 
 <use figures/ch10/21.png>
@@ -1724,7 +1702,7 @@ Package pdftex.def Info: figures/ch10/21.png used on input line 214.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [107 <./figures/ch10/19.png>] [108 <./figures/ch10/20.png> <./figures/ch10/21.p
-ng>] <figures/ch10/22.png, id=1595, 652.839pt x 280.6485pt>
+ng>] <figures/ch10/22.png, id=1607, 652.839pt x 280.6485pt>
 File: figures/ch10/22.png Graphic file (type png)
 
 <use figures/ch10/22.png>
@@ -1735,7 +1713,7 @@ Overfull \hbox (3.91663pt too wide) in paragraph at lines 223--224
  [][] 
  []
 
-<figures/ch10/23.png, id=1596, 711.8595pt x 283.0575pt>
+<figures/ch10/23.png, id=1608, 711.8595pt x 283.0575pt>
 File: figures/ch10/23.png Graphic file (type png)
 
 <use figures/ch10/23.png>
@@ -1747,14 +1725,14 @@ Overfull \hbox (3.91663pt too wide) in paragraph at lines 225--226
  []
 
 [109 <./figures/ch10/22.png> <./figures/ch10/23.png>] [110]
-<figures/ch10/24.png, id=1612, 474.573pt x 464.937pt>
+<figures/ch10/24.png, id=1624, 474.573pt x 464.937pt>
 File: figures/ch10/24.png Graphic file (type png)
 
 <use figures/ch10/24.png>
 Package pdftex.def Info: figures/ch10/24.png used on input line 234.
 (pdftex.def)             Requested size: 259.6101pt x 254.33983pt.
 
-<figures/ch10/25.png, id=1613, 714.87074pt x 274.626pt>
+<figures/ch10/25.png, id=1625, 714.87074pt x 274.626pt>
 File: figures/ch10/25.png Graphic file (type png)
 
 <use figures/ch10/25.png>
@@ -1765,7 +1743,7 @@ Overfull \hbox (3.91663pt too wide) in paragraph at lines 243--244
  [][] 
  []
 
-<figures/ch10/26.png, id=1614, 713.064pt x 283.0575pt>
+<figures/ch10/26.png, id=1626, 713.064pt x 283.0575pt>
 File: figures/ch10/26.png Graphic file (type png)
 
 <use figures/ch10/26.png>
@@ -1776,7 +1754,7 @@ Overfull \hbox (3.91663pt too wide) in paragraph at lines 245--246
  [][] 
  []
 
-<figures/ch10/27.png, id=1619, 471.56175pt x 474.573pt>
+<figures/ch10/27.png, id=1631, 471.56175pt x 474.573pt>
 File: figures/ch10/27.png Graphic file (type png)
 
 <use figures/ch10/27.png>
@@ -1786,7 +1764,7 @@ Package pdftex.def Info: figures/ch10/27.png used on input line 252.
 png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [113 <./figures/ch10/27.png>] <figures/ch10/28.png, id=1639, 692.5875pt x 285.
+ [113 <./figures/ch10/27.png>] <figures/ch10/28.png, id=1652, 692.5875pt x 285.
 4665pt>
 File: figures/ch10/28.png Graphic file (type png)
 
@@ -1794,28 +1772,28 @@ File: figures/ch10/28.png Graphic file (type png)
 Package pdftex.def Info: figures/ch10/28.png used on input line 269.
 (pdftex.def)             Requested size: 432.67912pt x 178.34206pt.
 
-<figures/ch10/29.png, id=1641, 702.82574pt x 287.8755pt>
+<figures/ch10/29.png, id=1654, 702.82574pt x 287.8755pt>
 File: figures/ch10/29.png Graphic file (type png)
 
 <use figures/ch10/29.png>
 Package pdftex.def Info: figures/ch10/29.png used on input line 278.
 (pdftex.def)             Requested size: 432.67912pt x 177.22467pt.
 
-<figures/ch10/30.png, id=1642, 690.1785pt x 284.262pt>
+<figures/ch10/30.png, id=1655, 690.1785pt x 284.262pt>
 File: figures/ch10/30.png Graphic file (type png)
 
 <use figures/ch10/30.png>
 Package pdftex.def Info: figures/ch10/30.png used on input line 286.
 (pdftex.def)             Requested size: 432.67912pt x 178.20982pt.
  [114 <./figures/ch10/28.png>]
-<figures/ch10/31.png, id=1651, 705.837pt x 282.45525pt>
+<figures/ch10/31.png, id=1664, 705.837pt x 282.45525pt>
 File: figures/ch10/31.png Graphic file (type png)
 
 <use figures/ch10/31.png>
 Package pdftex.def Info: figures/ch10/31.png used on input line 295.
 (pdftex.def)             Requested size: 432.67912pt x 173.1508pt.
  [115 <./figures/ch10/29.png> <./figures/ch10/30.png>] <figures/ch10/32.png, id
-=1658, 662.475pt x 281.25075pt>
+=1671, 662.475pt x 281.25075pt>
 File: figures/ch10/32.png Graphic file (type png)
 
 <use figures/ch10/32.png>
@@ -1825,7 +1803,7 @@ Package pdftex.def Info: figures/ch10/32.png used on input line 305.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/ch10/33.png, id=1659, 669.702pt x 279.444pt>
+<figures/ch10/33.png, id=1672, 669.702pt x 279.444pt>
 File: figures/ch10/33.png Graphic file (type png)
 
 <use figures/ch10/33.png>
@@ -1836,7 +1814,7 @@ Package pdftex.def Info: figures/ch10/33.png used on input line 313.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [116 <./figures/ch10/31.png>]
-<figures/ch10/34.png, id=1669, 1606.0pt x 457.71pt>
+<figures/ch10/34.png, id=1682, 1606.0pt x 457.71pt>
 File: figures/ch10/34.png Graphic file (type png)
  <use figures/ch10/34.png>
 Package pdftex.def Info: figures/ch10/34.png used on input line 323.
@@ -1856,7 +1834,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 387--387
 []|\OT1/cmr/bx/n/12 Analysis ex-e-cu-tion
  []
 
-) (Chapters/Chapter11.tex [119] [120]
+) (./Chapters/Chapter11.tex [119] [120]
 Chapter 11.
 [121
 
@@ -1865,10 +1843,10 @@ Chapter 11.
 ]
 \openout2 = `Include/acknowledgements.aux'.
 
- (Include/acknowledgements.tex) [125
+ (./Include/acknowledgements.tex) [125
 
 
-] (main.bbl
+] (./main.bbl
 [126
 
 
@@ -1881,48 +1859,49 @@ Underfull \hbox (badness 4940) in paragraph at lines 141--146
 
 Underfull \hbox (badness 10000) in paragraph at lines 141--146
 \OT1/cmr/m/n/12 (+20) in-ner classes.  [][]$\OT1/cmtt/m/n/12 http : / / www . a
-ndroiddesignpatterns . com / 2013 / 01 /$
+ndroiddesignpatterns . com / 2013 / 01 /
  []
 
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 251.
  [129]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 251.
- (main.aux (Include/cover.aux) (Include/abstract_ENG.aux)
-(Include/abstract_ITA.aux) (Include/acknowledgements.aux))
+ (./main.aux (./Include/cover.aux) (./Include/abstract_ENG.aux)
+(./Include/abstract_ITA.aux) (./Include/acknowledgements.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 251.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 251.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 863D42D11E1521338B6E0B9BCA2061D7;6585.
+(rerunfilecheck)             Checksum: 2FA7A58378ACAAFCE322CA13794F334D;6491.
  ) 
 Here is how much of TeX's memory you used:
- 15032 strings out of 493634
- 222211 string characters out of 3141317
- 371322 words of memory out of 3000000
- 17344 multiletter control sequences out of 15000+200000
- 18109 words of font info for 122 fonts, out of 3000000 for 9000
- 1025 hyphenation exceptions out of 8191
- 44i,12n,49p,1960b,1874s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 14997 strings out of 493089
+ 221550 string characters out of 6134842
+ 371153 words of memory out of 5000000
+ 17408 multiletter control sequences out of 15000+600000
+ 18109 words of font info for 122 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 44i,12n,48p,1958b,1874s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exi
 st, replaced by a fixed one
 
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:
-/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/P
-rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Pro
-gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program File
-s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x
-86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files (x86)/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (143 pages, 9479650 bytes).
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
+/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><
+/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
+usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
+sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
+/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/l
+ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loc
+al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/
+texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/tex
+live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
+ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texliv
+e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive
+/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/
+2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on main.pdf (143 pages, 9340172 bytes).
 PDF statistics:
- 1923 PDF objects out of 2073 (max. 8388607)
- 567 named destinations out of 1000 (max. 500000)
+ 1942 PDF objects out of 2073 (max. 8388607)
+ 1626 compressed objects within 17 object streams
+ 568 named destinations out of 1000 (max. 500000)
  20624 words of extra memory for PDF output out of 20736 (max. 10000000)
 
