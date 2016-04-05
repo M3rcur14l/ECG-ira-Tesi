@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.13)  5 APR 2016 12:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.13)  5 APR 2016 16:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -935,7 +935,7 @@ es/polimi_logo.png>] [2
 
 
 (./Include/abstract_ENG.tex)
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1102) has occurred while \output is active []
 
  [3
 
@@ -944,14 +944,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [4]
 \openout2 = `Include/abstract_ITA.aux'.
 
- (./Include/abstract_ITA.tex)
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ (./Include/abstract_ITA.tex
+Underfull \vbox (badness 1902) has occurred while \output is active []
 
  [5
 
 
 
-]
+])
 [6] (./main.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 6.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -1874,10 +1874,10 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 2FA7A58378ACAAFCE322CA13794F334D;6491.
  ) 
 Here is how much of TeX's memory you used:
- 14996 strings out of 493089
- 221542 string characters out of 6134842
+ 14997 strings out of 493089
+ 221550 string characters out of 6134842
  371153 words of memory out of 5000000
- 17407 multiletter control sequences out of 15000+600000
+ 17408 multiletter control sequences out of 15000+600000
  18109 words of font info for 122 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,12n,48p,1958b,1874s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1898,7 +1898,7 @@ ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texliv
 e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive
 /2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/
 2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (143 pages, 9340558 bytes).
+Output written on main.pdf (143 pages, 9340172 bytes).
 PDF statistics:
  1942 PDF objects out of 2073 (max. 8388607)
  1626 compressed objects within 17 object streams
