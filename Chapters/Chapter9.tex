@@ -186,7 +186,7 @@ As the name suggests, this is the helper class for all drawing operation. Many o
 \begin{figure}[ht!]
 	\centering
 	\includegraphics[width=100mm]{figures/ch9/9.png}
-	\caption{The different ECG visualization types. The one on top is the scrolling drawing, the one in the bottom is the oscilloscope drawing. The time passed after the movement of the ECG paper is one second.}
+	\caption{The different ECG visualization types. The one on top is the scrolling drawing, the one in the bottom is the oscilloscope drawing. The time elapsed after the movement of the ECG paper is one second.}
 	\label{fig9.9}
 \end{figure}
 Each of these class will store the list of all sampleWindows, containing a sampleWindow for each ECG lead. The sampleWindow will store the samples window that is currently visualized on the screen. The collection type for the sampleWindow is different in the two classes, because each one use the most suitable implementation for its update type. For example, the DrawingHelperScroll, will treat the window as a queue: it will always add new sample to the head or to the tail. Thus, it uses a ArrayDeque, an very efficient and fast class when applied to this type of scenario.\\

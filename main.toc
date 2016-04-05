@@ -79,7 +79,7 @@
 \contentsline {subsection}{\numberline {7.4.2}Moving average filter}{58}{subsection.7.4.2}
 \contentsline {section}{\numberline {7.5}Custom View Drawing}{59}{section.7.5}
 \contentsline {subsection}{\numberline {7.5.1}Custom Libraries}{59}{subsection.7.5.1}
-\contentsline {subsection}{\numberline {7.5.2}Hardware Accelerated Drawing (GPU)}{59}{subsection.7.5.2}
+\contentsline {subsection}{\numberline {7.5.2}Hardware Accelerated Drawing (GPU)}{60}{subsection.7.5.2}
 \contentsline {subsection}{\numberline {7.5.3}Not hardware Accelerated Drawing (CPU)}{60}{subsection.7.5.3}
 \contentsline {chapter}{\numberline {8}System architecture}{63}{chapter.8}
 \contentsline {section}{\numberline {8.1}Acquisition device}{63}{section.8.1}
@@ -128,7 +128,5 @@
 \contentsline {subparagraph}{Analysis state}{117}{section*.115}
 \contentsline {subsection}{\numberline {10.1.3}Response Time}{118}{subsection.10.1.3}
 \contentsline {chapter}{\numberline {11}Conclusions}{121}{chapter.11}
-\contentsline {section}{\numberline {11.1}Future works}{121}{section.11.1}
-\contentsline {section}{\numberline {11.2}Mobile as replacement to desktop}{122}{section.11.2}
-\contentsline {section}{\numberline {11.3}Mobile as first medical solution}{122}{section.11.3}
-\contentsline {chapter}{Acknowledgement}{125}{chapter*.119}
+\contentsline {section}{\numberline {11.1}Future works}{122}{section.11.1}
+\contentsline {chapter}{Acknowledgement}{123}{chapter*.119}

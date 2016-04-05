@@ -6,9 +6,9 @@
 \contentsline {figure}{\numberline {2.1}{\ignorespaces The human heart structure.\cite {ref1}\relax }}{6}{figure.caption.5}
 \contentsline {figure}{\numberline {2.2}{\ignorespaces The circulatory system with blood flow.\relax }}{8}{figure.caption.6}
 \contentsline {figure}{\numberline {2.3}{\ignorespaces The SA node fires and electrical impulses travels through the right and left atrium. \relax }}{9}{figure.caption.7}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces The impulse then move to the ventricular area.\relax }}{10}{figure.caption.8}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces The impulse then moves to the ventricular area.\relax }}{10}{figure.caption.8}
 \contentsline {figure}{\numberline {2.5}{\ignorespaces An example of a normal ECG waveform. \relax }}{11}{figure.caption.9}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces The Einthoven\IeC {\textquoteright }s triangle show the right position to place leads over the chest.\relax }}{12}{figure.caption.10}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces The Einthoven's triangle shows the proper placement of leads over the chest.\relax }}{12}{figure.caption.10}
 \contentsline {figure}{\numberline {2.7}{\ignorespaces Precordial leads and their position related to the heart and the chest horizontal plane.\relax }}{14}{figure.caption.11}
 \contentsline {figure}{\numberline {2.8}{\ignorespaces A typical ECG paper.\relax }}{14}{figure.caption.12}
 \contentsline {figure}{\numberline {2.9}{\ignorespaces ECG waveform interference due to artifact may cause monitoring to fail due to unreadable signals.\relax }}{15}{figure.caption.13}
@@ -22,9 +22,9 @@
 \contentsline {figure}{\numberline {3.5}{\ignorespaces M-Trace PC device for ECG acquisition.\relax }}{22}{figure.caption.20}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Istogram from the desktop application resulted from an analysis on a MIT/BIH record.\relax }}{29}{figure.caption.21}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Tacogram from the desktop application resulted from an analysis on a MIT/BIH record.\relax }}{29}{figure.caption.22}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces ST+/ST- graph from the desktop application resulted from an analysis on a MIT/BIH record.\relax }}{30}{figure.caption.23}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Istogram from the desktop application resulting from an analysis on a MIT/BIH record.\relax }}{29}{figure.caption.21}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Tacogram from the desktop application resulting from an analysis on a MIT/BIH record.\relax }}{29}{figure.caption.22}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces ST+/ST- graph from the desktop application resulting from an analysis on a MIT/BIH record.\relax }}{30}{figure.caption.23}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {6.1}{\ignorespaces Mobile platform's share evolution (smartphone sales), 2009\IeC {\textendash }13.\relax }}{34}{figure.caption.24}
 \contentsline {figure}{\numberline {6.2}{\ignorespaces Native app development process.\relax }}{35}{figure.caption.25}
@@ -51,7 +51,7 @@
 \contentsline {figure}{\numberline {9.6}{\ignorespaces Class diagram of the SampleDisplay interface.\relax }}{79}{figure.caption.57}
 \contentsline {figure}{\numberline {9.7}{\ignorespaces The size of the ECG paper block after the computation of the method calculateMetrics().\relax }}{81}{figure.caption.59}
 \contentsline {figure}{\numberline {9.8}{\ignorespaces Class diagram of the SignalScrollView class.\relax }}{83}{figure.caption.60}
-\contentsline {figure}{\numberline {9.9}{\ignorespaces The different ECG visualization types. The one on top is the scrolling drawing, the one in the bottom is the oscilloscope drawing. The time passed after the movement of the ECG paper is one second.\relax }}{84}{figure.caption.63}
+\contentsline {figure}{\numberline {9.9}{\ignorespaces The different ECG visualization types. The one on top is the scrolling drawing, the one in the bottom is the oscilloscope drawing. The time elapsed after the movement of the ECG paper is one second.\relax }}{84}{figure.caption.63}
 \contentsline {figure}{\numberline {9.10}{\ignorespaces Class diagram of the DrawingHelper class.\relax }}{86}{figure.caption.64}
 \contentsline {figure}{\numberline {9.11}{\ignorespaces Class diagram of the Drawer class.\relax }}{87}{figure.caption.66}
 \contentsline {figure}{\numberline {9.12}{\ignorespaces Activity diagram of a new ECG record acquisition operation.\relax }}{89}{figure.caption.69}

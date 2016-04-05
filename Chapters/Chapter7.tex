@@ -137,7 +137,15 @@ A running HandlerThread instance processes messages that it receives until it is
 		HandlerThread(String name)
 		HandlerThread(String name, int priority)
 	\end{lstlisting}
-	The name argument simplifies debugging, because the thread can be found more easily in both thread analysis and logging. The priority argument is optional and should be set with the same Linux thread priority values used in Process.setThreadPriority. The default priority is Process.THREAD\_PRIORITY\_DEFAULT, the same priority as the UI thread, and can be lowered to Process.THREAD\_PRIORITY\_BACKGROUND to execute non-critical tasks.
+	The name argument simplifies debugging, because the thread can be found more easily in both thread analysis and logging. The priority argument is optional and should be set with the same Linux thread priority values used in Process.setThreadPriority. The default priority is
+	\begin{center}
+		Process.THREAD\_PRIORITY\_DEFAULT,
+	\end{center}
+	the same priority as the UI thread, and can be lowered to
+	\begin{center}
+		Process.THREAD\_PRIORITY\_BACKGROUND
+	\end{center}
+	to execute non-critical tasks.
 	\item \textbf{Execution}: The HandlerThread is active while it can process messages; i.e., as long as the Looper can dispatch messages to the thread. The dispatch mechanism is set up when the thread is started through HandlerThread.start and it is ready when either HandlerThread.getLooper returns or on the onLooperPrepared callback. A HandlerThread is always ready to receive messages when the Handler can be created, as getLooper blocks until the Looper is prepared.
 	\item \textbf{Reset}: The message queue can be reset so that no more of the queued messages will be processed, but the thread remains alive and can process new messages. The reset will remove all pending messages in the queue, but not affect a message that has been dispatched and is executing on the thread:
 	\begin{lstlisting}
