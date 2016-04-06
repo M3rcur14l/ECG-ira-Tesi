@@ -1,6 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2015)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: main.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
 The style file: unsrt.bst
 A level-1 auxiliary file: Include/cover.aux
 A level-1 auxiliary file: Include/abstract_ENG.aux
@@ -21,45 +19,4 @@ Warning--empty year in ref3
 Name 1 in "Lee Sangchul, and Jae Wook Jeon" has a comma at the end for entry ref20
 while executing---line 944 of file unsrt.bst
 Warning--empty year in ref22
-You've used 28 entries,
-            1791 wiz_defined-function locations,
-            589 strings with 7220 characters,
-and the built_in function-call counts, 5117 in all, are:
-= -- 433
-> -- 191
-< -- 3
-+ -- 78
-- -- 50
-* -- 256
-:= -- 785
-add.period$ -- 78
-call.type$ -- 28
-change.case$ -- 26
-chr.to.int$ -- 0
-cite$ -- 30
-duplicate$ -- 238
-empty$ -- 577
-format.name$ -- 50
-if$ -- 1185
-int.to.chr$ -- 0
-int.to.str$ -- 28
-missing$ -- 18
-newline$ -- 137
-num.names$ -- 27
-pop$ -- 121
-preamble$ -- 1
-purify$ -- 0
-quote$ -- 0
-skip$ -- 138
-stack$ -- 0
-substring$ -- 228
-swap$ -- 57
-text.length$ -- 3
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 0
-warning$ -- 2
-while$ -- 41
-width$ -- 30
-write$ -- 278
 (There were 3 error messages)
