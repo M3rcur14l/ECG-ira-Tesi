@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.13)  14 APR 2016 12:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.13)  14 APR 2016 13:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -922,25 +922,25 @@ File: figures/polimi_logo_bw.png Graphic file (type png)
 
 <use figures/polimi_logo_bw.png>
 Package pdftex.def Info: figures/polimi_logo_bw.png used on input line 10.
-(pdftex.def)             Requested size: 199.16928pt x 145.86624pt.
- [1
+(pdftex.def)             Requested size: 227.62204pt x 166.70804pt.
+) [1
 
 
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./figur
-es/polimi_logo_bw.png>]) [2] [3
+es/polimi_logo_bw.png>] [2
 
-] [4]
+] [3]
 \openout2 = `Include/abstract_ENG.aux'.
 
 
-(./Include/abstract_ENG.tex)
+(./Include/abstract_ENG.tex [4
+
+
+])
 Underfull \vbox (badness 1102) has occurred while \output is active []
 
- [5
-
-
-]
+ [5]
 [6]
 \openout2 = `Include/abstract_ITA.aux'.
 
@@ -1884,7 +1884,7 @@ ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texliv
 e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive
 /2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/
 2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (143 pages, 9188678 bytes).
+Output written on main.pdf (143 pages, 9188552 bytes).
 PDF statistics:
  1942 PDF objects out of 2073 (max. 8388607)
  1626 compressed objects within 17 object streams
